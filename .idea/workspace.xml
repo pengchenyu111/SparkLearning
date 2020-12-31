@@ -1,7 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="eb260606-b2c3-49c1-97ab-fb82fd92a2e9" name="Default Changelist" comment="" />
+    <list default="true" id="eb260606-b2c3-49c1-97ab-fb82fd92a2e9" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/spark-core/src/main/resources/log4j.properties" afterDir="false" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -49,6 +51,7 @@
       <recent name="D:\MyOwnCodes\IJIDEAJAVA\SparkLearning" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\MyOwnCodes\IJIDEAJAVA\SparkLearning\spark-core\src\main\resources" />
       <recent name="D:\MyOwnCodes\IJIDEAJAVA\SparkLearning\spark-core" />
       <recent name="D:\MyOwnCodes\IJIDEAJAVA\SparkLearning" />
     </key>
@@ -109,7 +112,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1609415295939</updated>
-      <workItem from="1609415300011" duration="4241000" />
+      <workItem from="1609415300011" duration="4483000" />
     </task>
     <task id="LOCAL-00001" summary="初始化项目结构及上传相关文档.">
       <created>1609416494533</created>
@@ -132,7 +135,14 @@
       <option name="project" value="LOCAL" />
       <updated>1609419741069</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="两种WordCount的计算方法.">
+      <created>1609419997775</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1609419997775</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
