@@ -21,7 +21,7 @@ object WordCount2 {
 
     // 3. 实现业务操作
     // 读取文件（参数path可以指向单个文件也可以是文件目录）
-    val fileRDD: RDD[String] = sparkContext.textFile("input")
+    val fileRDD: RDD[String] = sparkContext.textFile("datas")
     // 切分单词, 扁平化处理
     //fileRDD.flatMap(line => {line.split(" ")})
     val wordRDD: RDD[String] = fileRDD.flatMap(_.split(" "))
