@@ -2,8 +2,13 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="eb260606-b2c3-49c1-97ab-fb82fd92a2e9" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/datas/1.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/datas/2.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spark-core/src/main/java/com/pcy/bigdata/spark/core/wc/WordCount1.scala" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spark-core/src/main/java/com/pcy/bigdata/spark/core/wc/WordCount2.scala" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/spark-core/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/spark-core/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spark-core/target/classes/com/pcy/bigdata/spark/core/Test$.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/spark-core/target/classes/com/pcy/bigdata/spark/core/Test.class" beforeDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -28,12 +33,14 @@
     <option name="version" value="1" />
   </component>
   <component name="ProjectId" id="1mQAACx8uUdDXSXgZa05BGjLimo" />
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="PropertiesComponent">
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/spark-core" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
@@ -46,7 +53,11 @@
     <property name="settings.editor.selected.configurable" value="reference.projectsettings.compiler.javacompiler" />
   </component>
   <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\MyOwnCodes\IJIDEAJAVA\SparkLearning" />
+    </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\MyOwnCodes\IJIDEAJAVA\SparkLearning\spark-core" />
       <recent name="D:\MyOwnCodes\IJIDEAJAVA\SparkLearning" />
     </key>
   </component>
@@ -62,6 +73,26 @@
       </list>
     </option>
   </component>
+  <component name="RunManager">
+    <configuration name="WordCount1" type="Application" factoryName="Application" temporary="true">
+      <option name="MAIN_CLASS_NAME" value="com.pcy.bigdata.spark.core.wc.WordCount1" />
+      <module name="spark-core" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.pcy.bigdata.spark.core.wc.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.WordCount1" />
+      </list>
+    </recent_temporary>
+  </component>
   <component name="SvnConfiguration">
     <configuration />
   </component>
@@ -72,7 +103,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1609415295939</updated>
-      <workItem from="1609415300011" duration="2523000" />
+      <workItem from="1609415300011" duration="3973000" />
     </task>
     <task id="LOCAL-00001" summary="初始化项目结构及上传相关文档.">
       <created>1609416494533</created>
@@ -81,7 +112,14 @@
       <option name="project" value="LOCAL" />
       <updated>1609416494533</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="添加spark-core依赖.">
+      <created>1609418186924</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1609418186924</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -100,6 +138,7 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="初始化项目结构及上传相关文档." />
-    <option name="LAST_COMMIT_MESSAGE" value="初始化项目结构及上传相关文档." />
+    <MESSAGE value="添加spark-core依赖." />
+    <option name="LAST_COMMIT_MESSAGE" value="添加spark-core依赖." />
   </component>
 </project>
