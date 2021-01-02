@@ -2,8 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="eb260606-b2c3-49c1-97ab-fb82fd92a2e9" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/spark-core/src/main/java/com/pcy/bigdata/spark/core/rdd/builder/MemoryParallelize.scala" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spark-core/src/main/java/com/pcy/bigdata/spark/core/rdd/builder/MemoryParallelizeSplitData.scala" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spark-core/src/main/java/com/pcy/bigdata/spark/core/rdd/builder/FileParallelize.scala" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spark-core/src/main/java/com/pcy/bigdata/spark/core/rdd/builder/FileParallelizeSplitData.scala" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -164,7 +164,7 @@
       <workItem from="1609415300011" duration="9338000" />
       <workItem from="1609428818707" duration="60000" />
       <workItem from="1609477729149" duration="1927000" />
-      <workItem from="1609571079579" duration="4220000" />
+      <workItem from="1609571079579" duration="6056000" />
     </task>
     <task id="LOCAL-00001" summary="初始化项目结构及上传相关文档.">
       <created>1609416494533</created>
@@ -222,7 +222,14 @@
       <option name="project" value="LOCAL" />
       <updated>1609573713950</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="通过集合创建RDD时的分区以及分区是怎样切分数据的.">
+      <created>1609575619219</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1609575619219</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -249,6 +256,7 @@
     <MESSAGE value="模拟分布式计算." />
     <MESSAGE value="上传原理分析脑图." />
     <MESSAGE value="创建RDD的两种方式——通过集合创建和通过文件创建." />
-    <option name="LAST_COMMIT_MESSAGE" value="创建RDD的两种方式——通过集合创建和通过文件创建." />
+    <MESSAGE value="通过集合创建RDD时的分区以及分区是怎样切分数据的." />
+    <option name="LAST_COMMIT_MESSAGE" value="通过集合创建RDD时的分区以及分区是怎样切分数据的." />
   </component>
 </project>
