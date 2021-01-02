@@ -68,11 +68,11 @@
       <recent name="com.pcy.bigdata.spark.core.rdd.builder" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\MyOwnCodes\IJIDEAJAVA\SparkLearning\datas" />
+      <recent name="D:\MyOwnCodes\IJIDEAJAVA\SparkLearning\spark-core\src\main\java\com\pcy\bigdata\spark\core\rdd\operator\transform" />
       <recent name="D:\MyOwnCodes\IJIDEAJAVA\SparkLearning\spark-core\src\main\java\com\pcy\bigdata\spark\core\rdd\builder" />
       <recent name="D:\MyOwnCodes\IJIDEAJAVA\SparkLearning\docs" />
       <recent name="D:\MyOwnCodes\IJIDEAJAVA\SparkLearning\spark-core\src\main\java\com\pcy\bigdata\spark\core" />
-      <recent name="D:\MyOwnCodes\IJIDEAJAVA\SparkLearning\spark-core\src\main\resources" />
-      <recent name="D:\MyOwnCodes\IJIDEAJAVA\SparkLearning\spark-core" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -87,22 +87,9 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.FileCreate">
+  <component name="RunManager" selected="Application.Spark01_RDD_Operator_Transform_Test">
     <configuration name="Driver" type="Application" factoryName="Application" temporary="true">
       <option name="MAIN_CLASS_NAME" value="com.pcy.bigdata.spark.core.test.Driver" />
-      <module name="spark-core" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.pcy.bigdata.spark.core.test.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Executor" type="Application" factoryName="Application" temporary="true">
-      <option name="MAIN_CLASS_NAME" value="com.pcy.bigdata.spark.core.test.Executor" />
       <module name="spark-core" />
       <extension name="coverage">
         <pattern>
@@ -153,13 +140,26 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="Spark01_RDD_Operator_Transform_Test" type="Application" factoryName="Application" temporary="true">
+      <option name="MAIN_CLASS_NAME" value="com.pcy.bigdata.spark.core.rdd.operator.transform.Spark01_RDD_Operator_Transform_Test" />
+      <module name="spark-core" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.pcy.bigdata.spark.core.rdd.operator.transform.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Spark01_RDD_Operator_Transform_Test" />
         <item itemvalue="Application.FileCreate" />
         <item itemvalue="Application.MemoryCreate" />
         <item itemvalue="Application.Driver" />
         <item itemvalue="Application.Executor2" />
-        <item itemvalue="Application.Executor" />
       </list>
     </recent_temporary>
   </component>
@@ -176,7 +176,7 @@
       <workItem from="1609415300011" duration="9338000" />
       <workItem from="1609428818707" duration="60000" />
       <workItem from="1609477729149" duration="1927000" />
-      <workItem from="1609571079579" duration="7014000" />
+      <workItem from="1609571079579" duration="7439000" />
     </task>
     <task id="LOCAL-00001" summary="初始化项目结构及上传相关文档.">
       <created>1609416494533</created>
@@ -248,7 +248,14 @@
       <option name="project" value="LOCAL" />
       <updated>1609577506456</updated>
     </task>
-    <option name="localTasksCounter" value="11" />
+    <task id="LOCAL-00011" summary="转换算子map——基本使用.">
+      <created>1609578663701</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1609578663701</updated>
+    </task>
+    <option name="localTasksCounter" value="12" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -277,6 +284,7 @@
     <MESSAGE value="创建RDD的两种方式——通过集合创建和通过文件创建." />
     <MESSAGE value="通过集合创建RDD时的分区以及分区是怎样切分数据的." />
     <MESSAGE value="通过文件创建分区，分区的数量的计算方法及数据切分的方法." />
-    <option name="LAST_COMMIT_MESSAGE" value="通过文件创建分区，分区的数量的计算方法及数据切分的方法." />
+    <MESSAGE value="转换算子map——基本使用." />
+    <option name="LAST_COMMIT_MESSAGE" value="转换算子map——基本使用." />
   </component>
 </project>
