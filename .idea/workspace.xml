@@ -2,8 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="eb260606-b2c3-49c1-97ab-fb82fd92a2e9" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/spark-core/src/main/java/com/pcy/bigdata/spark/core/rdd/builder/FileParallelize.scala" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spark-core/src/main/java/com/pcy/bigdata/spark/core/rdd/builder/FileParallelizeSplitData.scala" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -14,6 +12,20 @@
   </component>
   <component name="CodeStyleSettingsInfer">
     <option name="done" value="true" />
+  </component>
+  <component name="DatabaseView">
+    <option name="SHOW_INTERMEDIATE" value="true" />
+    <option name="GROUP_DATA_SOURCES" value="true" />
+    <option name="GROUP_SCHEMA" value="true" />
+    <option name="GROUP_CONTENTS" value="false" />
+    <option name="SORT_POSITIONED" value="false" />
+    <option name="SHOW_EMPTY_GROUPS" value="false" />
+    <option name="AUTO_SCROLL_FROM_SOURCE" value="false" />
+    <option name="HIDDEN_KINDS">
+      <set />
+    </option>
+    <expand />
+    <select />
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -36,7 +48,7 @@
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/spark-core/src/main/java/com/pcy/bigdata/spark/core/rdd/builder" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/spark-core/src/main/java/com/pcy/bigdata/spark/core/rdd/operator/transform" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
@@ -164,7 +176,7 @@
       <workItem from="1609415300011" duration="9338000" />
       <workItem from="1609428818707" duration="60000" />
       <workItem from="1609477729149" duration="1927000" />
-      <workItem from="1609571079579" duration="6056000" />
+      <workItem from="1609571079579" duration="7014000" />
     </task>
     <task id="LOCAL-00001" summary="初始化项目结构及上传相关文档.">
       <created>1609416494533</created>
@@ -229,7 +241,14 @@
       <option name="project" value="LOCAL" />
       <updated>1609575619219</updated>
     </task>
-    <option name="localTasksCounter" value="10" />
+    <task id="LOCAL-00010" summary="通过文件创建分区，分区的数量的计算方法及数据切分的方法.">
+      <created>1609577506456</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1609577506456</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -257,6 +276,7 @@
     <MESSAGE value="上传原理分析脑图." />
     <MESSAGE value="创建RDD的两种方式——通过集合创建和通过文件创建." />
     <MESSAGE value="通过集合创建RDD时的分区以及分区是怎样切分数据的." />
-    <option name="LAST_COMMIT_MESSAGE" value="通过集合创建RDD时的分区以及分区是怎样切分数据的." />
+    <MESSAGE value="通过文件创建分区，分区的数量的计算方法及数据切分的方法." />
+    <option name="LAST_COMMIT_MESSAGE" value="通过文件创建分区，分区的数量的计算方法及数据切分的方法." />
   </component>
 </project>
