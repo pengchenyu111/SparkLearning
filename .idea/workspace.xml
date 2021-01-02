@@ -2,6 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="eb260606-b2c3-49c1-97ab-fb82fd92a2e9" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/spark-core/src/main/java/com/pcy/bigdata/spark/core/rdd/builder/FileCreate.scala" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spark-core/src/main/java/com/pcy/bigdata/spark/core/rdd/builder/MemoryCreate.scala" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -50,7 +52,11 @@
     <key name="MoveFile.RECENT_KEYS">
       <recent name="D:\MyOwnCodes\IJIDEAJAVA\SparkLearning" />
     </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.pcy.bigdata.spark.core.rdd.builder" />
+    </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\MyOwnCodes\IJIDEAJAVA\SparkLearning\docs" />
       <recent name="D:\MyOwnCodes\IJIDEAJAVA\SparkLearning\spark-core\src\main\java\com\pcy\bigdata\spark\core" />
       <recent name="D:\MyOwnCodes\IJIDEAJAVA\SparkLearning\spark-core\src\main\resources" />
       <recent name="D:\MyOwnCodes\IJIDEAJAVA\SparkLearning\spark-core" />
@@ -69,7 +75,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.Driver">
+  <component name="RunManager" selected="Application.FileCreate">
     <configuration name="Driver" type="Application" factoryName="Application" temporary="true">
       <option name="MAIN_CLASS_NAME" value="com.pcy.bigdata.spark.core.test.Driver" />
       <module name="spark-core" />
@@ -109,12 +115,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="WordCount1" type="Application" factoryName="Application" temporary="true">
-      <option name="MAIN_CLASS_NAME" value="com.pcy.bigdata.spark.core.wc.WordCount1" />
+    <configuration name="FileCreate" type="Application" factoryName="Application" temporary="true">
+      <option name="MAIN_CLASS_NAME" value="com.pcy.bigdata.spark.core.rdd.builder.FileCreate" />
       <module name="spark-core" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.pcy.bigdata.spark.core.wc.*" />
+          <option name="PATTERN" value="com.pcy.bigdata.spark.core.rdd.builder.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -122,12 +128,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="WordCount2" type="Application" factoryName="Application" temporary="true">
-      <option name="MAIN_CLASS_NAME" value="com.pcy.bigdata.spark.core.wc.WordCount2" />
+    <configuration name="MemoryCreate" type="Application" factoryName="Application" temporary="true">
+      <option name="MAIN_CLASS_NAME" value="com.pcy.bigdata.spark.core.rdd.builder.MemoryCreate" />
       <module name="spark-core" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.pcy.bigdata.spark.core.wc.*" />
+          <option name="PATTERN" value="com.pcy.bigdata.spark.core.rdd.builder.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -137,11 +143,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.FileCreate" />
+        <item itemvalue="Application.MemoryCreate" />
         <item itemvalue="Application.Driver" />
         <item itemvalue="Application.Executor2" />
         <item itemvalue="Application.Executor" />
-        <item itemvalue="Application.WordCount2" />
-        <item itemvalue="Application.WordCount1" />
       </list>
     </recent_temporary>
   </component>
@@ -156,6 +162,9 @@
       <option name="presentableId" value="Default" />
       <updated>1609415295939</updated>
       <workItem from="1609415300011" duration="9338000" />
+      <workItem from="1609428818707" duration="60000" />
+      <workItem from="1609477729149" duration="1927000" />
+      <workItem from="1609571079579" duration="2322000" />
     </task>
     <task id="LOCAL-00001" summary="初始化项目结构及上传相关文档.">
       <created>1609416494533</created>
@@ -199,7 +208,14 @@
       <option name="project" value="LOCAL" />
       <updated>1609424300462</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="上传原理分析脑图.">
+      <created>1609428842829</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1609428842829</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -210,7 +226,9 @@
       <map>
         <entry key="MAIN">
           <value>
-            <State />
+            <State>
+              <option name="COLUMN_ORDER" />
+            </State>
           </value>
         </entry>
       </map>
@@ -222,6 +240,7 @@
     <MESSAGE value="两种WordCount的计算方法." />
     <MESSAGE value="添加log4j.properties文件." />
     <MESSAGE value="模拟分布式计算." />
-    <option name="LAST_COMMIT_MESSAGE" value="模拟分布式计算." />
+    <MESSAGE value="上传原理分析脑图." />
+    <option name="LAST_COMMIT_MESSAGE" value="上传原理分析脑图." />
   </component>
 </project>
