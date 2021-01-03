@@ -1,7 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="eb260606-b2c3-49c1-97ab-fb82fd92a2e9" name="Default Changelist" comment="" />
+    <list default="true" id="eb260606-b2c3-49c1-97ab-fb82fd92a2e9" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/spark-core/src/main/java/com/pcy/bigdata/spark/core/rdd/operator/transform/Spark06_RDD_Operator_Transform.scala" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spark-core/src/main/java/com/pcy/bigdata/spark/core/rdd/operator/transform/Spark06_RDD_Operator_Transform1.scala" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -85,20 +89,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.Spark05_RDD_Operator_Transform_Test">
-    <configuration name="Spark03_RDD_Operator_Transform1" type="Application" factoryName="Application" temporary="true">
-      <option name="MAIN_CLASS_NAME" value="com.pcy.bigdata.spark.core.rdd.operator.transform.Spark03_RDD_Operator_Transform1" />
-      <module name="spark-core" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.pcy.bigdata.spark.core.rdd.operator.transform.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="Application.Spark06_RDD_Operator_Transform">
     <configuration name="Spark04_RDD_Operator_Transform" type="Application" factoryName="Application" temporary="true">
       <option name="MAIN_CLASS_NAME" value="com.pcy.bigdata.spark.core.rdd.operator.transform.Spark04_RDD_Operator_Transform" />
       <module name="spark-core" />
@@ -151,13 +142,26 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="Spark06_RDD_Operator_Transform" type="Application" factoryName="Application" temporary="true">
+      <option name="MAIN_CLASS_NAME" value="com.pcy.bigdata.spark.core.rdd.operator.transform.Spark06_RDD_Operator_Transform" />
+      <module name="spark-core" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.pcy.bigdata.spark.core.rdd.operator.transform.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Spark06_RDD_Operator_Transform" />
         <item itemvalue="Application.Spark05_RDD_Operator_Transform_Test" />
         <item itemvalue="Application.Spark04_RDD_Operator_Transform2" />
         <item itemvalue="Application.Spark04_RDD_Operator_Transform1" />
         <item itemvalue="Application.Spark04_RDD_Operator_Transform" />
-        <item itemvalue="Application.Spark03_RDD_Operator_Transform1" />
       </list>
     </recent_temporary>
   </component>
@@ -175,7 +179,7 @@
       <workItem from="1609428818707" duration="60000" />
       <workItem from="1609477729149" duration="1927000" />
       <workItem from="1609571079579" duration="9187000" />
-      <workItem from="1609666949808" duration="4146000" />
+      <workItem from="1609666949808" duration="5410000" />
     </task>
     <task id="LOCAL-00001" summary="初始化项目结构及上传相关文档.">
       <created>1609416494533</created>
@@ -310,7 +314,14 @@
       <option name="project" value="LOCAL" />
       <updated>1609678915979</updated>
     </task>
-    <option name="localTasksCounter" value="20" />
+    <task id="LOCAL-00020" summary="转换算子map——分区不变.">
+      <created>1609679428681</created>
+      <option name="number" value="00020" />
+      <option name="presentableId" value="LOCAL-00020" />
+      <option name="project" value="LOCAL" />
+      <updated>1609679428681</updated>
+    </task>
+    <option name="localTasksCounter" value="21" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -348,6 +359,7 @@
     <MESSAGE value="转换算子flatMap——flatMap 基本使用." />
     <MESSAGE value="转换算子flatMap——flatMap 和模式匹配的使用" />
     <MESSAGE value="转换算子glom——基本使用" />
-    <option name="LAST_COMMIT_MESSAGE" value="转换算子glom——基本使用" />
+    <MESSAGE value="转换算子map——分区不变." />
+    <option name="LAST_COMMIT_MESSAGE" value="转换算子map——分区不变." />
   </component>
 </project>
