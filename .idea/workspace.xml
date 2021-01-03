@@ -2,7 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="eb260606-b2c3-49c1-97ab-fb82fd92a2e9" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/spark-core/src/main/java/com/pcy/bigdata/spark/core/rdd/operator/transform/Spark06_RDD_Operator_Transform_Test.scala" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spark-core/src/main/java/com/pcy/bigdata/spark/core/rdd/operator/transform/Spark07_RDD_Operator_Transform.scala" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spark-core/src/main/java/com/pcy/bigdata/spark/core/rdd/operator/transform/Spark07_RDD_Operator_Transform_Test.scala" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -88,33 +89,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.Spark06_RDD_Operator_Transform_Test">
-    <configuration name="Spark04_RDD_Operator_Transform1" type="Application" factoryName="Application" temporary="true">
-      <option name="MAIN_CLASS_NAME" value="com.pcy.bigdata.spark.core.rdd.operator.transform.Spark04_RDD_Operator_Transform1" />
-      <module name="spark-core" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.pcy.bigdata.spark.core.rdd.operator.transform.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Spark04_RDD_Operator_Transform2" type="Application" factoryName="Application" temporary="true">
-      <option name="MAIN_CLASS_NAME" value="com.pcy.bigdata.spark.core.rdd.operator.transform.Spark04_RDD_Operator_Transform2" />
-      <module name="spark-core" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.pcy.bigdata.spark.core.rdd.operator.transform.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="Application.Spark07_RDD_Operator_Transform_Test">
     <configuration name="Spark05_RDD_Operator_Transform_Test" type="Application" factoryName="Application" temporary="true">
       <option name="MAIN_CLASS_NAME" value="com.pcy.bigdata.spark.core.rdd.operator.transform.Spark05_RDD_Operator_Transform_Test" />
       <module name="spark-core" />
@@ -154,13 +129,39 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="Spark07_RDD_Operator_Transform" type="Application" factoryName="Application" temporary="true">
+      <option name="MAIN_CLASS_NAME" value="com.pcy.bigdata.spark.core.rdd.operator.transform.Spark07_RDD_Operator_Transform" />
+      <module name="spark-core" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.pcy.bigdata.spark.core.rdd.operator.transform.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Spark07_RDD_Operator_Transform_Test" type="Application" factoryName="Application" temporary="true">
+      <option name="MAIN_CLASS_NAME" value="com.pcy.bigdata.spark.core.rdd.operator.transform.Spark07_RDD_Operator_Transform_Test" />
+      <module name="spark-core" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.pcy.bigdata.spark.core.rdd.operator.transform.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Spark07_RDD_Operator_Transform_Test" />
+        <item itemvalue="Application.Spark07_RDD_Operator_Transform" />
         <item itemvalue="Application.Spark06_RDD_Operator_Transform_Test" />
         <item itemvalue="Application.Spark06_RDD_Operator_Transform" />
         <item itemvalue="Application.Spark05_RDD_Operator_Transform_Test" />
-        <item itemvalue="Application.Spark04_RDD_Operator_Transform2" />
-        <item itemvalue="Application.Spark04_RDD_Operator_Transform1" />
       </list>
     </recent_temporary>
   </component>
@@ -178,7 +179,7 @@
       <workItem from="1609428818707" duration="60000" />
       <workItem from="1609477729149" duration="1927000" />
       <workItem from="1609571079579" duration="9187000" />
-      <workItem from="1609666949808" duration="6509000" />
+      <workItem from="1609666949808" duration="7345000" />
     </task>
     <task id="LOCAL-00001" summary="初始化项目结构及上传相关文档.">
       <created>1609416494533</created>
@@ -327,7 +328,14 @@
       <option name="project" value="LOCAL" />
       <updated>1609680584113</updated>
     </task>
-    <option name="localTasksCounter" value="22" />
+    <task id="LOCAL-00022" summary="转换算子groupBy——从服务器日志数据 apache.log 中获取每个时间段访问量.">
+      <created>1609682040512</created>
+      <option name="number" value="00022" />
+      <option name="presentableId" value="LOCAL-00022" />
+      <option name="project" value="LOCAL" />
+      <updated>1609682040512</updated>
+    </task>
+    <option name="localTasksCounter" value="23" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -367,6 +375,7 @@
     <MESSAGE value="转换算子glom——基本使用" />
     <MESSAGE value="转换算子map——分区不变." />
     <MESSAGE value="转换算子groupBy——groupBy基本用法." />
-    <option name="LAST_COMMIT_MESSAGE" value="转换算子groupBy——groupBy基本用法." />
+    <MESSAGE value="转换算子groupBy——从服务器日志数据 apache.log 中获取每个时间段访问量." />
+    <option name="LAST_COMMIT_MESSAGE" value="转换算子groupBy——从服务器日志数据 apache.log 中获取每个时间段访问量." />
   </component>
 </project>
