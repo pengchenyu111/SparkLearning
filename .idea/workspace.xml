@@ -1,10 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="eb260606-b2c3-49c1-97ab-fb82fd92a2e9" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/spark-core/src/main/java/com/pcy/bigdata/spark/core/rdd/operator/transform/Spark10_RDD_Operator_Transform.scala" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-    </list>
+    <list default="true" id="eb260606-b2c3-49c1-97ab-fb82fd92a2e9" name="Default Changelist" comment="" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -178,7 +175,7 @@
       <workItem from="1609428818707" duration="60000" />
       <workItem from="1609477729149" duration="1927000" />
       <workItem from="1609571079579" duration="9187000" />
-      <workItem from="1609666949808" duration="9668000" />
+      <workItem from="1609666949808" duration="9919000" />
     </task>
     <task id="LOCAL-00001" summary="初始化项目结构及上传相关文档.">
       <created>1609416494533</created>
@@ -355,7 +352,14 @@
       <option name="project" value="LOCAL" />
       <updated>1609684355949</updated>
     </task>
-    <option name="localTasksCounter" value="26" />
+    <task id="LOCAL-00026" summary="转换算子coalesce——根据数据量缩减分区.">
+      <created>1609685116952</created>
+      <option name="number" value="00026" />
+      <option name="presentableId" value="LOCAL-00026" />
+      <option name="project" value="LOCAL" />
+      <updated>1609685116952</updated>
+    </task>
+    <option name="localTasksCounter" value="27" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -399,6 +403,7 @@
     <MESSAGE value="转换算子filter——基本用法." />
     <MESSAGE value="转换算子sample算子——抽样sample基本用法." />
     <MESSAGE value="转换算子distinct——基本用法（注意实现方法）." />
-    <option name="LAST_COMMIT_MESSAGE" value="转换算子distinct——基本用法（注意实现方法）." />
+    <MESSAGE value="转换算子coalesce——根据数据量缩减分区." />
+    <option name="LAST_COMMIT_MESSAGE" value="转换算子coalesce——根据数据量缩减分区." />
   </component>
 </project>
