@@ -2,6 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="eb260606-b2c3-49c1-97ab-fb82fd92a2e9" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/spark-core/src/main/java/com/pcy/bigdata/spark/core/rdd/operator/transform/Spark02_RDD_Operator_Transform_Test.scala" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -61,18 +62,18 @@
     <property name="settings.editor.selected.configurable" value="reference.projectsettings.compiler.javacompiler" />
   </component>
   <component name="RecentsManager">
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="D:\MyOwnCodes\IJIDEAJAVA\SparkLearning" />
-    </key>
-    <key name="CopyClassDialog.RECENTS_KEY">
-      <recent name="com.pcy.bigdata.spark.core.rdd.builder" />
-    </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="D:\MyOwnCodes\IJIDEAJAVA\SparkLearning\spark-core\src\main\java\com\pcy\bigdata\spark\core\rdd\operator\transform" />
       <recent name="D:\MyOwnCodes\IJIDEAJAVA\SparkLearning\datas" />
       <recent name="D:\MyOwnCodes\IJIDEAJAVA\SparkLearning\spark-core\src\main\java\com\pcy\bigdata\spark\core\rdd\builder" />
       <recent name="D:\MyOwnCodes\IJIDEAJAVA\SparkLearning\docs" />
       <recent name="D:\MyOwnCodes\IJIDEAJAVA\SparkLearning\spark-core\src\main\java\com\pcy\bigdata\spark\core" />
+    </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.pcy.bigdata.spark.core.rdd.builder" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\MyOwnCodes\IJIDEAJAVA\SparkLearning" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -177,7 +178,7 @@
       <workItem from="1609428818707" duration="60000" />
       <workItem from="1609477729149" duration="1927000" />
       <workItem from="1609571079579" duration="9187000" />
-      <workItem from="1609666949808" duration="1048000" />
+      <workItem from="1609666949808" duration="1547000" />
     </task>
     <task id="LOCAL-00001" summary="初始化项目结构及上传相关文档.">
       <created>1609416494533</created>
@@ -270,7 +271,14 @@
       <option name="project" value="LOCAL" />
       <updated>1609579750828</updated>
     </task>
-    <option name="localTasksCounter" value="14" />
+    <task id="LOCAL-00014" summary="转换算子map——mapPartitions，将整个分区的数据加载到内存进行引用.">
+      <created>1609676335211</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1609676335211</updated>
+    </task>
+    <option name="localTasksCounter" value="15" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -302,6 +310,7 @@
     <MESSAGE value="转换算子map——基本使用." />
     <MESSAGE value="转换算子map——练习：取日志文件的部分数据." />
     <MESSAGE value="转换算子map——并行计算分区内和分区间的计算顺序." />
-    <option name="LAST_COMMIT_MESSAGE" value="转换算子map——并行计算分区内和分区间的计算顺序." />
+    <MESSAGE value="转换算子map——mapPartitions，将整个分区的数据加载到内存进行引用." />
+    <option name="LAST_COMMIT_MESSAGE" value="转换算子map——mapPartitions，将整个分区的数据加载到内存进行引用." />
   </component>
 </project>
