@@ -87,22 +87,9 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.Spark01_RDD_Operator_Transform_Test">
+  <component name="RunManager" selected="Application.Spark02_RDD_Operator_Transform">
     <configuration name="Driver" type="Application" factoryName="Application" temporary="true">
       <option name="MAIN_CLASS_NAME" value="com.pcy.bigdata.spark.core.test.Driver" />
-      <module name="spark-core" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.pcy.bigdata.spark.core.test.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Executor2" type="Application" factoryName="Application" temporary="true">
-      <option name="MAIN_CLASS_NAME" value="com.pcy.bigdata.spark.core.test.Executor2" />
       <module name="spark-core" />
       <extension name="coverage">
         <pattern>
@@ -153,13 +140,26 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="Spark02_RDD_Operator_Transform" type="Application" factoryName="Application" temporary="true">
+      <option name="MAIN_CLASS_NAME" value="com.pcy.bigdata.spark.core.rdd.operator.transform.Spark02_RDD_Operator_Transform" />
+      <module name="spark-core" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.pcy.bigdata.spark.core.rdd.operator.transform.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Spark02_RDD_Operator_Transform" />
         <item itemvalue="Application.Spark01_RDD_Operator_Transform_Test" />
         <item itemvalue="Application.FileCreate" />
         <item itemvalue="Application.MemoryCreate" />
         <item itemvalue="Application.Driver" />
-        <item itemvalue="Application.Executor2" />
       </list>
     </recent_temporary>
   </component>
@@ -176,7 +176,8 @@
       <workItem from="1609415300011" duration="9338000" />
       <workItem from="1609428818707" duration="60000" />
       <workItem from="1609477729149" duration="1927000" />
-      <workItem from="1609571079579" duration="8269000" />
+      <workItem from="1609571079579" duration="9187000" />
+      <workItem from="1609666949808" duration="1048000" />
     </task>
     <task id="LOCAL-00001" summary="初始化项目结构及上传相关文档.">
       <created>1609416494533</created>
@@ -262,7 +263,14 @@
       <option name="project" value="LOCAL" />
       <updated>1609579065390</updated>
     </task>
-    <option name="localTasksCounter" value="13" />
+    <task id="LOCAL-00013" summary="转换算子map——并行计算分区内和分区间的计算顺序.">
+      <created>1609579750828</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1609579750828</updated>
+    </task>
+    <option name="localTasksCounter" value="14" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -293,6 +301,7 @@
     <MESSAGE value="通过文件创建分区，分区的数量的计算方法及数据切分的方法." />
     <MESSAGE value="转换算子map——基本使用." />
     <MESSAGE value="转换算子map——练习：取日志文件的部分数据." />
-    <option name="LAST_COMMIT_MESSAGE" value="转换算子map——练习：取日志文件的部分数据." />
+    <MESSAGE value="转换算子map——并行计算分区内和分区间的计算顺序." />
+    <option name="LAST_COMMIT_MESSAGE" value="转换算子map——并行计算分区内和分区间的计算顺序." />
   </component>
 </project>
