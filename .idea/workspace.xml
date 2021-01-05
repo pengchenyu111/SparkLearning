@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="eb260606-b2c3-49c1-97ab-fb82fd92a2e9" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/spark-core/src/main/java/com/pcy/bigdata/spark/core/rdd/operator/transform/RDD_Transform_combineByKey.scala" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spark-core/src/main/java/com/pcy/bigdata/spark/core/rdd/operator/transform/RDD_Transform_join.scala" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -180,7 +180,7 @@
       <workItem from="1609571079579" duration="9187000" />
       <workItem from="1609666949808" duration="10807000" />
       <workItem from="1609744139404" duration="3907000" />
-      <workItem from="1609847835313" duration="8255000" />
+      <workItem from="1609847835313" duration="9325000" />
     </task>
     <task id="LOCAL-00001" summary="初始化项目结构及上传相关文档.">
       <created>1609416494533</created>
@@ -434,7 +434,14 @@
       <option name="project" value="LOCAL" />
       <updated>1609858259434</updated>
     </task>
-    <option name="localTasksCounter" value="37" />
+    <task id="LOCAL-00037" summary="转换算子combineByKey——基本用法.">
+      <created>1609858946844</created>
+      <option name="number" value="00037" />
+      <option name="presentableId" value="LOCAL-00037" />
+      <option name="project" value="LOCAL" />
+      <updated>1609858946844</updated>
+    </task>
+    <option name="localTasksCounter" value="38" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -454,7 +461,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="转换算子map——练习：取日志文件的部分数据." />
     <MESSAGE value="转换算子map——并行计算分区内和分区间的计算顺序." />
     <MESSAGE value="转换算子map——mapPartitions，将整个分区的数据加载到内存进行引用." />
     <MESSAGE value="转换算子map——mapPartitions获取每个分区的最大值." />
@@ -479,6 +485,7 @@
     <MESSAGE value="代码重构." />
     <MESSAGE value="转换算子aggregateByKey——数据根据不同的规则进行分区内计算和分区间计算." />
     <MESSAGE value="转换算子aggregateByKey——返回数据类型由初始值决定." />
-    <option name="LAST_COMMIT_MESSAGE" value="转换算子aggregateByKey——返回数据类型由初始值决定." />
+    <MESSAGE value="转换算子combineByKey——基本用法." />
+    <option name="LAST_COMMIT_MESSAGE" value="转换算子combineByKey——基本用法." />
   </component>
 </project>
