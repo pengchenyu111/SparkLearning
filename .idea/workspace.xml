@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="eb260606-b2c3-49c1-97ab-fb82fd92a2e9" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/spark-core/src/main/java/com/pcy/bigdata/spark/core/rdd/operator/transform/Spark14_RDD_Operator_Transform.scala" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spark-core/src/main/java/com/pcy/bigdata/spark/core/rdd/operator/transform/Spark15_RDD_Operator_Transform.scala" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -88,20 +88,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.Spark13_RDD_Operator_Transform1">
-    <configuration name="Spark07_RDD_Operator_Transform" type="Application" factoryName="Application" temporary="true">
-      <option name="MAIN_CLASS_NAME" value="com.pcy.bigdata.spark.core.rdd.operator.transform.Spark07_RDD_Operator_Transform" />
-      <module name="spark-core" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.pcy.bigdata.spark.core.rdd.operator.transform.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="Application.Spark15_RDD_Operator_Transform">
     <configuration name="Spark07_RDD_Operator_Transform_Test" type="Application" factoryName="Application" temporary="true">
       <option name="MAIN_CLASS_NAME" value="com.pcy.bigdata.spark.core.rdd.operator.transform.Spark07_RDD_Operator_Transform_Test" />
       <module name="spark-core" />
@@ -154,13 +141,26 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="Spark15_RDD_Operator_Transform" type="Application" factoryName="Application" temporary="true">
+      <option name="MAIN_CLASS_NAME" value="com.pcy.bigdata.spark.core.rdd.operator.transform.Spark15_RDD_Operator_Transform" />
+      <module name="spark-core" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.pcy.bigdata.spark.core.rdd.operator.transform.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Spark15_RDD_Operator_Transform" />
         <item itemvalue="Application.Spark13_RDD_Operator_Transform1" />
         <item itemvalue="Application.Spark13_RDD_Operator_Transform" />
         <item itemvalue="Application.Spark08_RDD_Operator_Transform" />
         <item itemvalue="Application.Spark07_RDD_Operator_Transform_Test" />
-        <item itemvalue="Application.Spark07_RDD_Operator_Transform" />
       </list>
     </recent_temporary>
   </component>
@@ -180,7 +180,7 @@
       <workItem from="1609571079579" duration="9187000" />
       <workItem from="1609666949808" duration="10807000" />
       <workItem from="1609744139404" duration="3907000" />
-      <workItem from="1609847835313" duration="1975000" />
+      <workItem from="1609847835313" duration="2504000" />
     </task>
     <task id="LOCAL-00001" summary="初始化项目结构及上传相关文档.">
       <created>1609416494533</created>
@@ -392,7 +392,14 @@
       <option name="project" value="LOCAL" />
       <updated>1609851496357</updated>
     </task>
-    <option name="localTasksCounter" value="31" />
+    <task id="LOCAL-00031" summary="转换算子partitionBy——重新分区.">
+      <created>1609852366163</created>
+      <option name="number" value="00031" />
+      <option name="presentableId" value="LOCAL-00031" />
+      <option name="project" value="LOCAL" />
+      <updated>1609852366164</updated>
+    </task>
+    <option name="localTasksCounter" value="32" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -412,7 +419,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="模拟分布式计算." />
     <MESSAGE value="上传原理分析脑图." />
     <MESSAGE value="创建RDD的两种方式——通过集合创建和通过文件创建." />
     <MESSAGE value="通过集合创建RDD时的分区以及分区是怎样切分数据的." />
@@ -437,6 +443,7 @@
     <MESSAGE value="转换算子sortBy——排序基本用法." />
     <MESSAGE value="转换算子intersection、union、subtract、zip——交集、并集、差集、拉链的操作." />
     <MESSAGE value="转换算子zip——两个数据源分区数量、分区内数据数量要保持一致." />
-    <option name="LAST_COMMIT_MESSAGE" value="转换算子zip——两个数据源分区数量、分区内数据数量要保持一致." />
+    <MESSAGE value="转换算子partitionBy——重新分区." />
+    <option name="LAST_COMMIT_MESSAGE" value="转换算子partitionBy——重新分区." />
   </component>
 </project>
