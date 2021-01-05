@@ -6,7 +6,7 @@ import org.apache.spark.{SparkConf, SparkContext}
 /**
  * 计算所有分区最大值求和（分区内取最大值，分区间最大值求和）
  */
-object Spark05_RDD_Operator_Transform_Test {
+object RDD_Transform_glom_Test {
 
   def main(args: Array[String]): Unit = {
 

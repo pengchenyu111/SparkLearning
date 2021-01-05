@@ -6,7 +6,7 @@ import org.apache.spark.{SparkConf, SparkContext}
 /**
  * 分区不变，数据开始再哪个分区，转换后仍在哪个分区
  */
-object Spark01_RDD_Operator_Transform_Part {
+object RDD_Transform_map_Part {
 
     def main(args: Array[String]): Unit = {
 

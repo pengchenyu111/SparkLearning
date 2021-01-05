@@ -6,7 +6,7 @@ import org.apache.spark.{SparkConf, SparkContext}
  * sample算子
  * 根据指定的规则从数据集中抽取数据
  */
-object Spark08_RDD_Operator_Transform {
+object RDD_Transform_sample {
 
   def main(args: Array[String]): Unit = {
 

@@ -8,7 +8,7 @@ import org.apache.spark.{SparkConf, SparkContext}
  * 将数据集中重复的数据去重
  *
  */
-object Spark09_RDD_Operator_Transform {
+object RDD_Transform_distinct {
 
   def main(args: Array[String]): Unit = {
 

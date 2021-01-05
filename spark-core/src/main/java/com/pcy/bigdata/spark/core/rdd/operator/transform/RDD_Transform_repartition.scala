@@ -9,7 +9,7 @@ import org.apache.spark.{SparkConf, SparkContext}
  * 无论是将分区数多的RDD 转换为分区数少的 RDD，还是将分区数少的 RDD 转换为分区数多的 RDD，repartition
  * 操作都可以完成，因为无论如何都会经 shuffle 过程
  */
-object Spark11_RDD_Operator_Transform {
+object RDD_Transform_repartition {
 
   def main(args: Array[String]): Unit = {
 

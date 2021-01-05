@@ -6,23 +6,21 @@ import org.apache.spark.{SparkConf, SparkContext}
 /**
  * flatMap 基本使用
  */
-object Spark04_RDD_Operator_Transform {
+object RDD_Transform_flatMap_1 {
 
   def main(args: Array[String]): Unit = {
 
     val sparkConf = new SparkConf().setMaster("local[*]").setAppName("Operator")
     val sc = new SparkContext(sparkConf)
 
-    val rdd: RDD[List[Int]] = sc.makeRDD(List(
-      List(1, 2), List(3, 4)
-    ))
+    val rdd: RDD[String] = sc.makeRDD(List("Hello Scala", "Hello Spark"))
 
-    val flatRDD = rdd.flatMap(
-      // 把rdd内的每个元素放到一个新的集合里
-      list => {
-        list
-      }
-    )
+    //      rdd.flatMap(
+    //          s => {
+    //              s.split(" ")
+    //          }
+    //      )
+    val flatRDD: RDD[String] = rdd.flatMap(_.split(" "))
     flatRDD.collect().foreach(println)
 
 

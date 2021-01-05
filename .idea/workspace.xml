@@ -2,8 +2,35 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="eb260606-b2c3-49c1-97ab-fb82fd92a2e9" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/spark-core/src/main/java/com/pcy/bigdata/spark/core/rdd/operator/transform/Spark16_RDD_Operator_Transform.scala" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spark-core/src/main/java/com/pcy/bigdata/spark/core/rdd/operator/transform/Spark01_RDD_Operator_Transform.scala" beforeDir="false" afterPath="$PROJECT_DIR$/spark-core/src/main/java/com/pcy/bigdata/spark/core/rdd/operator/transform/RDD_Transform_map.scala" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spark-core/src/main/java/com/pcy/bigdata/spark/core/rdd/operator/transform/Spark01_RDD_Operator_Transform_Par.scala" beforeDir="false" afterPath="$PROJECT_DIR$/spark-core/src/main/java/com/pcy/bigdata/spark/core/rdd/operator/transform/RDD_Transform_map_Par.scala" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spark-core/src/main/java/com/pcy/bigdata/spark/core/rdd/operator/transform/Spark01_RDD_Operator_Transform_Part.scala" beforeDir="false" afterPath="$PROJECT_DIR$/spark-core/src/main/java/com/pcy/bigdata/spark/core/rdd/operator/transform/RDD_Transform_map_Part.scala" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spark-core/src/main/java/com/pcy/bigdata/spark/core/rdd/operator/transform/Spark01_RDD_Operator_Transform_Test.scala" beforeDir="false" afterPath="$PROJECT_DIR$/spark-core/src/main/java/com/pcy/bigdata/spark/core/rdd/operator/transform/RDD_Transform_map_Test.scala" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spark-core/src/main/java/com/pcy/bigdata/spark/core/rdd/operator/transform/Spark02_RDD_Operator_Transform.scala" beforeDir="false" afterPath="$PROJECT_DIR$/spark-core/src/main/java/com/pcy/bigdata/spark/core/rdd/operator/transform/RDD_Transform_mapPartitions.scala" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spark-core/src/main/java/com/pcy/bigdata/spark/core/rdd/operator/transform/Spark02_RDD_Operator_Transform_Test.scala" beforeDir="false" afterPath="$PROJECT_DIR$/spark-core/src/main/java/com/pcy/bigdata/spark/core/rdd/operator/transform/RDD_Transform_mapPartitions_Test.scala" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spark-core/src/main/java/com/pcy/bigdata/spark/core/rdd/operator/transform/Spark03_RDD_Operator_Transform.scala" beforeDir="false" afterPath="$PROJECT_DIR$/spark-core/src/main/java/com/pcy/bigdata/spark/core/rdd/operator/transform/RDD_Transform_mapPartitionsWithIndex.scala" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spark-core/src/main/java/com/pcy/bigdata/spark/core/rdd/operator/transform/Spark03_RDD_Operator_Transform1.scala" beforeDir="false" afterPath="$PROJECT_DIR$/spark-core/src/main/java/com/pcy/bigdata/spark/core/rdd/operator/transform/RDD_Transform_mapPartitionsWithIndex_1.scala" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spark-core/src/main/java/com/pcy/bigdata/spark/core/rdd/operator/transform/Spark04_RDD_Operator_Transform.scala" beforeDir="false" afterPath="$PROJECT_DIR$/spark-core/src/main/java/com/pcy/bigdata/spark/core/rdd/operator/transform/RDD_Transform_flatMap.scala" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spark-core/src/main/java/com/pcy/bigdata/spark/core/rdd/operator/transform/Spark04_RDD_Operator_Transform1.scala" beforeDir="false" afterPath="$PROJECT_DIR$/spark-core/src/main/java/com/pcy/bigdata/spark/core/rdd/operator/transform/RDD_Transform_flatMap_1.scala" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spark-core/src/main/java/com/pcy/bigdata/spark/core/rdd/operator/transform/Spark04_RDD_Operator_Transform2.scala" beforeDir="false" afterPath="$PROJECT_DIR$/spark-core/src/main/java/com/pcy/bigdata/spark/core/rdd/operator/transform/RDD_Transform_flatMap_2.scala" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spark-core/src/main/java/com/pcy/bigdata/spark/core/rdd/operator/transform/Spark05_RDD_Operator_Transform.scala" beforeDir="false" afterPath="$PROJECT_DIR$/spark-core/src/main/java/com/pcy/bigdata/spark/core/rdd/operator/transform/RDD_Transform_glom.scala" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spark-core/src/main/java/com/pcy/bigdata/spark/core/rdd/operator/transform/Spark05_RDD_Operator_Transform_Test.scala" beforeDir="false" afterPath="$PROJECT_DIR$/spark-core/src/main/java/com/pcy/bigdata/spark/core/rdd/operator/transform/RDD_Transform_glom_Test.scala" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spark-core/src/main/java/com/pcy/bigdata/spark/core/rdd/operator/transform/Spark06_RDD_Operator_Transform.scala" beforeDir="false" afterPath="$PROJECT_DIR$/spark-core/src/main/java/com/pcy/bigdata/spark/core/rdd/operator/transform/RDD_Transform_groupBy.scala" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spark-core/src/main/java/com/pcy/bigdata/spark/core/rdd/operator/transform/Spark06_RDD_Operator_Transform1.scala" beforeDir="false" afterPath="$PROJECT_DIR$/spark-core/src/main/java/com/pcy/bigdata/spark/core/rdd/operator/transform/RDD_Transform_groupBy_1.scala" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spark-core/src/main/java/com/pcy/bigdata/spark/core/rdd/operator/transform/Spark06_RDD_Operator_Transform_Test.scala" beforeDir="false" afterPath="$PROJECT_DIR$/spark-core/src/main/java/com/pcy/bigdata/spark/core/rdd/operator/transform/RDD_Transform_groupBy_Test.scala" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spark-core/src/main/java/com/pcy/bigdata/spark/core/rdd/operator/transform/Spark07_RDD_Operator_Transform.scala" beforeDir="false" afterPath="$PROJECT_DIR$/spark-core/src/main/java/com/pcy/bigdata/spark/core/rdd/operator/transform/RDD_Transform_filter.scala" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spark-core/src/main/java/com/pcy/bigdata/spark/core/rdd/operator/transform/Spark07_RDD_Operator_Transform_Test.scala" beforeDir="false" afterPath="$PROJECT_DIR$/spark-core/src/main/java/com/pcy/bigdata/spark/core/rdd/operator/transform/RDD_Transform_filter_Test.scala" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spark-core/src/main/java/com/pcy/bigdata/spark/core/rdd/operator/transform/Spark08_RDD_Operator_Transform.scala" beforeDir="false" afterPath="$PROJECT_DIR$/spark-core/src/main/java/com/pcy/bigdata/spark/core/rdd/operator/transform/RDD_Transform_sample.scala" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spark-core/src/main/java/com/pcy/bigdata/spark/core/rdd/operator/transform/Spark09_RDD_Operator_Transform.scala" beforeDir="false" afterPath="$PROJECT_DIR$/spark-core/src/main/java/com/pcy/bigdata/spark/core/rdd/operator/transform/RDD_Transform_distinct.scala" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spark-core/src/main/java/com/pcy/bigdata/spark/core/rdd/operator/transform/Spark10_RDD_Operator_Transform.scala" beforeDir="false" afterPath="$PROJECT_DIR$/spark-core/src/main/java/com/pcy/bigdata/spark/core/rdd/operator/transform/RDD_Transform_coalesce.scala" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spark-core/src/main/java/com/pcy/bigdata/spark/core/rdd/operator/transform/Spark11_RDD_Operator_Transform.scala" beforeDir="false" afterPath="$PROJECT_DIR$/spark-core/src/main/java/com/pcy/bigdata/spark/core/rdd/operator/transform/RDD_Transform_repartition.scala" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spark-core/src/main/java/com/pcy/bigdata/spark/core/rdd/operator/transform/Spark12_RDD_Operator_Transform.scala" beforeDir="false" afterPath="$PROJECT_DIR$/spark-core/src/main/java/com/pcy/bigdata/spark/core/rdd/operator/transform/RDD_Transform_sortBy.scala" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spark-core/src/main/java/com/pcy/bigdata/spark/core/rdd/operator/transform/Spark12_RDD_Operator_Transform1.scala" beforeDir="false" afterPath="$PROJECT_DIR$/spark-core/src/main/java/com/pcy/bigdata/spark/core/rdd/operator/transform/RDD_Transform_sortBy_1.scala" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spark-core/src/main/java/com/pcy/bigdata/spark/core/rdd/operator/transform/Spark13_RDD_Operator_Transform.scala" beforeDir="false" afterPath="$PROJECT_DIR$/spark-core/src/main/java/com/pcy/bigdata/spark/core/rdd/operator/transform/RDD_Transform_intersection.scala" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spark-core/src/main/java/com/pcy/bigdata/spark/core/rdd/operator/transform/Spark13_RDD_Operator_Transform1.scala" beforeDir="false" afterPath="$PROJECT_DIR$/spark-core/src/main/java/com/pcy/bigdata/spark/core/rdd/operator/transform/RDD_Transform_zip.scala" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spark-core/src/main/java/com/pcy/bigdata/spark/core/rdd/operator/transform/Spark14_RDD_Operator_Transform.scala" beforeDir="false" afterPath="$PROJECT_DIR$/spark-core/src/main/java/com/pcy/bigdata/spark/core/rdd/operator/transform/RDD_Transform_partitionBy.scala" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spark-core/src/main/java/com/pcy/bigdata/spark/core/rdd/operator/transform/Spark15_RDD_Operator_Transform.scala" beforeDir="false" afterPath="$PROJECT_DIR$/spark-core/src/main/java/com/pcy/bigdata/spark/core/rdd/operator/transform/RDD_Transform_reduceByKey.scala" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -89,8 +116,8 @@
     </option>
   </component>
   <component name="RunManager" selected="Application.Spark16_RDD_Operator_Transform">
-    <configuration name="Spark08_RDD_Operator_Transform" type="Application" factoryName="Application" temporary="true">
-      <option name="MAIN_CLASS_NAME" value="com.pcy.bigdata.spark.core.rdd.operator.transform.Spark08_RDD_Operator_Transform" />
+    <configuration name="RDD_Transform_groupBy" type="Application" factoryName="Application" temporary="true">
+      <option name="MAIN_CLASS_NAME" value="com.pcy.bigdata.spark.core.rdd.operator.transform.RDD_Transform_groupBy" />
       <module name="spark-core" />
       <extension name="coverage">
         <pattern>
@@ -103,7 +130,7 @@
       </method>
     </configuration>
     <configuration name="Spark13_RDD_Operator_Transform" type="Application" factoryName="Application" temporary="true">
-      <option name="MAIN_CLASS_NAME" value="com.pcy.bigdata.spark.core.rdd.operator.transform.Spark13_RDD_Operator_Transform" />
+      <option name="MAIN_CLASS_NAME" value="com.pcy.bigdata.spark.core.rdd.operator.transform.RDD_Transform_intersection" />
       <module name="spark-core" />
       <extension name="coverage">
         <pattern>
@@ -116,7 +143,7 @@
       </method>
     </configuration>
     <configuration name="Spark13_RDD_Operator_Transform1" type="Application" factoryName="Application" temporary="true">
-      <option name="MAIN_CLASS_NAME" value="com.pcy.bigdata.spark.core.rdd.operator.transform.Spark13_RDD_Operator_Transform1" />
+      <option name="MAIN_CLASS_NAME" value="com.pcy.bigdata.spark.core.rdd.operator.transform.RDD_Transform_zip" />
       <module name="spark-core" />
       <extension name="coverage">
         <pattern>
@@ -129,7 +156,7 @@
       </method>
     </configuration>
     <configuration name="Spark15_RDD_Operator_Transform" type="Application" factoryName="Application" temporary="true">
-      <option name="MAIN_CLASS_NAME" value="com.pcy.bigdata.spark.core.rdd.operator.transform.Spark15_RDD_Operator_Transform" />
+      <option name="MAIN_CLASS_NAME" value="com.pcy.bigdata.spark.core.rdd.operator.transform.RDD_Transform_reduceByKey" />
       <module name="spark-core" />
       <extension name="coverage">
         <pattern>
@@ -157,10 +184,10 @@
     <recent_temporary>
       <list>
         <item itemvalue="Application.Spark16_RDD_Operator_Transform" />
+        <item itemvalue="Application.RDD_Transform_groupBy" />
         <item itemvalue="Application.Spark15_RDD_Operator_Transform" />
         <item itemvalue="Application.Spark13_RDD_Operator_Transform1" />
         <item itemvalue="Application.Spark13_RDD_Operator_Transform" />
-        <item itemvalue="Application.Spark08_RDD_Operator_Transform" />
       </list>
     </recent_temporary>
   </component>
@@ -180,7 +207,7 @@
       <workItem from="1609571079579" duration="9187000" />
       <workItem from="1609666949808" duration="10807000" />
       <workItem from="1609744139404" duration="3907000" />
-      <workItem from="1609847835313" duration="3750000" />
+      <workItem from="1609847835313" duration="5030000" />
     </task>
     <task id="LOCAL-00001" summary="初始化项目结构及上传相关文档.">
       <created>1609416494533</created>
@@ -406,7 +433,14 @@
       <option name="project" value="LOCAL" />
       <updated>1609852895915</updated>
     </task>
-    <option name="localTasksCounter" value="33" />
+    <task id="LOCAL-00033" summary="转换算子groupByKey——将数据按照相同的 Key 分组.">
+      <created>1609854353808</created>
+      <option name="number" value="00033" />
+      <option name="presentableId" value="LOCAL-00033" />
+      <option name="project" value="LOCAL" />
+      <updated>1609854353808</updated>
+    </task>
+    <option name="localTasksCounter" value="34" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -426,7 +460,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="创建RDD的两种方式——通过集合创建和通过文件创建." />
     <MESSAGE value="通过集合创建RDD时的分区以及分区是怎样切分数据的." />
     <MESSAGE value="通过文件创建分区，分区的数量的计算方法及数据切分的方法." />
     <MESSAGE value="转换算子map——基本使用." />
@@ -451,6 +484,7 @@
     <MESSAGE value="转换算子zip——两个数据源分区数量、分区内数据数量要保持一致." />
     <MESSAGE value="转换算子partitionBy——重新分区." />
     <MESSAGE value="转换算子reduceByKey——将数据按照相同的 Key 对 Value 进行聚合." />
-    <option name="LAST_COMMIT_MESSAGE" value="转换算子reduceByKey——将数据按照相同的 Key 对 Value 进行聚合." />
+    <MESSAGE value="转换算子groupByKey——将数据按照相同的 Key 分组." />
+    <option name="LAST_COMMIT_MESSAGE" value="转换算子groupByKey——将数据按照相同的 Key 分组." />
   </component>
 </project>

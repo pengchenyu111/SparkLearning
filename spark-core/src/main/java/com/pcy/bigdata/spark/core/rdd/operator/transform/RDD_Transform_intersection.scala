@@ -6,7 +6,7 @@ import org.apache.spark.{SparkConf, SparkContext}
 /**
  * 集合操作
  */
-object Spark13_RDD_Operator_Transform {
+object RDD_Transform_intersection {
 
   def main(args: Array[String]): Unit = {
 

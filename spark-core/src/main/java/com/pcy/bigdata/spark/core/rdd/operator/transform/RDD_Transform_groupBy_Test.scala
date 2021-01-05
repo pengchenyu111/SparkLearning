@@ -9,7 +9,7 @@ import org.apache.spark.{SparkConf, SparkContext}
 /**
  * 从服务器日志数据 apache.log 中获取每个时间段访问量
  */
-object Spark06_RDD_Operator_Transform_Test {
+object RDD_Transform_groupBy_Test {
 
   def main(args: Array[String]): Unit = {
 

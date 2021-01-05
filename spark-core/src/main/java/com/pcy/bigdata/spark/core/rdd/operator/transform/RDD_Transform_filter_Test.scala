@@ -3,7 +3,12 @@ package com.pcy.bigdata.spark.core.rdd.operator.transform
 import org.apache.spark.rdd.RDD
 import org.apache.spark.{SparkConf, SparkContext}
 
-object Spark01_RDD_Operator_Transform_Test {
+/**
+ * 从服务器日志数据 apache.log 中获取 2015 年 5 月 17 日的请求路径
+ *
+ */
+
+object RDD_Transform_filter_Test {
 
   def main(args: Array[String]): Unit = {
 
@@ -12,15 +17,16 @@ object Spark01_RDD_Operator_Transform_Test {
 
     val rdd = sc.textFile("datas/apache.log")
 
-    // 长的字符串
-    // 短的字符串
-    val mapRDD: RDD[String] = rdd.map(
+    val filteredRDD = rdd.filter(
       line => {
         val datas = line.split(" ")
-        datas(6)
+        val time = datas(3)
+        time.startsWith("17/05/2015")
       }
     )
-    mapRDD.collect().foreach(println)
+    val res = filteredRDD.map(_.split(" ")(6))
+
+    res.collect().foreach(println)
 
     sc.stop()
 

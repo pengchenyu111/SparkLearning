@@ -6,7 +6,7 @@ import org.apache.spark.{SparkConf, SparkContext}
 /**
  * flatMap 和模式匹配的使用
  */
-object Spark04_RDD_Operator_Transform2 {
+object RDD_Transform_flatMap_2 {
 
   def main(args: Array[String]): Unit = {
 

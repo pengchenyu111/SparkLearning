@@ -8,7 +8,7 @@ import org.apache.spark.{HashPartitioner, SparkConf, SparkContext}
  * reduceByKey
  * 可以将数据按照相同的 Key 对 Value 进行聚合
  */
-object Spark15_RDD_Operator_Transform {
+object RDD_Transform_reduceByKey {
 
   def main(args: Array[String]): Unit = {
 

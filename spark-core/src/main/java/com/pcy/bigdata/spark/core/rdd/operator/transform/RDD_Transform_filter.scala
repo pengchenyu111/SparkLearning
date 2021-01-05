@@ -12,7 +12,7 @@ import org.apache.spark.{SparkConf, SparkContext}
  * 当数据进行筛选过滤后，分区不变，但是分区内的数据可能不均衡，生产环境下，可能会出现 数据倾斜
  *
  */
-object Spark07_RDD_Operator_Transform {
+object RDD_Transform_filter {
 
   def main(args: Array[String]): Unit = {
 

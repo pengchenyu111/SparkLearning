@@ -3,7 +3,7 @@ package com.pcy.bigdata.spark.core.rdd.operator.transform
 import org.apache.spark.rdd.RDD
 import org.apache.spark.{SparkConf, SparkContext}
 
-object Spark01_RDD_Operator_Transform_Par {
+object RDD_Transform_map_Par {
 
   def main(args: Array[String]): Unit = {
 

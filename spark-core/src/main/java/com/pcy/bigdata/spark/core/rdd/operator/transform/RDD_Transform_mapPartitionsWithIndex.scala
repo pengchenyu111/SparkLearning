@@ -1,12 +1,11 @@
 package com.pcy.bigdata.spark.core.rdd.operator.transform
 
-import org.apache.spark.rdd.RDD
 import org.apache.spark.{SparkConf, SparkContext}
 
 /**
- * mapPartitions获取每个分区的最大值
+ * mapPartitionsWithIndex 操作指定分区内的数据
  */
-object Spark02_RDD_Operator_Transform_Test {
+object RDD_Transform_mapPartitionsWithIndex {
 
   def main(args: Array[String]): Unit = {
 
@@ -14,15 +13,18 @@ object Spark02_RDD_Operator_Transform_Test {
     val sc = new SparkContext(sparkConf)
 
     val rdd = sc.makeRDD(List(1, 2, 3, 4), 2)
-
     // 【1，2】，【3，4】
-    // 【2】，【4】
-    val mpRDD = rdd.mapPartitions(
-      iter => {
-        List(iter.max).iterator
+    val mpiRDD = rdd.mapPartitionsWithIndex(
+      (index, iter) => {
+        if (index == 1) {
+          iter
+        } else {
+          Nil.iterator
+        }
       }
     )
-    mpRDD.collect().foreach(println)
+    mpiRDD.collect().foreach(println)
+
 
     sc.stop()
 

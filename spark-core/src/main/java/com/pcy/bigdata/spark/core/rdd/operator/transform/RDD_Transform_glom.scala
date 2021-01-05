@@ -6,7 +6,7 @@ import org.apache.spark.{SparkConf, SparkContext}
 /**
  * glom:将同一个分区的数据直接转换为相同类型的内存数组进行处理，分区不变
  */
-object Spark05_RDD_Operator_Transform {
+object RDD_Transform_glom {
 
   def main(args: Array[String]): Unit = {
 

@@ -9,7 +9,7 @@ import org.apache.spark.{SparkConf, SparkContext}
  * 的操作称之为 shuffle。极限情况下，数据可能被分在同一个分区中
  * 一个组的数据在一个分区中，但是并不是说一个分区中只有一个组
  */
-object Spark06_RDD_Operator_Transform {
+object RDD_Transform_groupBy {
 
   def main(args: Array[String]): Unit = {
 

@@ -8,7 +8,7 @@ import org.apache.spark.{HashPartitioner, SparkConf, SparkContext}
  * partitionBy算子
  * 将数据按照指定 Partitioner 重新进行分区。Spark 默认的分区器是 HashPartitioner
  */
-object Spark14_RDD_Operator_Transform {
+object RDD_Transform_partitionBy {
 
   def main(args: Array[String]): Unit = {
 
