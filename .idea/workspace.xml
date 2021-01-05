@@ -2,8 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="eb260606-b2c3-49c1-97ab-fb82fd92a2e9" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/spark-core/src/main/java/com/pcy/bigdata/spark/core/rdd/operator/transform/Spark12_RDD_Operator_Transform.scala" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spark-core/src/main/java/com/pcy/bigdata/spark/core/rdd/operator/transform/Spark12_RDD_Operator_Transform1.scala" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spark-core/src/main/java/com/pcy/bigdata/spark/core/rdd/operator/transform/Spark13_RDD_Operator_Transform.scala" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -63,18 +62,18 @@
     <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
   </component>
   <component name="RecentsManager">
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="D:\MyOwnCodes\IJIDEAJAVA\SparkLearning" />
-    </key>
-    <key name="CopyClassDialog.RECENTS_KEY">
-      <recent name="com.pcy.bigdata.spark.core.rdd.builder" />
-    </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="D:\MyOwnCodes\IJIDEAJAVA\SparkLearning\spark-core\src\main\java\com\pcy\bigdata\spark\core\rdd\operator\transform" />
       <recent name="D:\MyOwnCodes\IJIDEAJAVA\SparkLearning\datas" />
       <recent name="D:\MyOwnCodes\IJIDEAJAVA\SparkLearning\spark-core\src\main\java\com\pcy\bigdata\spark\core\rdd\builder" />
       <recent name="D:\MyOwnCodes\IJIDEAJAVA\SparkLearning\docs" />
       <recent name="D:\MyOwnCodes\IJIDEAJAVA\SparkLearning\spark-core\src\main\java\com\pcy\bigdata\spark\core" />
+    </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.pcy.bigdata.spark.core.rdd.builder" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\MyOwnCodes\IJIDEAJAVA\SparkLearning" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -89,20 +88,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.Spark08_RDD_Operator_Transform">
-    <configuration name="Spark06_RDD_Operator_Transform" type="Application" factoryName="Application" temporary="true">
-      <option name="MAIN_CLASS_NAME" value="com.pcy.bigdata.spark.core.rdd.operator.transform.Spark06_RDD_Operator_Transform" />
-      <module name="spark-core" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.pcy.bigdata.spark.core.rdd.operator.transform.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="Application.Spark13_RDD_Operator_Transform">
     <configuration name="Spark06_RDD_Operator_Transform_Test" type="Application" factoryName="Application" temporary="true">
       <option name="MAIN_CLASS_NAME" value="com.pcy.bigdata.spark.core.rdd.operator.transform.Spark06_RDD_Operator_Transform_Test" />
       <module name="spark-core" />
@@ -155,13 +141,26 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="Spark13_RDD_Operator_Transform" type="Application" factoryName="Application" temporary="true">
+      <option name="MAIN_CLASS_NAME" value="com.pcy.bigdata.spark.core.rdd.operator.transform.Spark13_RDD_Operator_Transform" />
+      <module name="spark-core" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.pcy.bigdata.spark.core.rdd.operator.transform.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Spark13_RDD_Operator_Transform" />
         <item itemvalue="Application.Spark08_RDD_Operator_Transform" />
         <item itemvalue="Application.Spark07_RDD_Operator_Transform_Test" />
         <item itemvalue="Application.Spark07_RDD_Operator_Transform" />
         <item itemvalue="Application.Spark06_RDD_Operator_Transform_Test" />
-        <item itemvalue="Application.Spark06_RDD_Operator_Transform" />
       </list>
     </recent_temporary>
   </component>
@@ -180,7 +179,8 @@
       <workItem from="1609477729149" duration="1927000" />
       <workItem from="1609571079579" duration="9187000" />
       <workItem from="1609666949808" duration="10807000" />
-      <workItem from="1609744139404" duration="2595000" />
+      <workItem from="1609744139404" duration="3907000" />
+      <workItem from="1609847835313" duration="756000" />
     </task>
     <task id="LOCAL-00001" summary="初始化项目结构及上传相关文档.">
       <created>1609416494533</created>
@@ -371,7 +371,14 @@
       <option name="project" value="LOCAL" />
       <updated>1609685440452</updated>
     </task>
-    <option name="localTasksCounter" value="28" />
+    <task id="LOCAL-00028" summary="转换算子sortBy——排序基本用法.">
+      <created>1609753906866</created>
+      <option name="number" value="00028" />
+      <option name="presentableId" value="LOCAL-00028" />
+      <option name="project" value="LOCAL" />
+      <updated>1609753906866</updated>
+    </task>
+    <option name="localTasksCounter" value="29" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -391,7 +398,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="添加spark-core依赖." />
     <MESSAGE value="两种WordCount的计算方法." />
     <MESSAGE value="添加log4j.properties文件." />
     <MESSAGE value="模拟分布式计算." />
@@ -416,6 +422,7 @@
     <MESSAGE value="转换算子distinct——基本用法（注意实现方法）." />
     <MESSAGE value="转换算子coalesce——根据数据量缩减分区." />
     <MESSAGE value="转换算子repartition——根据数据量增加/缩减分区." />
-    <option name="LAST_COMMIT_MESSAGE" value="转换算子repartition——根据数据量增加/缩减分区." />
+    <MESSAGE value="转换算子sortBy——排序基本用法." />
+    <option name="LAST_COMMIT_MESSAGE" value="转换算子sortBy——排序基本用法." />
   </component>
 </project>
