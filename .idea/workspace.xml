@@ -2,7 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="eb260606-b2c3-49c1-97ab-fb82fd92a2e9" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/spark-core/src/main/java/com/pcy/bigdata/spark/core/rdd/operator/transform/Spark23_RDD_Operator_Transform.scala" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spark-core/src/main/java/com/pcy/bigdata/spark/core/rdd/operator/transform/RDD_Transform_demo.scala" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -61,18 +62,18 @@
     <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
   </component>
   <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\MyOwnCodes\IJIDEAJAVA\SparkLearning" />
+    </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.pcy.bigdata.spark.core.rdd.builder" />
+    </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="D:\MyOwnCodes\IJIDEAJAVA\SparkLearning\spark-core\src\main\java\com\pcy\bigdata\spark\core\rdd\operator\transform" />
       <recent name="D:\MyOwnCodes\IJIDEAJAVA\SparkLearning\datas" />
       <recent name="D:\MyOwnCodes\IJIDEAJAVA\SparkLearning\spark-core\src\main\java\com\pcy\bigdata\spark\core\rdd\builder" />
       <recent name="D:\MyOwnCodes\IJIDEAJAVA\SparkLearning\docs" />
       <recent name="D:\MyOwnCodes\IJIDEAJAVA\SparkLearning\spark-core\src\main\java\com\pcy\bigdata\spark\core" />
-    </key>
-    <key name="CopyClassDialog.RECENTS_KEY">
-      <recent name="com.pcy.bigdata.spark.core.rdd.builder" />
-    </key>
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="D:\MyOwnCodes\IJIDEAJAVA\SparkLearning" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -87,7 +88,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.RDD_Transform_aggregateByKey_test">
+  <component name="RunManager" selected="Application.RDD_Transform_demo">
     <configuration name="RDD_Transform_aggregateByKey" type="Application" factoryName="Application" temporary="true">
       <option name="MAIN_CLASS_NAME" value="com.pcy.bigdata.spark.core.rdd.operator.transform.RDD_Transform_aggregateByKey" />
       <module name="spark-core" />
@@ -114,8 +115,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="RDD_Transform_groupBy" type="Application" factoryName="Application" temporary="true">
-      <option name="MAIN_CLASS_NAME" value="com.pcy.bigdata.spark.core.rdd.operator.transform.RDD_Transform_groupBy" />
+    <configuration name="RDD_Transform_demo" type="Application" factoryName="Application" temporary="true">
+      <option name="MAIN_CLASS_NAME" value="com.pcy.bigdata.spark.core.rdd.operator.transform.RDD_Transform_demo" />
       <module name="spark-core" />
       <extension name="coverage">
         <pattern>
@@ -127,8 +128,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Spark15_RDD_Operator_Transform" type="Application" factoryName="Application" temporary="true">
-      <option name="MAIN_CLASS_NAME" value="com.pcy.bigdata.spark.core.rdd.operator.transform.RDD_Transform_reduceByKey" />
+    <configuration name="RDD_Transform_groupBy" type="Application" factoryName="Application" temporary="true">
+      <option name="MAIN_CLASS_NAME" value="com.pcy.bigdata.spark.core.rdd.operator.transform.RDD_Transform_groupBy" />
       <module name="spark-core" />
       <extension name="coverage">
         <pattern>
@@ -155,11 +156,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.RDD_Transform_demo" />
         <item itemvalue="Application.RDD_Transform_aggregateByKey_test" />
         <item itemvalue="Application.RDD_Transform_aggregateByKey" />
         <item itemvalue="Application.Spark16_RDD_Operator_Transform" />
         <item itemvalue="Application.RDD_Transform_groupBy" />
-        <item itemvalue="Application.Spark15_RDD_Operator_Transform" />
       </list>
     </recent_temporary>
   </component>
@@ -179,7 +180,9 @@
       <workItem from="1609571079579" duration="9187000" />
       <workItem from="1609666949808" duration="10807000" />
       <workItem from="1609744139404" duration="3907000" />
-      <workItem from="1609847835313" duration="9863000" />
+      <workItem from="1609847835313" duration="10230000" />
+      <workItem from="1609925516806" duration="1226000" />
+      <workItem from="1610283157115" duration="2267000" />
     </task>
     <task id="LOCAL-00001" summary="初始化项目结构及上传相关文档.">
       <created>1609416494533</created>
@@ -454,7 +457,14 @@
       <option name="project" value="LOCAL" />
       <updated>1609860134891</updated>
     </task>
-    <option name="localTasksCounter" value="40" />
+    <task id="LOCAL-00040" summary="转换算子cogroup—分组+连接.">
+      <created>1609860457306</created>
+      <option name="number" value="00040" />
+      <option name="presentableId" value="LOCAL-00040" />
+      <option name="project" value="LOCAL" />
+      <updated>1609860457306</updated>
+    </task>
+    <option name="localTasksCounter" value="41" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -474,7 +484,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="转换算子map——mapPartitions获取每个分区的最大值." />
     <MESSAGE value="转换算子map——mapPartitionsWithIndex 操作指定分区内的数据." />
     <MESSAGE value="转换算子flatMap——flatMap 基本使用." />
     <MESSAGE value="转换算子flatMap——flatMap 和模式匹配的使用" />
@@ -499,6 +508,7 @@
     <MESSAGE value="转换算子combineByKey——基本用法." />
     <MESSAGE value="转换算子join——连接." />
     <MESSAGE value="转换算子leftOuterJoin——左外连接." />
-    <option name="LAST_COMMIT_MESSAGE" value="转换算子leftOuterJoin——左外连接." />
+    <MESSAGE value="转换算子cogroup—分组+连接." />
+    <option name="LAST_COMMIT_MESSAGE" value="转换算子cogroup—分组+连接." />
   </component>
 </project>
