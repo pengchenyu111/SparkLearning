@@ -2,8 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="eb260606-b2c3-49c1-97ab-fb82fd92a2e9" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/spark-core/src/main/java/com/pcy/bigdata/spark/core/rdd/operator/action/RDD_Action_collect.scala" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spark-core/src/main/java/com/pcy/bigdata/spark/core/rdd/operator/action/RDD_Action_count.scala" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spark-core/src/main/java/com/pcy/bigdata/spark/core/rdd/operator/action/RDD_Action_first.scala" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/spark-core/src/main/java/com/pcy/bigdata/spark/core/rdd/operator/action/RDD_Action_reduce.scala" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spark-core/src/main/java/com/pcy/bigdata/spark/core/rdd/operator/action/RDD_Action_take.scala" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spark-core/src/main/java/com/pcy/bigdata/spark/core/rdd/operator/action/RDD_Action_takeOrdered.scala" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -67,6 +70,7 @@
       <recent name="D:\MyOwnCodes\IJIDEAJAVA\SparkLearning" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.pcy.bigdata.spark.core.rdd.operator.action" />
       <recent name="com.pcy.bigdata.spark.core.rdd.builder" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
@@ -89,7 +93,20 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.RDD_Transform_demo">
+  <component name="RunManager" selected="Application.RDD_Action_takeOrdered">
+    <configuration name="RDD_Action_takeOrdered" type="Application" factoryName="Application" temporary="true">
+      <option name="MAIN_CLASS_NAME" value="com.pcy.bigdata.spark.core.rdd.operator.action.RDD_Action_takeOrdered" />
+      <module name="spark-core" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.pcy.bigdata.spark.core.rdd.operator.action.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="RDD_Transform_aggregateByKey" type="Application" factoryName="Application" temporary="true">
       <option name="MAIN_CLASS_NAME" value="com.pcy.bigdata.spark.core.rdd.operator.transform.RDD_Transform_aggregateByKey" />
       <module name="spark-core" />
@@ -129,19 +146,6 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="RDD_Transform_groupBy" type="Application" factoryName="Application" temporary="true">
-      <option name="MAIN_CLASS_NAME" value="com.pcy.bigdata.spark.core.rdd.operator.transform.RDD_Transform_groupBy" />
-      <module name="spark-core" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.pcy.bigdata.spark.core.rdd.operator.transform.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="Spark16_RDD_Operator_Transform" type="Application" factoryName="Application" temporary="true">
       <option name="MAIN_CLASS_NAME" value="com.pcy.bigdata.spark.core.rdd.operator.transform.RDD_Transform_groupByKey" />
       <module name="spark-core" />
@@ -157,11 +161,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.RDD_Action_takeOrdered" />
         <item itemvalue="Application.RDD_Transform_demo" />
         <item itemvalue="Application.RDD_Transform_aggregateByKey_test" />
         <item itemvalue="Application.RDD_Transform_aggregateByKey" />
         <item itemvalue="Application.Spark16_RDD_Operator_Transform" />
-        <item itemvalue="Application.RDD_Transform_groupBy" />
       </list>
     </recent_temporary>
   </component>
@@ -183,7 +187,7 @@
       <workItem from="1609744139404" duration="3907000" />
       <workItem from="1609847835313" duration="10230000" />
       <workItem from="1609925516806" duration="1226000" />
-      <workItem from="1610283157115" duration="3010000" />
+      <workItem from="1610283157115" duration="3536000" />
     </task>
     <task id="LOCAL-00001" summary="初始化项目结构及上传相关文档.">
       <created>1609416494533</created>
@@ -472,7 +476,14 @@
       <option name="project" value="LOCAL" />
       <updated>1610286169748</updated>
     </task>
-    <option name="localTasksCounter" value="42" />
+    <task id="LOCAL-00042" summary="行动算子——collect.">
+      <created>1610286942471</created>
+      <option name="number" value="00042" />
+      <option name="presentableId" value="LOCAL-00042" />
+      <option name="project" value="LOCAL" />
+      <updated>1610286942471</updated>
+    </task>
+    <option name="localTasksCounter" value="43" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -492,7 +503,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="转换算子flatMap——flatMap 基本使用." />
     <MESSAGE value="转换算子flatMap——flatMap 和模式匹配的使用" />
     <MESSAGE value="转换算子glom——基本使用" />
     <MESSAGE value="转换算子map——分区不变." />
@@ -517,6 +527,7 @@
     <MESSAGE value="转换算子leftOuterJoin——左外连接." />
     <MESSAGE value="转换算子cogroup—分组+连接." />
     <MESSAGE value="转换算子——小案例：统计出每一个省份每个广告被点击数量排行的 Top3." />
-    <option name="LAST_COMMIT_MESSAGE" value="转换算子——小案例：统计出每一个省份每个广告被点击数量排行的 Top3." />
+    <MESSAGE value="行动算子——collect." />
+    <option name="LAST_COMMIT_MESSAGE" value="行动算子——collect." />
   </component>
 </project>
