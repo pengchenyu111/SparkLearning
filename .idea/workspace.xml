@@ -2,7 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="eb260606-b2c3-49c1-97ab-fb82fd92a2e9" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/spark-core/src/main/java/com/pcy/bigdata/spark/core/wc/WordCount3.scala" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -49,7 +48,7 @@
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/spark-core/src/main/java/com/pcy/bigdata/spark/core/wc" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/spark-core/src/main/java/com/pcy/bigdata/spark/core/rdd/operator/action" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
@@ -183,14 +182,7 @@
       <workItem from="1609744139404" duration="3907000" />
       <workItem from="1609847835313" duration="10230000" />
       <workItem from="1609925516806" duration="1226000" />
-      <workItem from="1610283157115" duration="5696000" />
-    </task>
-    <task id="LOCAL-00003" summary="两种WordCount的计算方法.">
-      <created>1609419741069</created>
-      <option name="number" value="00003" />
-      <option name="presentableId" value="LOCAL-00003" />
-      <option name="project" value="LOCAL" />
-      <updated>1609419741069</updated>
+      <workItem from="1610283157115" duration="6331000" />
     </task>
     <task id="LOCAL-00004" summary="两种WordCount的计算方法.">
       <created>1609419997775</created>
@@ -528,7 +520,14 @@
       <option name="project" value="LOCAL" />
       <updated>1610288563111</updated>
     </task>
-    <option name="localTasksCounter" value="52" />
+    <task id="LOCAL-00052" summary="所有能实现WordCount的方法整合.">
+      <created>1610289845137</created>
+      <option name="number" value="00052" />
+      <option name="presentableId" value="LOCAL-00052" />
+      <option name="project" value="LOCAL" />
+      <updated>1610289845137</updated>
+    </task>
+    <option name="localTasksCounter" value="53" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -548,7 +547,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="转换算子repartition——根据数据量增加/缩减分区." />
     <MESSAGE value="转换算子sortBy——排序基本用法." />
     <MESSAGE value="转换算子intersection、union、subtract、zip——交集、并集、差集、拉链的操作." />
     <MESSAGE value="转换算子zip——两个数据源分区数量、分区内数据数量要保持一致." />
@@ -573,6 +571,7 @@
     <MESSAGE value="行动算子fold——当分区内和分区间的计算规则相同时来简化aggregate." />
     <MESSAGE value="行动算子——countByValue." />
     <MESSAGE value="行动算子——countByKey." />
-    <option name="LAST_COMMIT_MESSAGE" value="行动算子——countByKey." />
+    <MESSAGE value="所有能实现WordCount的方法整合." />
+    <option name="LAST_COMMIT_MESSAGE" value="所有能实现WordCount的方法整合." />
   </component>
 </project>
