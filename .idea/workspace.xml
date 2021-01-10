@@ -2,7 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="eb260606-b2c3-49c1-97ab-fb82fd92a2e9" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/spark-core/src/main/java/com/pcy/bigdata/spark/core/rdd/operator/transform/RDD_Transform_demo.scala" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spark-core/src/main/java/com/pcy/bigdata/spark/core/rdd/operator/action/RDD_Action_collect.scala" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spark-core/src/main/java/com/pcy/bigdata/spark/core/rdd/operator/action/RDD_Action_reduce.scala" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -49,7 +50,7 @@
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/spark-core/src/main/java/com/pcy/bigdata/spark/core/rdd/operator/transform" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/spark-core/src/main/java/com/pcy/bigdata/spark/core/rdd/operator/action" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
@@ -69,11 +70,11 @@
       <recent name="com.pcy.bigdata.spark.core.rdd.builder" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\MyOwnCodes\IJIDEAJAVA\SparkLearning\spark-core\src\main\java\com\pcy\bigdata\spark\core\rdd\operator\action" />
       <recent name="D:\MyOwnCodes\IJIDEAJAVA\SparkLearning\spark-core\src\main\java\com\pcy\bigdata\spark\core\rdd\operator\transform" />
       <recent name="D:\MyOwnCodes\IJIDEAJAVA\SparkLearning\datas" />
       <recent name="D:\MyOwnCodes\IJIDEAJAVA\SparkLearning\spark-core\src\main\java\com\pcy\bigdata\spark\core\rdd\builder" />
       <recent name="D:\MyOwnCodes\IJIDEAJAVA\SparkLearning\docs" />
-      <recent name="D:\MyOwnCodes\IJIDEAJAVA\SparkLearning\spark-core\src\main\java\com\pcy\bigdata\spark\core" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -182,7 +183,7 @@
       <workItem from="1609744139404" duration="3907000" />
       <workItem from="1609847835313" duration="10230000" />
       <workItem from="1609925516806" duration="1226000" />
-      <workItem from="1610283157115" duration="2267000" />
+      <workItem from="1610283157115" duration="3010000" />
     </task>
     <task id="LOCAL-00001" summary="初始化项目结构及上传相关文档.">
       <created>1609416494533</created>
@@ -464,7 +465,14 @@
       <option name="project" value="LOCAL" />
       <updated>1609860457306</updated>
     </task>
-    <option name="localTasksCounter" value="41" />
+    <task id="LOCAL-00041" summary="转换算子——小案例：统计出每一个省份每个广告被点击数量排行的 Top3.">
+      <created>1610286169747</created>
+      <option name="number" value="00041" />
+      <option name="presentableId" value="LOCAL-00041" />
+      <option name="project" value="LOCAL" />
+      <updated>1610286169748</updated>
+    </task>
+    <option name="localTasksCounter" value="42" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -484,7 +492,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="转换算子map——mapPartitionsWithIndex 操作指定分区内的数据." />
     <MESSAGE value="转换算子flatMap——flatMap 基本使用." />
     <MESSAGE value="转换算子flatMap——flatMap 和模式匹配的使用" />
     <MESSAGE value="转换算子glom——基本使用" />
@@ -509,6 +516,7 @@
     <MESSAGE value="转换算子join——连接." />
     <MESSAGE value="转换算子leftOuterJoin——左外连接." />
     <MESSAGE value="转换算子cogroup—分组+连接." />
-    <option name="LAST_COMMIT_MESSAGE" value="转换算子cogroup—分组+连接." />
+    <MESSAGE value="转换算子——小案例：统计出每一个省份每个广告被点击数量排行的 Top3." />
+    <option name="LAST_COMMIT_MESSAGE" value="转换算子——小案例：统计出每一个省份每个广告被点击数量排行的 Top3." />
   </component>
 </project>
