@@ -2,7 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="eb260606-b2c3-49c1-97ab-fb82fd92a2e9" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/spark-core/src/main/java/com/pcy/bigdata/spark/core/rdd/operator/action/RDD_Action.scala" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spark-core/src/main/java/com/pcy/bigdata/spark/core/rdd/operator/action/RDD_Action_countByKey.scala" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -88,9 +89,22 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.RDD_Operator_Action">
+  <component name="RunManager" selected="Application.RDD_Action_countByKey">
     <configuration name="RDD_Action_aggregate" type="Application" factoryName="Application" temporary="true">
       <option name="MAIN_CLASS_NAME" value="com.pcy.bigdata.spark.core.rdd.operator.action.RDD_Action_aggregate" />
+      <module name="spark-core" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.pcy.bigdata.spark.core.rdd.operator.action.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="RDD_Action_countByKey" type="Application" factoryName="Application" temporary="true">
+      <option name="MAIN_CLASS_NAME" value="com.pcy.bigdata.spark.core.rdd.operator.action.RDD_Action_countByKey" />
       <module name="spark-core" />
       <extension name="coverage">
         <pattern>
@@ -141,26 +155,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="RDD_Transform_demo" type="Application" factoryName="Application" temporary="true">
-      <option name="MAIN_CLASS_NAME" value="com.pcy.bigdata.spark.core.rdd.operator.transform.RDD_Transform_demo" />
-      <module name="spark-core" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.pcy.bigdata.spark.core.rdd.operator.transform.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.RDD_Action_countByKey" />
         <item itemvalue="Application.RDD_Operator_Action" />
         <item itemvalue="Application.RDD_Action_fold" />
         <item itemvalue="Application.RDD_Action_aggregate" />
         <item itemvalue="Application.RDD_Action_takeOrdered" />
-        <item itemvalue="Application.RDD_Transform_demo" />
       </list>
     </recent_temporary>
   </component>
@@ -182,14 +183,7 @@
       <workItem from="1609744139404" duration="3907000" />
       <workItem from="1609847835313" duration="10230000" />
       <workItem from="1609925516806" duration="1226000" />
-      <workItem from="1610283157115" duration="4410000" />
-    </task>
-    <task id="LOCAL-00001" summary="初始化项目结构及上传相关文档.">
-      <created>1609416494533</created>
-      <option name="number" value="00001" />
-      <option name="presentableId" value="LOCAL-00001" />
-      <option name="project" value="LOCAL" />
-      <updated>1609416494533</updated>
+      <workItem from="1610283157115" duration="4666000" />
     </task>
     <task id="LOCAL-00002" summary="添加spark-core依赖.">
       <created>1609418186924</created>
@@ -527,7 +521,14 @@
       <option name="project" value="LOCAL" />
       <updated>1610288090180</updated>
     </task>
-    <option name="localTasksCounter" value="50" />
+    <task id="LOCAL-00050" summary="行动算子——countByValue.">
+      <created>1610288445425</created>
+      <option name="number" value="00050" />
+      <option name="presentableId" value="LOCAL-00050" />
+      <option name="project" value="LOCAL" />
+      <updated>1610288445425</updated>
+    </task>
+    <option name="localTasksCounter" value="51" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -547,7 +548,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="转换算子distinct——基本用法（注意实现方法）." />
     <MESSAGE value="转换算子coalesce——根据数据量缩减分区." />
     <MESSAGE value="转换算子repartition——根据数据量增加/缩减分区." />
     <MESSAGE value="转换算子sortBy——排序基本用法." />
@@ -572,6 +572,7 @@
     <MESSAGE value="行动算子——takeOrdered." />
     <MESSAGE value="行动算子aggregate——初始值会参与分区内计算,并且和参与分区间计算." />
     <MESSAGE value="行动算子fold——当分区内和分区间的计算规则相同时来简化aggregate." />
-    <option name="LAST_COMMIT_MESSAGE" value="行动算子fold——当分区内和分区间的计算规则相同时来简化aggregate." />
+    <MESSAGE value="行动算子——countByValue." />
+    <option name="LAST_COMMIT_MESSAGE" value="行动算子——countByValue." />
   </component>
 </project>
