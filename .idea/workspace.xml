@@ -2,7 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="eb260606-b2c3-49c1-97ab-fb82fd92a2e9" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/spark-core/src/main/java/com/pcy/bigdata/spark/core/rdd/operator/action/RDD_Action_foreach.scala" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spark-core/src/main/java/com/pcy/bigdata/spark/core/rdd/serial/RDD_Serializable_1.scala" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spark-core/src/main/java/com/pcy/bigdata/spark/core/rdd/serial/RDD_Serializable_2.scala" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -28,6 +29,13 @@
     <expand />
     <select />
   </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Scala Object" />
+      </list>
+    </option>
+  </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
@@ -49,7 +57,7 @@
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/spark-core/src/main/java/com/pcy/bigdata/spark/core/rdd/operator/action" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/spark-core/src/main/java/com/pcy/bigdata/spark/core/rdd/serial" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
@@ -70,11 +78,11 @@
       <recent name="com.pcy.bigdata.spark.core.rdd.builder" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\MyOwnCodes\IJIDEAJAVA\SparkLearning\spark-core\src\main\java\com\pcy\bigdata\spark\core\rdd\serial" />
       <recent name="D:\MyOwnCodes\IJIDEAJAVA\SparkLearning\spark-core\src\main\java\com\pcy\bigdata\spark\core\rdd\operator\action" />
       <recent name="D:\MyOwnCodes\IJIDEAJAVA\SparkLearning\spark-core\src\main\java\com\pcy\bigdata\spark\core\wc" />
       <recent name="D:\MyOwnCodes\IJIDEAJAVA\SparkLearning\spark-core\src\main\java\com\pcy\bigdata\spark\core\rdd\operator\transform" />
       <recent name="D:\MyOwnCodes\IJIDEAJAVA\SparkLearning\datas" />
-      <recent name="D:\MyOwnCodes\IJIDEAJAVA\SparkLearning\spark-core\src\main\java\com\pcy\bigdata\spark\core\rdd\builder" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -95,7 +103,7 @@
       <module name="spark-core" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.pcy.bigdata.spark.core.rdd.operator.action.*" />
+          <option name="PATTERN" value="com.pcy.bigdata.spark.core.rdd.serial.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -108,7 +116,7 @@
       <module name="spark-core" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.pcy.bigdata.spark.core.rdd.operator.action.*" />
+          <option name="PATTERN" value="com.pcy.bigdata.spark.core.rdd.serial.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -121,7 +129,7 @@
       <module name="spark-core" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.pcy.bigdata.spark.core.rdd.operator.action.*" />
+          <option name="PATTERN" value="com.pcy.bigdata.spark.core.rdd.serial.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -183,14 +191,7 @@
       <workItem from="1609744139404" duration="3907000" />
       <workItem from="1609847835313" duration="10230000" />
       <workItem from="1609925516806" duration="1226000" />
-      <workItem from="1610283157115" duration="7256000" />
-    </task>
-    <task id="LOCAL-00005" summary="添加log4j.properties文件.">
-      <created>1609420019880</created>
-      <option name="number" value="00005" />
-      <option name="presentableId" value="LOCAL-00005" />
-      <option name="project" value="LOCAL" />
-      <updated>1609420019880</updated>
+      <workItem from="1610283157115" duration="10349000" />
     </task>
     <task id="LOCAL-00006" summary="模拟分布式计算.">
       <created>1609424300462</created>
@@ -528,7 +529,14 @@
       <option name="project" value="LOCAL" />
       <updated>1610290433240</updated>
     </task>
-    <option name="localTasksCounter" value="54" />
+    <task id="LOCAL-00054" summary="行动算子——foreach及叫算子的原因.">
+      <created>1610291234716</created>
+      <option name="number" value="00054" />
+      <option name="presentableId" value="LOCAL-00054" />
+      <option name="project" value="LOCAL" />
+      <updated>1610291234716</updated>
+    </task>
+    <option name="localTasksCounter" value="55" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -548,7 +556,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="转换算子intersection、union、subtract、zip——交集、并集、差集、拉链的操作." />
     <MESSAGE value="转换算子zip——两个数据源分区数量、分区内数据数量要保持一致." />
     <MESSAGE value="转换算子partitionBy——重新分区." />
     <MESSAGE value="转换算子reduceByKey——将数据按照相同的 Key 对 Value 进行聚合." />
@@ -573,6 +580,7 @@
     <MESSAGE value="行动算子——countByKey." />
     <MESSAGE value="所有能实现WordCount的方法整合." />
     <MESSAGE value="行动算子——save." />
-    <option name="LAST_COMMIT_MESSAGE" value="行动算子——save." />
+    <MESSAGE value="行动算子——foreach及叫算子的原因." />
+    <option name="LAST_COMMIT_MESSAGE" value="行动算子——foreach及叫算子的原因." />
   </component>
 </project>
