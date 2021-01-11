@@ -2,7 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="eb260606-b2c3-49c1-97ab-fb82fd92a2e9" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/spark-core/src/main/java/com/pcy/bigdata/spark/core/rdd/serial/RDD_Serializable_Kryo.scala" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/datas/word.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spark-core/src/main/java/com/pcy/bigdata/spark/core/rdd/dependency/RDD_Dependency_1.scala" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -56,7 +57,7 @@
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/spark-core/src/main/java/com/pcy/bigdata/spark/core/rdd/serial" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/spark-core/src/main/java/com/pcy/bigdata/spark/core/rdd/dependency" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
@@ -78,11 +79,11 @@
       <recent name="com.pcy.bigdata.spark.core.rdd.builder" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\MyOwnCodes\IJIDEAJAVA\SparkLearning\spark-core\src\main\java\com\pcy\bigdata\spark\core\rdd\dependency" />
       <recent name="D:\MyOwnCodes\IJIDEAJAVA\SparkLearning\spark-core\src\main\java\com\pcy\bigdata\spark\core\rdd\serial" />
       <recent name="D:\MyOwnCodes\IJIDEAJAVA\SparkLearning\spark-core\src\main\java\com\pcy\bigdata\spark\core\rdd\operator\action" />
       <recent name="D:\MyOwnCodes\IJIDEAJAVA\SparkLearning\spark-core\src\main\java\com\pcy\bigdata\spark\core\wc" />
       <recent name="D:\MyOwnCodes\IJIDEAJAVA\SparkLearning\spark-core\src\main\java\com\pcy\bigdata\spark\core\rdd\operator\transform" />
-      <recent name="D:\MyOwnCodes\IJIDEAJAVA\SparkLearning\datas" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -97,7 +98,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.RDD_Serializable_Kryo">
+  <component name="RunManager" selected="Application.RDD_Dependency_1">
     <configuration name="RDD_Action_countByKey" type="Application" factoryName="Application" temporary="true">
       <option name="MAIN_CLASS_NAME" value="com.pcy.bigdata.spark.core.rdd.operator.action.RDD_Action_countByKey" />
       <module name="spark-core" />
@@ -111,12 +112,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="RDD_Operator_Action" type="Application" factoryName="Application" temporary="true">
-      <option name="MAIN_CLASS_NAME" value="com.pcy.bigdata.spark.core.rdd.operator.action.RDD_Operator_Action" />
+    <configuration name="RDD_Dependency_1" type="Application" factoryName="Application" temporary="true">
+      <option name="MAIN_CLASS_NAME" value="com.pcy.bigdata.spark.core.rdd.dependency.RDD_Dependency_1" />
       <module name="spark-core" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.pcy.bigdata.spark.core.rdd.serial.*" />
+          <option name="PATTERN" value="com.pcy.bigdata.spark.core.rdd.dependency.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -165,11 +166,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.RDD_Dependency_1" />
         <item itemvalue="Application.RDD_Serializable_Kryo" />
         <item itemvalue="Application.WordCount3" />
         <item itemvalue="Application.RDD_Transform_groupBy" />
         <item itemvalue="Application.RDD_Action_countByKey" />
-        <item itemvalue="Application.RDD_Operator_Action" />
       </list>
     </recent_temporary>
   </component>
@@ -191,14 +192,7 @@
       <workItem from="1609744139404" duration="3907000" />
       <workItem from="1609847835313" duration="10230000" />
       <workItem from="1609925516806" duration="1226000" />
-      <workItem from="1610283157115" duration="11335000" />
-    </task>
-    <task id="LOCAL-00007" summary="上传原理分析脑图.">
-      <created>1609428842829</created>
-      <option name="number" value="00007" />
-      <option name="presentableId" value="LOCAL-00007" />
-      <option name="project" value="LOCAL" />
-      <updated>1609428842829</updated>
+      <workItem from="1610283157115" duration="12247000" />
     </task>
     <task id="LOCAL-00008" summary="创建RDD的两种方式——通过集合创建和通过文件创建.">
       <created>1609573713950</created>
@@ -536,7 +530,14 @@
       <option name="project" value="LOCAL" />
       <updated>1610351612341</updated>
     </task>
-    <option name="localTasksCounter" value="56" />
+    <task id="LOCAL-00056" summary="Kryo序列化框架.">
+      <created>1610352602118</created>
+      <option name="number" value="00056" />
+      <option name="presentableId" value="LOCAL-00056" />
+      <option name="project" value="LOCAL" />
+      <updated>1610352602118</updated>
+    </task>
+    <option name="localTasksCounter" value="57" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -556,7 +557,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="转换算子partitionBy——重新分区." />
     <MESSAGE value="转换算子reduceByKey——将数据按照相同的 Key 对 Value 进行聚合." />
     <MESSAGE value="转换算子groupByKey——将数据按照相同的 Key 分组." />
     <MESSAGE value="代码重构." />
@@ -581,6 +581,7 @@
     <MESSAGE value="行动算子——save." />
     <MESSAGE value="行动算子——foreach及叫算子的原因." />
     <MESSAGE value="RDD序列化及闭包检测." />
-    <option name="LAST_COMMIT_MESSAGE" value="RDD序列化及闭包检测." />
+    <MESSAGE value="Kryo序列化框架." />
+    <option name="LAST_COMMIT_MESSAGE" value="Kryo序列化框架." />
   </component>
 </project>
