@@ -2,7 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="eb260606-b2c3-49c1-97ab-fb82fd92a2e9" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/spark-core/src/main/java/com/pcy/bigdata/spark/core/rdd/dependency/RDD_Dependency_2.scala" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spark-core/src/main/java/com/pcy/bigdata/spark/core/rdd/persist/Spark01_RDD_Persist.scala" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spark-core/src/main/java/com/pcy/bigdata/spark/core/rdd/persist/Spark02_RDD_Persist.scala" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spark-core/src/main/java/com/pcy/bigdata/spark/core/rdd/persist/Spark03_RDD_Persist.scala" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spark-core/src/main/java/com/pcy/bigdata/spark/core/rdd/persist/Spark04_RDD_Persist.scala" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spark-core/src/main/java/com/pcy/bigdata/spark/core/rdd/persist/Spark05_RDD_Persist.scala" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spark-core/src/main/java/com/pcy/bigdata/spark/core/rdd/persist/Spark06_RDD_Persist.scala" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -56,7 +61,7 @@
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/spark-core/src/main/java/com/pcy/bigdata/spark/core/rdd/dependency" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/spark-core/src/main/java/com/pcy/bigdata/spark/core/rdd" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
@@ -78,11 +83,11 @@
       <recent name="com.pcy.bigdata.spark.core.rdd.builder" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\MyOwnCodes\IJIDEAJAVA\SparkLearning\spark-core\src\main\java\com\pcy\bigdata\spark\core\rdd" />
       <recent name="D:\MyOwnCodes\IJIDEAJAVA\SparkLearning\spark-core\src\main\java\com\pcy\bigdata\spark\core\rdd\dependency" />
       <recent name="D:\MyOwnCodes\IJIDEAJAVA\SparkLearning\spark-core\src\main\java\com\pcy\bigdata\spark\core\rdd\serial" />
       <recent name="D:\MyOwnCodes\IJIDEAJAVA\SparkLearning\spark-core\src\main\java\com\pcy\bigdata\spark\core\rdd\operator\action" />
       <recent name="D:\MyOwnCodes\IJIDEAJAVA\SparkLearning\spark-core\src\main\java\com\pcy\bigdata\spark\core\wc" />
-      <recent name="D:\MyOwnCodes\IJIDEAJAVA\SparkLearning\spark-core\src\main\java\com\pcy\bigdata\spark\core\rdd\operator\transform" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -191,14 +196,8 @@
       <workItem from="1609744139404" duration="3907000" />
       <workItem from="1609847835313" duration="10230000" />
       <workItem from="1609925516806" duration="1226000" />
-      <workItem from="1610283157115" duration="13496000" />
-    </task>
-    <task id="LOCAL-00009" summary="通过集合创建RDD时的分区以及分区是怎样切分数据的.">
-      <created>1609575619219</created>
-      <option name="number" value="00009" />
-      <option name="presentableId" value="LOCAL-00009" />
-      <option name="project" value="LOCAL" />
-      <updated>1609575619219</updated>
+      <workItem from="1610283157115" duration="15107000" />
+      <workItem from="1610766209727" duration="1151000" />
     </task>
     <task id="LOCAL-00010" summary="通过文件创建分区，分区的数量的计算方法及数据切分的方法.">
       <created>1609577506456</created>
@@ -536,7 +535,14 @@
       <option name="project" value="LOCAL" />
       <updated>1610354105741</updated>
     </task>
-    <option name="localTasksCounter" value="58" />
+    <task id="LOCAL-00058" summary="相邻RDD间的宽依赖和窄依赖.">
+      <created>1610355273525</created>
+      <option name="number" value="00058" />
+      <option name="presentableId" value="LOCAL-00058" />
+      <option name="project" value="LOCAL" />
+      <updated>1610355273525</updated>
+    </task>
+    <option name="localTasksCounter" value="59" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -556,7 +562,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="转换算子groupByKey——将数据按照相同的 Key 分组." />
     <MESSAGE value="代码重构." />
     <MESSAGE value="转换算子aggregateByKey——数据根据不同的规则进行分区内计算和分区间计算." />
     <MESSAGE value="转换算子aggregateByKey——返回数据类型由初始值决定." />
@@ -581,6 +586,7 @@
     <MESSAGE value="RDD序列化及闭包检测." />
     <MESSAGE value="Kryo序列化框架." />
     <MESSAGE value="RDD间的血缘关系." />
-    <option name="LAST_COMMIT_MESSAGE" value="RDD间的血缘关系." />
+    <MESSAGE value="相邻RDD间的宽依赖和窄依赖." />
+    <option name="LAST_COMMIT_MESSAGE" value="相邻RDD间的宽依赖和窄依赖." />
   </component>
 </project>
