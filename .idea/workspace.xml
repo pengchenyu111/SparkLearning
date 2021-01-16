@@ -2,9 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="eb260606-b2c3-49c1-97ab-fb82fd92a2e9" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/spark-core/src/main/java/com/pcy/bigdata/spark/core/rdd/persist/Spark01_RDD_Persist.scala" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spark-core/src/main/java/com/pcy/bigdata/spark/core/rdd/persist/Spark02_RDD_Persist.scala" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spark-core/src/main/java/com/pcy/bigdata/spark/core/rdd/persist/Spark03_RDD_Persist.scala" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/spark-core/src/main/java/com/pcy/bigdata/spark/core/rdd/persist/Spark04_RDD_Persist.scala" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/spark-core/src/main/java/com/pcy/bigdata/spark/core/rdd/persist/Spark05_RDD_Persist.scala" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/spark-core/src/main/java/com/pcy/bigdata/spark/core/rdd/persist/Spark06_RDD_Persist.scala" afterDir="false" />
@@ -197,14 +194,7 @@
       <workItem from="1609847835313" duration="10230000" />
       <workItem from="1609925516806" duration="1226000" />
       <workItem from="1610283157115" duration="15107000" />
-      <workItem from="1610766209727" duration="1151000" />
-    </task>
-    <task id="LOCAL-00010" summary="通过文件创建分区，分区的数量的计算方法及数据切分的方法.">
-      <created>1609577506456</created>
-      <option name="number" value="00010" />
-      <option name="presentableId" value="LOCAL-00010" />
-      <option name="project" value="LOCAL" />
-      <updated>1609577506456</updated>
+      <workItem from="1610766209727" duration="2226000" />
     </task>
     <task id="LOCAL-00011" summary="转换算子map——基本使用.">
       <created>1609578663701</created>
@@ -542,7 +532,14 @@
       <option name="project" value="LOCAL" />
       <updated>1610355273525</updated>
     </task>
-    <option name="localTasksCounter" value="59" />
+    <task id="LOCAL-00059" summary="RDD持久化.">
+      <created>1610767567470</created>
+      <option name="number" value="00059" />
+      <option name="presentableId" value="LOCAL-00059" />
+      <option name="project" value="LOCAL" />
+      <updated>1610767567470</updated>
+    </task>
+    <option name="localTasksCounter" value="60" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -562,7 +559,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="代码重构." />
     <MESSAGE value="转换算子aggregateByKey——数据根据不同的规则进行分区内计算和分区间计算." />
     <MESSAGE value="转换算子aggregateByKey——返回数据类型由初始值决定." />
     <MESSAGE value="转换算子combineByKey——基本用法." />
@@ -587,6 +583,7 @@
     <MESSAGE value="Kryo序列化框架." />
     <MESSAGE value="RDD间的血缘关系." />
     <MESSAGE value="相邻RDD间的宽依赖和窄依赖." />
-    <option name="LAST_COMMIT_MESSAGE" value="相邻RDD间的宽依赖和窄依赖." />
+    <MESSAGE value="RDD持久化." />
+    <option name="LAST_COMMIT_MESSAGE" value="RDD持久化." />
   </component>
 </project>
