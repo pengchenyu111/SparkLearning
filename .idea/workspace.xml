@@ -2,13 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="eb260606-b2c3-49c1-97ab-fb82fd92a2e9" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/spark-core/src/main/java/com/pcy/bigdata/spark/core/acc/Acc_problem.scala" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spark-core/src/main/java/com/pcy/bigdata/spark/core/acc/Acc_reason.scala" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spark-core/src/main/java/com/pcy/bigdata/spark/core/acc/Acc_use.scala" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/spark-core/src/main/java/com/pcy/bigdata/spark/core/acc/Spark04_Acc_WordCount.scala" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/spark-core/src/main/java/com/pcy/bigdata/spark/core/acc/Spark05_Bc.scala" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/spark-core/src/main/java/com/pcy/bigdata/spark/core/acc/Spark06_Bc.scala" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -197,21 +193,7 @@
       <workItem from="1609847835313" duration="10230000" />
       <workItem from="1609925516806" duration="1226000" />
       <workItem from="1610283157115" duration="15107000" />
-      <workItem from="1610766209727" duration="4930000" />
-    </task>
-    <task id="LOCAL-00014" summary="转换算子map——mapPartitions，将整个分区的数据加载到内存进行引用.">
-      <created>1609676335211</created>
-      <option name="number" value="00014" />
-      <option name="presentableId" value="LOCAL-00014" />
-      <option name="project" value="LOCAL" />
-      <updated>1609676335211</updated>
-    </task>
-    <task id="LOCAL-00015" summary="转换算子map——mapPartitions获取每个分区的最大值.">
-      <created>1609676597241</created>
-      <option name="number" value="00015" />
-      <option name="presentableId" value="LOCAL-00015" />
-      <option name="project" value="LOCAL" />
-      <updated>1609676597241</updated>
+      <workItem from="1610766209727" duration="5645000" />
     </task>
     <task id="LOCAL-00016" summary="转换算子map——mapPartitionsWithIndex 操作指定分区内的数据.">
       <created>1609677213518</created>
@@ -542,7 +524,21 @@
       <option name="project" value="LOCAL" />
       <updated>1610769897707</updated>
     </task>
-    <option name="localTasksCounter" value="63" />
+    <task id="LOCAL-00063" summary="累加器及其使用.">
+      <created>1610787986866</created>
+      <option name="number" value="00063" />
+      <option name="presentableId" value="LOCAL-00063" />
+      <option name="project" value="LOCAL" />
+      <updated>1610787986866</updated>
+    </task>
+    <task id="LOCAL-00064" summary="累加器少加和多加的问题及使用场景.">
+      <created>1610788019075</created>
+      <option name="number" value="00064" />
+      <option name="presentableId" value="LOCAL-00064" />
+      <option name="project" value="LOCAL" />
+      <updated>1610788019075</updated>
+    </task>
+    <option name="localTasksCounter" value="65" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -562,8 +558,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="转换算子join——连接." />
-    <MESSAGE value="转换算子leftOuterJoin——左外连接." />
     <MESSAGE value="转换算子cogroup—分组+连接." />
     <MESSAGE value="转换算子——小案例：统计出每一个省份每个广告被点击数量排行的 Top3." />
     <MESSAGE value="行动算子——collect." />
@@ -587,6 +581,8 @@
     <MESSAGE value="RDD检查点checkpoint." />
     <MESSAGE value="RDD分区器HashPartitioner、RangePartitioner和自定义分区器." />
     <MESSAGE value="RDD的IO操作." />
-    <option name="LAST_COMMIT_MESSAGE" value="RDD的IO操作." />
+    <MESSAGE value="累加器及其使用." />
+    <MESSAGE value="累加器少加和多加的问题及使用场景." />
+    <option name="LAST_COMMIT_MESSAGE" value="累加器少加和多加的问题及使用场景." />
   </component>
 </project>
