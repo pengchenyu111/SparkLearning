@@ -1,11 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="eb260606-b2c3-49c1-97ab-fb82fd92a2e9" name="Default Changelist" comment="累加器少加和多加的问题及使用场景.">
-      <change afterPath="$PROJECT_DIR$/spark-core/src/main/java/com/pcy/bigdata/spark/core/acc/Spark05_Bc.scala" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spark-core/src/main/java/com/pcy/bigdata/spark/core/acc/Spark06_Bc.scala" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spark-core/src/main/java/com/pcy/bigdata/spark/core/broadcast/Bc_reason.scala" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spark-core/src/main/java/com/pcy/bigdata/spark/core/broadcast/Bc_use.scala" afterDir="false" />
+    <list default="true" id="eb260606-b2c3-49c1-97ab-fb82fd92a2e9" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/datas/user_visit_action.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spark-core/src/main/java/com/pcy/bigdata/spark/core/req/HotCategoryTop10Analysis.scala" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spark-core/src/main/java/com/pcy/bigdata/spark/core/req/HotCategoryTop10Analysis_improve_1.scala" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spark-core/src/main/java/com/pcy/bigdata/spark/core/req/HotCategoryTop10Analysis_improve_2.scala" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spark-core/src/main/java/com/pcy/bigdata/spark/core/req/HotCategoryTop10Analysis_improve_3.scala" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -59,7 +60,7 @@
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/spark-core/src/main/java/com/pcy/bigdata/spark/core/broadcast" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/spark-core/src/main/java/com/pcy/bigdata/spark/core/req" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
@@ -73,11 +74,11 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\MyOwnCodes\IJIDEAJAVA\SparkLearning\spark-core\src\main\java\com\pcy\bigdata\spark\core\req" />
+      <recent name="D:\MyOwnCodes\IJIDEAJAVA\SparkLearning\datas" />
       <recent name="D:\MyOwnCodes\IJIDEAJAVA\SparkLearning\spark-core\src\main\java\com\pcy\bigdata\spark\core\broadcast" />
       <recent name="D:\MyOwnCodes\IJIDEAJAVA\SparkLearning\spark-core\src\main\java\com\pcy\bigdata\spark\core" />
       <recent name="D:\MyOwnCodes\IJIDEAJAVA\SparkLearning\spark-core\src\main\java\com\pcy\bigdata\spark\core\rdd" />
-      <recent name="D:\MyOwnCodes\IJIDEAJAVA\SparkLearning\spark-core\src\main\java\com\pcy\bigdata\spark\core\rdd\dependency" />
-      <recent name="D:\MyOwnCodes\IJIDEAJAVA\SparkLearning\spark-core\src\main\java\com\pcy\bigdata\spark\core\rdd\serial" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
       <recent name="com.pcy.bigdata.spark.core.rdd.serial" />
@@ -100,13 +101,26 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.RDD_Dependency_1">
-    <configuration name="RDD_Action_countByKey" type="Application" factoryName="Application" temporary="true">
-      <option name="MAIN_CLASS_NAME" value="com.pcy.bigdata.spark.core.rdd.operator.action.RDD_Action_countByKey" />
+  <component name="RunManager" selected="Application.HotCategoryTop10Analysis_improve_3">
+    <configuration name="HotCategoryTop10Analysis" type="Application" factoryName="Application" temporary="true">
+      <option name="MAIN_CLASS_NAME" value="com.pcy.bigdata.spark.core.req.HotCategoryTop10Analysis" />
       <module name="spark-core" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.pcy.bigdata.spark.core.rdd.serial.*" />
+          <option name="PATTERN" value="com.pcy.bigdata.spark.core.req.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="HotCategoryTop10Analysis_improve_3" type="Application" factoryName="Application" temporary="true">
+      <option name="MAIN_CLASS_NAME" value="com.pcy.bigdata.spark.core.req.HotCategoryTop10Analysis_improve_3" />
+      <module name="spark-core" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.pcy.bigdata.spark.core.req.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -140,8 +154,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="RDD_Transform_groupBy" type="Application" factoryName="Application" temporary="true">
-      <option name="MAIN_CLASS_NAME" value="com.pcy.bigdata.spark.core.rdd.operator.transform.RDD_Transform_groupBy" />
+    <configuration name="RDD_Transform_cogroup" type="Application" factoryName="Application" temporary="true">
+      <option name="MAIN_CLASS_NAME" value="com.pcy.bigdata.spark.core.rdd.operator.transform.RDD_Transform_cogroup" />
       <module name="spark-core" />
       <extension name="coverage">
         <pattern>
@@ -153,26 +167,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="WordCount3" type="Application" factoryName="Application" temporary="true">
-      <option name="MAIN_CLASS_NAME" value="com.pcy.bigdata.spark.core.wc.WordCount3" />
-      <module name="spark-core" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.pcy.bigdata.spark.core.wc.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.HotCategoryTop10Analysis_improve_3" />
+        <item itemvalue="Application.HotCategoryTop10Analysis" />
+        <item itemvalue="Application.RDD_Transform_cogroup" />
         <item itemvalue="Application.RDD_Dependency_1" />
         <item itemvalue="Application.RDD_Serializable_Kryo" />
-        <item itemvalue="Application.WordCount3" />
-        <item itemvalue="Application.RDD_Transform_groupBy" />
-        <item itemvalue="Application.RDD_Action_countByKey" />
       </list>
     </recent_temporary>
   </component>
@@ -195,14 +196,7 @@
       <workItem from="1609847835313" duration="10230000" />
       <workItem from="1609925516806" duration="1226000" />
       <workItem from="1610283157115" duration="15107000" />
-      <workItem from="1610766209727" duration="6587000" />
-    </task>
-    <task id="LOCAL-00017" summary="转换算子flatMap——flatMap 基本使用.">
-      <created>1609677978425</created>
-      <option name="number" value="00017" />
-      <option name="presentableId" value="LOCAL-00017" />
-      <option name="project" value="LOCAL" />
-      <updated>1609677978425</updated>
+      <workItem from="1610766209727" duration="11793000" />
     </task>
     <task id="LOCAL-00018" summary="转换算子flatMap——flatMap 和模式匹配的使用">
       <created>1609678242477</created>
@@ -540,7 +534,14 @@
       <option name="project" value="LOCAL" />
       <updated>1610789264802</updated>
     </task>
-    <option name="localTasksCounter" value="66" />
+    <task id="LOCAL-00066" summary="广播变量的原理及使用.">
+      <created>1610790731545</created>
+      <option name="number" value="00066" />
+      <option name="presentableId" value="LOCAL-00066" />
+      <option name="project" value="LOCAL" />
+      <updated>1610790731545</updated>
+    </task>
+    <option name="localTasksCounter" value="67" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -560,7 +561,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="转换算子——小案例：统计出每一个省份每个广告被点击数量排行的 Top3." />
     <MESSAGE value="行动算子——collect." />
     <MESSAGE value="行动算子——count." />
     <MESSAGE value="行动算子——first." />
@@ -585,6 +585,7 @@
     <MESSAGE value="累加器及其使用." />
     <MESSAGE value="累加器少加和多加的问题及使用场景." />
     <MESSAGE value="自定义累加器实现wordcount." />
-    <option name="LAST_COMMIT_MESSAGE" value="自定义累加器实现wordcount." />
+    <MESSAGE value="广播变量的原理及使用." />
+    <option name="LAST_COMMIT_MESSAGE" value="广播变量的原理及使用." />
   </component>
 </project>
