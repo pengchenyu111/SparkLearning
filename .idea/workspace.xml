@@ -2,7 +2,15 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="eb260606-b2c3-49c1-97ab-fb82fd92a2e9" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/spark-core/src/main/java/com/pcy/bigdata/spark/core/req/PageflowAnalysis.scala" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spark-core/src/main/java/com/pcy/bigdata/spark/core/framework/application/WordCountApplication.scala" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spark-core/src/main/java/com/pcy/bigdata/spark/core/framework/common/TApplication.scala" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spark-core/src/main/java/com/pcy/bigdata/spark/core/framework/common/TController.scala" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spark-core/src/main/java/com/pcy/bigdata/spark/core/framework/common/TDao.scala" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spark-core/src/main/java/com/pcy/bigdata/spark/core/framework/common/TService.scala" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spark-core/src/main/java/com/pcy/bigdata/spark/core/framework/controller/WordCountController.scala" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spark-core/src/main/java/com/pcy/bigdata/spark/core/framework/dao/WordCountDao.scala" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spark-core/src/main/java/com/pcy/bigdata/spark/core/framework/service/WordCountService.scala" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spark-core/src/main/java/com/pcy/bigdata/spark/core/framework/util/EnvUtil.scala" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -56,7 +64,7 @@
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/spark-core/src/main/java/com/pcy/bigdata/spark/core/req" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/spark-core/src/main/java/com/pcy/bigdata/spark/core" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
@@ -78,10 +86,10 @@
       <recent name="com.pcy.bigdata.spark.core.rdd.builder" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\MyOwnCodes\IJIDEAJAVA\SparkLearning\spark-core\src\main\java\com\pcy\bigdata\spark\core" />
       <recent name="D:\MyOwnCodes\IJIDEAJAVA\SparkLearning\spark-core\src\main\java\com\pcy\bigdata\spark\core\req" />
       <recent name="D:\MyOwnCodes\IJIDEAJAVA\SparkLearning\datas" />
       <recent name="D:\MyOwnCodes\IJIDEAJAVA\SparkLearning\spark-core\src\main\java\com\pcy\bigdata\spark\core\broadcast" />
-      <recent name="D:\MyOwnCodes\IJIDEAJAVA\SparkLearning\spark-core\src\main\java\com\pcy\bigdata\spark\core" />
       <recent name="D:\MyOwnCodes\IJIDEAJAVA\SparkLearning\spark-core\src\main\java\com\pcy\bigdata\spark\core\rdd" />
     </key>
   </component>
@@ -97,7 +105,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.PageflowAnalysis">
+  <component name="RunManager" selected="Application.WordCountApplication">
     <configuration name="HotCategoryTop10Analysis" type="Application" factoryName="Application" temporary="true">
       <option name="MAIN_CLASS_NAME" value="com.pcy.bigdata.spark.core.req.HotCategoryTop10Analysis" />
       <module name="spark-core" />
@@ -150,12 +158,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="RDD_Transform_cogroup" type="Application" factoryName="Application" temporary="true">
-      <option name="MAIN_CLASS_NAME" value="com.pcy.bigdata.spark.core.rdd.operator.transform.RDD_Transform_cogroup" />
+    <configuration name="WordCountApplication" type="Application" factoryName="Application" temporary="true">
+      <option name="MAIN_CLASS_NAME" value="com.pcy.bigdata.spark.core.framework.application.WordCountApplication" />
       <module name="spark-core" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.pcy.bigdata.spark.core.rdd.operator.transform.*" />
+          <option name="PATTERN" value="com.pcy.bigdata.spark.core.framework.application.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -165,11 +173,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.WordCountApplication" />
         <item itemvalue="Application.PageflowAnalysis" />
         <item itemvalue="Application.HotCategoryTop10SessionAnalysis" />
         <item itemvalue="Application.HotCategoryTop10Analysis_improve_3" />
         <item itemvalue="Application.HotCategoryTop10Analysis" />
-        <item itemvalue="Application.RDD_Transform_cogroup" />
       </list>
     </recent_temporary>
   </component>
@@ -193,14 +201,7 @@
       <workItem from="1609925516806" duration="1226000" />
       <workItem from="1610283157115" duration="15107000" />
       <workItem from="1610766209727" duration="12137000" />
-      <workItem from="1611469676642" duration="3864000" />
-    </task>
-    <task id="LOCAL-00023" summary="转换算子filter——基本用法.">
-      <created>1609682791597</created>
-      <option name="number" value="00023" />
-      <option name="presentableId" value="LOCAL-00023" />
-      <option name="project" value="LOCAL" />
-      <updated>1609682791597</updated>
+      <workItem from="1611469676642" duration="6877000" />
     </task>
     <task id="LOCAL-00024" summary="转换算子sample算子——抽样sample基本用法.">
       <created>1609683799902</created>
@@ -538,7 +539,14 @@
       <option name="project" value="LOCAL" />
       <updated>1611470652356</updated>
     </task>
-    <option name="localTasksCounter" value="72" />
+    <task id="LOCAL-00072" summary="需求：页面单跳转换率统计 .">
+      <created>1611474750409</created>
+      <option name="number" value="00072" />
+      <option name="presentableId" value="LOCAL-00072" />
+      <option name="project" value="LOCAL" />
+      <updated>1611474750409</updated>
+    </task>
+    <option name="localTasksCounter" value="73" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -558,7 +566,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="行动算子——takeOrdered." />
     <MESSAGE value="行动算子aggregate——初始值会参与分区内计算,并且和参与分区间计算." />
     <MESSAGE value="行动算子fold——当分区内和分区间的计算规则相同时来简化aggregate." />
     <MESSAGE value="行动算子——countByValue." />
@@ -583,6 +590,7 @@
     <MESSAGE value="Top10热门品类——改善：存在大量的shuffle操作（reduceByKey）." />
     <MESSAGE value="Top10热门品类——改善：用累加器减少shuffle." />
     <MESSAGE value="需求：在需求一的基础上，增加每个品类用户 session 的点击统计 ." />
-    <option name="LAST_COMMIT_MESSAGE" value="需求：在需求一的基础上，增加每个品类用户 session 的点击统计 ." />
+    <MESSAGE value="需求：页面单跳转换率统计 ." />
+    <option name="LAST_COMMIT_MESSAGE" value="需求：页面单跳转换率统计 ." />
   </component>
 </project>
