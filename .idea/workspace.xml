@@ -2,15 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="eb260606-b2c3-49c1-97ab-fb82fd92a2e9" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/spark-core/src/main/java/com/pcy/bigdata/spark/core/framework/application/WordCountApplication.scala" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spark-core/src/main/java/com/pcy/bigdata/spark/core/framework/common/TApplication.scala" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spark-core/src/main/java/com/pcy/bigdata/spark/core/framework/common/TController.scala" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spark-core/src/main/java/com/pcy/bigdata/spark/core/framework/common/TDao.scala" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spark-core/src/main/java/com/pcy/bigdata/spark/core/framework/common/TService.scala" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spark-core/src/main/java/com/pcy/bigdata/spark/core/framework/controller/WordCountController.scala" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spark-core/src/main/java/com/pcy/bigdata/spark/core/framework/dao/WordCountDao.scala" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spark-core/src/main/java/com/pcy/bigdata/spark/core/framework/service/WordCountService.scala" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spark-core/src/main/java/com/pcy/bigdata/spark/core/framework/util/EnvUtil.scala" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -64,7 +55,7 @@
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/spark-core/src/main/java/com/pcy/bigdata/spark/core" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/docs" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
@@ -201,14 +192,7 @@
       <workItem from="1609925516806" duration="1226000" />
       <workItem from="1610283157115" duration="15107000" />
       <workItem from="1610766209727" duration="12137000" />
-      <workItem from="1611469676642" duration="6877000" />
-    </task>
-    <task id="LOCAL-00024" summary="转换算子sample算子——抽样sample基本用法.">
-      <created>1609683799902</created>
-      <option name="number" value="00024" />
-      <option name="presentableId" value="LOCAL-00024" />
-      <option name="project" value="LOCAL" />
-      <updated>1609683799902</updated>
+      <workItem from="1611469676642" duration="8770000" />
     </task>
     <task id="LOCAL-00025" summary="转换算子distinct——基本用法（注意实现方法）.">
       <created>1609684355949</created>
@@ -546,7 +530,14 @@
       <option name="project" value="LOCAL" />
       <updated>1611474750409</updated>
     </task>
-    <option name="localTasksCounter" value="73" />
+    <task id="LOCAL-00073" summary="工程化代码——三层架构.">
+      <created>1611477789595</created>
+      <option name="number" value="00073" />
+      <option name="presentableId" value="LOCAL-00073" />
+      <option name="project" value="LOCAL" />
+      <updated>1611477789595</updated>
+    </task>
+    <option name="localTasksCounter" value="74" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -566,7 +557,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="行动算子aggregate——初始值会参与分区内计算,并且和参与分区间计算." />
     <MESSAGE value="行动算子fold——当分区内和分区间的计算规则相同时来简化aggregate." />
     <MESSAGE value="行动算子——countByValue." />
     <MESSAGE value="行动算子——countByKey." />
@@ -591,6 +581,7 @@
     <MESSAGE value="Top10热门品类——改善：用累加器减少shuffle." />
     <MESSAGE value="需求：在需求一的基础上，增加每个品类用户 session 的点击统计 ." />
     <MESSAGE value="需求：页面单跳转换率统计 ." />
-    <option name="LAST_COMMIT_MESSAGE" value="需求：页面单跳转换率统计 ." />
+    <MESSAGE value="工程化代码——三层架构." />
+    <option name="LAST_COMMIT_MESSAGE" value="工程化代码——三层架构." />
   </component>
 </project>
