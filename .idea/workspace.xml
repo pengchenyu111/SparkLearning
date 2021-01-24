@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="eb260606-b2c3-49c1-97ab-fb82fd92a2e9" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/spark-core/src/main/java/com/pcy/bigdata/spark/core/req/HotCategoryTop10SessionAnalysis.scala" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spark-core/src/main/java/com/pcy/bigdata/spark/core/req/PageflowAnalysis.scala" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -97,7 +97,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.HotCategoryTop10SessionAnalysis">
+  <component name="RunManager" selected="Application.PageflowAnalysis">
     <configuration name="HotCategoryTop10Analysis" type="Application" factoryName="Application" temporary="true">
       <option name="MAIN_CLASS_NAME" value="com.pcy.bigdata.spark.core.req.HotCategoryTop10Analysis" />
       <module name="spark-core" />
@@ -137,12 +137,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="RDD_Dependency_1" type="Application" factoryName="Application" temporary="true">
-      <option name="MAIN_CLASS_NAME" value="com.pcy.bigdata.spark.core.rdd.dependency.RDD_Dependency_1" />
+    <configuration name="PageflowAnalysis" type="Application" factoryName="Application" temporary="true">
+      <option name="MAIN_CLASS_NAME" value="com.pcy.bigdata.spark.core.req.PageflowAnalysis" />
       <module name="spark-core" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.pcy.bigdata.spark.core.rdd.dependency.*" />
+          <option name="PATTERN" value="com.pcy.bigdata.spark.core.req.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -165,11 +165,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.PageflowAnalysis" />
         <item itemvalue="Application.HotCategoryTop10SessionAnalysis" />
         <item itemvalue="Application.HotCategoryTop10Analysis_improve_3" />
         <item itemvalue="Application.HotCategoryTop10Analysis" />
         <item itemvalue="Application.RDD_Transform_cogroup" />
-        <item itemvalue="Application.RDD_Dependency_1" />
       </list>
     </recent_temporary>
   </component>
@@ -193,14 +193,7 @@
       <workItem from="1609925516806" duration="1226000" />
       <workItem from="1610283157115" duration="15107000" />
       <workItem from="1610766209727" duration="12137000" />
-      <workItem from="1611469676642" duration="858000" />
-    </task>
-    <task id="LOCAL-00022" summary="转换算子groupBy——从服务器日志数据 apache.log 中获取每个时间段访问量.">
-      <created>1609682040512</created>
-      <option name="number" value="00022" />
-      <option name="presentableId" value="LOCAL-00022" />
-      <option name="project" value="LOCAL" />
-      <updated>1609682040512</updated>
+      <workItem from="1611469676642" duration="3864000" />
     </task>
     <task id="LOCAL-00023" summary="转换算子filter——基本用法.">
       <created>1609682791597</created>
@@ -538,7 +531,14 @@
       <option name="project" value="LOCAL" />
       <updated>1610810408661</updated>
     </task>
-    <option name="localTasksCounter" value="71" />
+    <task id="LOCAL-00071" summary="需求：在需求一的基础上，增加每个品类用户 session 的点击统计 .">
+      <created>1611470652355</created>
+      <option name="number" value="00071" />
+      <option name="presentableId" value="LOCAL-00071" />
+      <option name="project" value="LOCAL" />
+      <updated>1611470652356</updated>
+    </task>
+    <option name="localTasksCounter" value="72" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -558,7 +558,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="行动算子——take." />
     <MESSAGE value="行动算子——takeOrdered." />
     <MESSAGE value="行动算子aggregate——初始值会参与分区内计算,并且和参与分区间计算." />
     <MESSAGE value="行动算子fold——当分区内和分区间的计算规则相同时来简化aggregate." />
@@ -583,6 +582,7 @@
     <MESSAGE value="Top10热门品类——改善：cogroup性能可能较低、actionRDD重复使用." />
     <MESSAGE value="Top10热门品类——改善：存在大量的shuffle操作（reduceByKey）." />
     <MESSAGE value="Top10热门品类——改善：用累加器减少shuffle." />
-    <option name="LAST_COMMIT_MESSAGE" value="Top10热门品类——改善：用累加器减少shuffle." />
+    <MESSAGE value="需求：在需求一的基础上，增加每个品类用户 session 的点击统计 ." />
+    <option name="LAST_COMMIT_MESSAGE" value="需求：在需求一的基础上，增加每个品类用户 session 的点击统计 ." />
   </component>
 </project>
