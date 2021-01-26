@@ -2,8 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="eb260606-b2c3-49c1-97ab-fb82fd92a2e9" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/spark-sql/src/main/java/com/pcy/bigdata/spark/sql/SparkSQL_Basic.scala" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spark-sql/src/main/resources/log4j.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/datas/user.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spark-sql/src/main/java/com/pcy/bigdata/spark/sql/SparkSQL_select.scala" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spark-sql/src/main/java/com/pcy/bigdata/spark/sql/SparkSQL_transferom.scala" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -57,7 +58,7 @@
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/spark-sql/src/main/resources" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/spark-sql/src/main/java/com/pcy/bigdata/spark/sql" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
@@ -71,8 +72,8 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
-      <recent name="D:\MyOwnCodes\IJIDEAJAVA\SparkLearning\spark-sql\src\main\resources" />
       <recent name="D:\MyOwnCodes\IJIDEAJAVA\SparkLearning\spark-sql\src\main\java\com\pcy\bigdata\spark\sql" />
+      <recent name="D:\MyOwnCodes\IJIDEAJAVA\SparkLearning\spark-sql\src\main\resources" />
       <recent name="D:\MyOwnCodes\IJIDEAJAVA\SparkLearning\docs" />
       <recent name="D:\MyOwnCodes\IJIDEAJAVA\SparkLearning\docs\pdfs" />
       <recent name="D:\MyOwnCodes\IJIDEAJAVA\SparkLearning\spark-core\src\main\java\com\pcy\bigdata\spark\core" />
@@ -139,7 +140,7 @@
       </method>
     </configuration>
     <configuration name="SparkSQL_Basic" type="Application" factoryName="Application" temporary="true">
-      <option name="MAIN_CLASS_NAME" value="com.pcy.bigdata.spark.sql.SparkSQL_Basic" />
+      <option name="MAIN_CLASS_NAME" value="com.pcy.bigdata.spark.sql.SparkSQL_select" />
       <module name="spark-sql" />
       <extension name="coverage">
         <pattern>
@@ -195,14 +196,7 @@
       <workItem from="1610283157115" duration="15107000" />
       <workItem from="1610766209727" duration="12137000" />
       <workItem from="1611469676642" duration="9662000" />
-      <workItem from="1611648749257" duration="2099000" />
-    </task>
-    <task id="LOCAL-00027" summary="转换算子repartition——根据数据量增加/缩减分区.">
-      <created>1609685440452</created>
-      <option name="number" value="00027" />
-      <option name="presentableId" value="LOCAL-00027" />
-      <option name="project" value="LOCAL" />
-      <updated>1609685440452</updated>
+      <workItem from="1611648749257" duration="5253000" />
     </task>
     <task id="LOCAL-00028" summary="转换算子sortBy——排序基本用法.">
       <created>1609753906866</created>
@@ -540,7 +534,14 @@
       <option name="project" value="LOCAL" />
       <updated>1611653789517</updated>
     </task>
-    <option name="localTasksCounter" value="76" />
+    <task id="LOCAL-00076" summary="添加log4j配置.">
+      <created>1611654554845</created>
+      <option name="number" value="00076" />
+      <option name="presentableId" value="LOCAL-00076" />
+      <option name="project" value="LOCAL" />
+      <updated>1611654554845</updated>
+    </task>
+    <option name="localTasksCounter" value="77" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -560,7 +561,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="行动算子——countByKey." />
     <MESSAGE value="所有能实现WordCount的方法整合." />
     <MESSAGE value="行动算子——save." />
     <MESSAGE value="行动算子——foreach及叫算子的原因." />
@@ -585,6 +585,7 @@
     <MESSAGE value="工程化代码——三层架构." />
     <MESSAGE value="上传学习pdf和原理图." />
     <MESSAGE value="构建SparkSQL模块结构." />
-    <option name="LAST_COMMIT_MESSAGE" value="构建SparkSQL模块结构." />
+    <MESSAGE value="添加log4j配置." />
+    <option name="LAST_COMMIT_MESSAGE" value="添加log4j配置." />
   </component>
 </project>
