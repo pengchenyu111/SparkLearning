@@ -138,7 +138,7 @@
       </method>
     </configuration>
     <configuration name="SparkSQL_UDAF" type="Application" factoryName="Application" temporary="true">
-      <option name="MAIN_CLASS_NAME" value="com.pcy.bigdata.spark.sql.SparkSQL_UDAF" />
+      <option name="MAIN_CLASS_NAME" value="com.pcy.bigdata.spark.sql.SparkSQL_UDAF_1" />
       <module name="spark-sql" />
       <extension name="coverage">
         <pattern>

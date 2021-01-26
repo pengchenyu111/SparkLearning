@@ -9,7 +9,7 @@ import org.apache.spark.sql.types.{DataType, LongType, StructField, StructType}
  * 用户自定义聚合函数 - 弱类型
  * 以求年龄平均值为例
  */
-object SparkSQL_UDAF {
+object SparkSQL_UDAF_1 {
 
   def main(args: Array[String]): Unit = {
 
