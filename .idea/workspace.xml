@@ -2,7 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="eb260606-b2c3-49c1-97ab-fb82fd92a2e9" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/spark-sql/pom.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -55,7 +57,7 @@
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/docs" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/spark-sql/src/main/java/com/pcy/bigdata/spark/sql" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
@@ -65,7 +67,7 @@
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
-    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
+    <property name="settings.editor.selected.configurable" value="MavenSettings" />
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
@@ -77,11 +79,11 @@
       <recent name="com.pcy.bigdata.spark.core.rdd.builder" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\MyOwnCodes\IJIDEAJAVA\SparkLearning\docs" />
+      <recent name="D:\MyOwnCodes\IJIDEAJAVA\SparkLearning\docs\pdfs" />
       <recent name="D:\MyOwnCodes\IJIDEAJAVA\SparkLearning\spark-core\src\main\java\com\pcy\bigdata\spark\core" />
       <recent name="D:\MyOwnCodes\IJIDEAJAVA\SparkLearning\spark-core\src\main\java\com\pcy\bigdata\spark\core\req" />
       <recent name="D:\MyOwnCodes\IJIDEAJAVA\SparkLearning\datas" />
-      <recent name="D:\MyOwnCodes\IJIDEAJAVA\SparkLearning\spark-core\src\main\java\com\pcy\bigdata\spark\core\broadcast" />
-      <recent name="D:\MyOwnCodes\IJIDEAJAVA\SparkLearning\spark-core\src\main\java\com\pcy\bigdata\spark\core\rdd" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -192,14 +194,8 @@
       <workItem from="1609925516806" duration="1226000" />
       <workItem from="1610283157115" duration="15107000" />
       <workItem from="1610766209727" duration="12137000" />
-      <workItem from="1611469676642" duration="8770000" />
-    </task>
-    <task id="LOCAL-00025" summary="转换算子distinct——基本用法（注意实现方法）.">
-      <created>1609684355949</created>
-      <option name="number" value="00025" />
-      <option name="presentableId" value="LOCAL-00025" />
-      <option name="project" value="LOCAL" />
-      <updated>1609684355949</updated>
+      <workItem from="1611469676642" duration="9662000" />
+      <workItem from="1611648749257" duration="1219000" />
     </task>
     <task id="LOCAL-00026" summary="转换算子coalesce——根据数据量缩减分区.">
       <created>1609685116952</created>
@@ -537,7 +533,14 @@
       <option name="project" value="LOCAL" />
       <updated>1611477789595</updated>
     </task>
-    <option name="localTasksCounter" value="74" />
+    <task id="LOCAL-00074" summary="上传学习pdf和原理图.">
+      <created>1611479980525</created>
+      <option name="number" value="00074" />
+      <option name="presentableId" value="LOCAL-00074" />
+      <option name="project" value="LOCAL" />
+      <updated>1611479980525</updated>
+    </task>
+    <option name="localTasksCounter" value="75" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -557,7 +560,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="行动算子fold——当分区内和分区间的计算规则相同时来简化aggregate." />
     <MESSAGE value="行动算子——countByValue." />
     <MESSAGE value="行动算子——countByKey." />
     <MESSAGE value="所有能实现WordCount的方法整合." />
@@ -582,6 +584,7 @@
     <MESSAGE value="需求：在需求一的基础上，增加每个品类用户 session 的点击统计 ." />
     <MESSAGE value="需求：页面单跳转换率统计 ." />
     <MESSAGE value="工程化代码——三层架构." />
-    <option name="LAST_COMMIT_MESSAGE" value="工程化代码——三层架构." />
+    <MESSAGE value="上传学习pdf和原理图." />
+    <option name="LAST_COMMIT_MESSAGE" value="上传学习pdf和原理图." />
   </component>
 </project>
