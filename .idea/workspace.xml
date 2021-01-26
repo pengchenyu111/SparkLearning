@@ -2,7 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="eb260606-b2c3-49c1-97ab-fb82fd92a2e9" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/spark-sql/src/main/java/com/pcy/bigdata/spark/sql/SparkSQL_UDAF_2.scala" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spark-sql/src/main/java/com/pcy/bigdata/spark/sql/SparkSQL_JDBC.scala" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spark-sql/src/main/java/com/pcy/bigdata/spark/sql/SparkSQL_Json.scala" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -77,6 +78,7 @@
       <recent name="D:\MyOwnCodes\IJIDEAJAVA\SparkLearning\spark-core\src\main\java\com\pcy\bigdata\spark\core" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.pcy.bigdata.spark.sql" />
       <recent name="com.pcy.bigdata.spark.core.rdd.serial" />
       <recent name="com.pcy.bigdata.spark.core.rdd.operator.action" />
       <recent name="com.pcy.bigdata.spark.core.rdd.builder" />
@@ -97,13 +99,13 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.SparkSQL_UDAF_2">
-    <configuration name="PageflowAnalysis" type="Application" factoryName="Application" temporary="true">
-      <option name="MAIN_CLASS_NAME" value="com.pcy.bigdata.spark.core.req.PageflowAnalysis" />
-      <module name="spark-core" />
+  <component name="RunManager" selected="Application.SparkSQL_Json">
+    <configuration name="SparkSQL_Basic" type="Application" factoryName="Application" temporary="true">
+      <option name="MAIN_CLASS_NAME" value="com.pcy.bigdata.spark.sql.SparkSQL_select" />
+      <module name="spark-sql" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.pcy.bigdata.spark.core.req.*" />
+          <option name="PATTERN" value="com.pcy.bigdata.spark.sql.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -111,8 +113,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="SparkSQL_Basic" type="Application" factoryName="Application" temporary="true">
-      <option name="MAIN_CLASS_NAME" value="com.pcy.bigdata.spark.sql.SparkSQL_select" />
+    <configuration name="SparkSQL_Json" type="Application" factoryName="Application" temporary="true">
+      <option name="MAIN_CLASS_NAME" value="com.pcy.bigdata.spark.sql.SparkSQL_Json" />
       <module name="spark-sql" />
       <extension name="coverage">
         <pattern>
@@ -165,11 +167,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.SparkSQL_Json" />
         <item itemvalue="Application.SparkSQL_UDAF_2" />
         <item itemvalue="Application.SparkSQL_UDAF" />
         <item itemvalue="Application.SparkSQL_Basic" />
         <item itemvalue="Application.WordCountApplication" />
-        <item itemvalue="Application.PageflowAnalysis" />
       </list>
     </recent_temporary>
   </component>
@@ -194,14 +196,7 @@
       <workItem from="1610283157115" duration="15107000" />
       <workItem from="1610766209727" duration="12137000" />
       <workItem from="1611469676642" duration="9662000" />
-      <workItem from="1611648749257" duration="7828000" />
-    </task>
-    <task id="LOCAL-00033" summary="转换算子groupByKey——将数据按照相同的 Key 分组.">
-      <created>1609854353808</created>
-      <option name="number" value="00033" />
-      <option name="presentableId" value="LOCAL-00033" />
-      <option name="project" value="LOCAL" />
-      <updated>1609854353808</updated>
+      <workItem from="1611648749257" duration="8665000" />
     </task>
     <task id="LOCAL-00034" summary="代码重构.">
       <created>1609855602760</created>
@@ -539,7 +534,14 @@
       <option name="project" value="LOCAL" />
       <updated>1611664465310</updated>
     </task>
-    <option name="localTasksCounter" value="82" />
+    <task id="LOCAL-00082" summary="SparkSQL——用户自定义聚合函数-强类型.">
+      <created>1611665383588</created>
+      <option name="number" value="00082" />
+      <option name="presentableId" value="LOCAL-00082" />
+      <option name="project" value="LOCAL" />
+      <updated>1611665383588</updated>
+    </task>
+    <option name="localTasksCounter" value="83" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -559,7 +561,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Kryo序列化框架." />
     <MESSAGE value="RDD间的血缘关系." />
     <MESSAGE value="相邻RDD间的宽依赖和窄依赖." />
     <MESSAGE value="RDD持久化." />
@@ -584,6 +585,7 @@
     <MESSAGE value="SparkSQL——RDD、DataFrame和DataSet间的相互转换." />
     <MESSAGE value="SparkSQL——用户自定义函数." />
     <MESSAGE value="SparkSQL——用户自定义聚合函数-弱类型." />
-    <option name="LAST_COMMIT_MESSAGE" value="SparkSQL——用户自定义聚合函数-弱类型." />
+    <MESSAGE value="SparkSQL——用户自定义聚合函数-强类型." />
+    <option name="LAST_COMMIT_MESSAGE" value="SparkSQL——用户自定义聚合函数-强类型." />
   </component>
 </project>
