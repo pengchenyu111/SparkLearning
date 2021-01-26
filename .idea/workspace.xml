@@ -2,9 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="eb260606-b2c3-49c1-97ab-fb82fd92a2e9" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/spark-sql/src/main/java/com/pcy/bigdata/spark/sql/SparkSQL_JDBC.scala" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spark-sql/src/main/java/com/pcy/bigdata/spark/sql/SparkSQL_Json.scala" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/datas/user.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spark-sql/src/main/java/com/pcy/bigdata/spark/sql/SparkSQL_CSV.scala" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -99,9 +98,22 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.SparkSQL_Json">
+  <component name="RunManager" selected="Application.SparkSQL_CSV">
     <configuration name="SparkSQL_Basic" type="Application" factoryName="Application" temporary="true">
       <option name="MAIN_CLASS_NAME" value="com.pcy.bigdata.spark.sql.SparkSQL_select" />
+      <module name="spark-sql" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.pcy.bigdata.spark.sql.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="SparkSQL_CSV" type="Application" factoryName="Application" temporary="true">
+      <option name="MAIN_CLASS_NAME" value="com.pcy.bigdata.spark.sql.SparkSQL_CSV" />
       <module name="spark-sql" />
       <extension name="coverage">
         <pattern>
@@ -152,26 +164,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="WordCountApplication" type="Application" factoryName="Application" temporary="true">
-      <option name="MAIN_CLASS_NAME" value="com.pcy.bigdata.spark.core.framework.application.WordCountApplication" />
-      <module name="spark-core" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.pcy.bigdata.spark.core.framework.application.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.SparkSQL_CSV" />
         <item itemvalue="Application.SparkSQL_Json" />
         <item itemvalue="Application.SparkSQL_UDAF_2" />
         <item itemvalue="Application.SparkSQL_UDAF" />
         <item itemvalue="Application.SparkSQL_Basic" />
-        <item itemvalue="Application.WordCountApplication" />
       </list>
     </recent_temporary>
   </component>
@@ -196,14 +195,7 @@
       <workItem from="1610283157115" duration="15107000" />
       <workItem from="1610766209727" duration="12137000" />
       <workItem from="1611469676642" duration="9662000" />
-      <workItem from="1611648749257" duration="8665000" />
-    </task>
-    <task id="LOCAL-00034" summary="代码重构.">
-      <created>1609855602760</created>
-      <option name="number" value="00034" />
-      <option name="presentableId" value="LOCAL-00034" />
-      <option name="project" value="LOCAL" />
-      <updated>1609855602760</updated>
+      <workItem from="1611648749257" duration="8981000" />
     </task>
     <task id="LOCAL-00035" summary="转换算子aggregateByKey——数据根据不同的规则进行分区内计算和分区间计算.">
       <created>1609856712250</created>
@@ -541,7 +533,14 @@
       <option name="project" value="LOCAL" />
       <updated>1611665383588</updated>
     </task>
-    <option name="localTasksCounter" value="83" />
+    <task id="LOCAL-00083" summary="SparkSQL——读取JSON数据.">
+      <created>1611666279228</created>
+      <option name="number" value="00083" />
+      <option name="presentableId" value="LOCAL-00083" />
+      <option name="project" value="LOCAL" />
+      <updated>1611666279228</updated>
+    </task>
+    <option name="localTasksCounter" value="84" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -561,7 +560,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="RDD间的血缘关系." />
     <MESSAGE value="相邻RDD间的宽依赖和窄依赖." />
     <MESSAGE value="RDD持久化." />
     <MESSAGE value="RDD检查点checkpoint." />
@@ -586,6 +584,7 @@
     <MESSAGE value="SparkSQL——用户自定义函数." />
     <MESSAGE value="SparkSQL——用户自定义聚合函数-弱类型." />
     <MESSAGE value="SparkSQL——用户自定义聚合函数-强类型." />
-    <option name="LAST_COMMIT_MESSAGE" value="SparkSQL——用户自定义聚合函数-强类型." />
+    <MESSAGE value="SparkSQL——读取JSON数据." />
+    <option name="LAST_COMMIT_MESSAGE" value="SparkSQL——读取JSON数据." />
   </component>
 </project>
