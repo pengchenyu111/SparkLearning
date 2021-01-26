@@ -2,9 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="eb260606-b2c3-49c1-97ab-fb82fd92a2e9" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/spark-sql/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spark-sql/src/main/java/com/pcy/bigdata/spark/sql/SparkSQL_Basic.scala" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spark-sql/src/main/resources/log4j.properties" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -57,7 +57,7 @@
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/spark-sql/src/main/java/com/pcy/bigdata/spark/sql" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/spark-sql/src/main/resources" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
@@ -70,20 +70,20 @@
     <property name="settings.editor.selected.configurable" value="MavenSettings" />
   </component>
   <component name="RecentsManager">
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="D:\MyOwnCodes\IJIDEAJAVA\SparkLearning" />
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\MyOwnCodes\IJIDEAJAVA\SparkLearning\spark-sql\src\main\resources" />
+      <recent name="D:\MyOwnCodes\IJIDEAJAVA\SparkLearning\spark-sql\src\main\java\com\pcy\bigdata\spark\sql" />
+      <recent name="D:\MyOwnCodes\IJIDEAJAVA\SparkLearning\docs" />
+      <recent name="D:\MyOwnCodes\IJIDEAJAVA\SparkLearning\docs\pdfs" />
+      <recent name="D:\MyOwnCodes\IJIDEAJAVA\SparkLearning\spark-core\src\main\java\com\pcy\bigdata\spark\core" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
       <recent name="com.pcy.bigdata.spark.core.rdd.serial" />
       <recent name="com.pcy.bigdata.spark.core.rdd.operator.action" />
       <recent name="com.pcy.bigdata.spark.core.rdd.builder" />
     </key>
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="D:\MyOwnCodes\IJIDEAJAVA\SparkLearning\docs" />
-      <recent name="D:\MyOwnCodes\IJIDEAJAVA\SparkLearning\docs\pdfs" />
-      <recent name="D:\MyOwnCodes\IJIDEAJAVA\SparkLearning\spark-core\src\main\java\com\pcy\bigdata\spark\core" />
-      <recent name="D:\MyOwnCodes\IJIDEAJAVA\SparkLearning\spark-core\src\main\java\com\pcy\bigdata\spark\core\req" />
-      <recent name="D:\MyOwnCodes\IJIDEAJAVA\SparkLearning\datas" />
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\MyOwnCodes\IJIDEAJAVA\SparkLearning" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -98,20 +98,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.WordCountApplication">
-    <configuration name="HotCategoryTop10Analysis" type="Application" factoryName="Application" temporary="true">
-      <option name="MAIN_CLASS_NAME" value="com.pcy.bigdata.spark.core.req.HotCategoryTop10Analysis" />
-      <module name="spark-core" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.pcy.bigdata.spark.core.req.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="Application.SparkSQL_Basic">
     <configuration name="HotCategoryTop10Analysis_improve_3" type="Application" factoryName="Application" temporary="true">
       <option name="MAIN_CLASS_NAME" value="com.pcy.bigdata.spark.core.req.HotCategoryTop10Analysis_improve_3" />
       <module name="spark-core" />
@@ -151,6 +138,19 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="SparkSQL_Basic" type="Application" factoryName="Application" temporary="true">
+      <option name="MAIN_CLASS_NAME" value="com.pcy.bigdata.spark.sql.SparkSQL_Basic" />
+      <module name="spark-sql" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.pcy.bigdata.spark.sql.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="WordCountApplication" type="Application" factoryName="Application" temporary="true">
       <option name="MAIN_CLASS_NAME" value="com.pcy.bigdata.spark.core.framework.application.WordCountApplication" />
       <module name="spark-core" />
@@ -166,11 +166,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.SparkSQL_Basic" />
         <item itemvalue="Application.WordCountApplication" />
         <item itemvalue="Application.PageflowAnalysis" />
         <item itemvalue="Application.HotCategoryTop10SessionAnalysis" />
         <item itemvalue="Application.HotCategoryTop10Analysis_improve_3" />
-        <item itemvalue="Application.HotCategoryTop10Analysis" />
       </list>
     </recent_temporary>
   </component>
@@ -195,14 +195,7 @@
       <workItem from="1610283157115" duration="15107000" />
       <workItem from="1610766209727" duration="12137000" />
       <workItem from="1611469676642" duration="9662000" />
-      <workItem from="1611648749257" duration="1219000" />
-    </task>
-    <task id="LOCAL-00026" summary="转换算子coalesce——根据数据量缩减分区.">
-      <created>1609685116952</created>
-      <option name="number" value="00026" />
-      <option name="presentableId" value="LOCAL-00026" />
-      <option name="project" value="LOCAL" />
-      <updated>1609685116952</updated>
+      <workItem from="1611648749257" duration="2099000" />
     </task>
     <task id="LOCAL-00027" summary="转换算子repartition——根据数据量增加/缩减分区.">
       <created>1609685440452</created>
@@ -540,7 +533,14 @@
       <option name="project" value="LOCAL" />
       <updated>1611479980525</updated>
     </task>
-    <option name="localTasksCounter" value="75" />
+    <task id="LOCAL-00075" summary="构建SparkSQL模块结构.">
+      <created>1611653789516</created>
+      <option name="number" value="00075" />
+      <option name="presentableId" value="LOCAL-00075" />
+      <option name="project" value="LOCAL" />
+      <updated>1611653789517</updated>
+    </task>
+    <option name="localTasksCounter" value="76" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -560,7 +560,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="行动算子——countByValue." />
     <MESSAGE value="行动算子——countByKey." />
     <MESSAGE value="所有能实现WordCount的方法整合." />
     <MESSAGE value="行动算子——save." />
@@ -585,6 +584,7 @@
     <MESSAGE value="需求：页面单跳转换率统计 ." />
     <MESSAGE value="工程化代码——三层架构." />
     <MESSAGE value="上传学习pdf和原理图." />
-    <option name="LAST_COMMIT_MESSAGE" value="上传学习pdf和原理图." />
+    <MESSAGE value="构建SparkSQL模块结构." />
+    <option name="LAST_COMMIT_MESSAGE" value="构建SparkSQL模块结构." />
   </component>
 </project>
