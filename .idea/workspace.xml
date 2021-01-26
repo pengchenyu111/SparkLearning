@@ -2,9 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="eb260606-b2c3-49c1-97ab-fb82fd92a2e9" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/datas/user.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spark-sql/src/main/java/com/pcy/bigdata/spark/sql/SparkSQL_select.scala" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spark-sql/src/main/java/com/pcy/bigdata/spark/sql/SparkSQL_transferom.scala" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spark-sql/src/main/java/com/pcy/bigdata/spark/sql/Spark03_SparkSQL_UDAF.scala" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spark-sql/src/main/java/com/pcy/bigdata/spark/sql/SparkSQL_UDF.scala" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -196,21 +195,7 @@
       <workItem from="1610283157115" duration="15107000" />
       <workItem from="1610766209727" duration="12137000" />
       <workItem from="1611469676642" duration="9662000" />
-      <workItem from="1611648749257" duration="5253000" />
-    </task>
-    <task id="LOCAL-00028" summary="转换算子sortBy——排序基本用法.">
-      <created>1609753906866</created>
-      <option name="number" value="00028" />
-      <option name="presentableId" value="LOCAL-00028" />
-      <option name="project" value="LOCAL" />
-      <updated>1609753906866</updated>
-    </task>
-    <task id="LOCAL-00029" summary="转换算子intersection、union、subtract、zip——交集、并集、差集、拉链的操作.">
-      <created>1609851160500</created>
-      <option name="number" value="00029" />
-      <option name="presentableId" value="LOCAL-00029" />
-      <option name="project" value="LOCAL" />
-      <updated>1609851160500</updated>
+      <workItem from="1611648749257" duration="6107000" />
     </task>
     <task id="LOCAL-00030" summary="转换算子zip——两个数据源分区数量、分区内数据数量要保持一致.">
       <created>1609851496357</created>
@@ -541,7 +526,21 @@
       <option name="project" value="LOCAL" />
       <updated>1611654554845</updated>
     </task>
-    <option name="localTasksCounter" value="77" />
+    <task id="LOCAL-00077" summary="SparkSQL——查询功能.">
+      <created>1611662822266</created>
+      <option name="number" value="00077" />
+      <option name="presentableId" value="LOCAL-00077" />
+      <option name="project" value="LOCAL" />
+      <updated>1611662822266</updated>
+    </task>
+    <task id="LOCAL-00078" summary="SparkSQL——RDD、DataFrame和DataSet间的相互转换.">
+      <created>1611662855420</created>
+      <option name="number" value="00078" />
+      <option name="presentableId" value="LOCAL-00078" />
+      <option name="project" value="LOCAL" />
+      <updated>1611662855420</updated>
+    </task>
+    <option name="localTasksCounter" value="79" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -561,8 +560,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="所有能实现WordCount的方法整合." />
-    <MESSAGE value="行动算子——save." />
     <MESSAGE value="行动算子——foreach及叫算子的原因." />
     <MESSAGE value="RDD序列化及闭包检测." />
     <MESSAGE value="Kryo序列化框架." />
@@ -586,6 +583,8 @@
     <MESSAGE value="上传学习pdf和原理图." />
     <MESSAGE value="构建SparkSQL模块结构." />
     <MESSAGE value="添加log4j配置." />
-    <option name="LAST_COMMIT_MESSAGE" value="添加log4j配置." />
+    <MESSAGE value="SparkSQL——查询功能." />
+    <MESSAGE value="SparkSQL——RDD、DataFrame和DataSet间的相互转换." />
+    <option name="LAST_COMMIT_MESSAGE" value="SparkSQL——RDD、DataFrame和DataSet间的相互转换." />
   </component>
 </project>
