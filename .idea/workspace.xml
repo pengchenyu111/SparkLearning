@@ -2,7 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="eb260606-b2c3-49c1-97ab-fb82fd92a2e9" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/spark-streaming/src/main/java/com/pcy/bigdata/spark/streaming/SparkStreaming_DIY_Receiver.scala" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spark-streaming/src/main/java/com/pcy/bigdata/spark/streaming/SparkStreaming_Kafka.scala" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spark-streaming/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/spark-streaming/pom.xml" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -97,7 +99,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.SparkStreaming01_WordCount">
+  <component name="RunManager" selected="Application.SparkStreaming_Kafka">
     <configuration name="SparkSQL_CSV" type="Application" factoryName="Application" temporary="true">
       <option name="MAIN_CLASS_NAME" value="com.pcy.bigdata.spark.sql.SparkSQL_CSV" />
       <module name="spark-sql" />
@@ -113,19 +115,6 @@
     </configuration>
     <configuration name="SparkSQL_JDBC" type="Application" factoryName="Application" temporary="true">
       <option name="MAIN_CLASS_NAME" value="com.pcy.bigdata.spark.sql.SparkSQL_JDBC" />
-      <module name="spark-sql" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.pcy.bigdata.spark.sql.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="SparkSQL_Json" type="Application" factoryName="Application" temporary="true">
-      <option name="MAIN_CLASS_NAME" value="com.pcy.bigdata.spark.sql.SparkSQL_Json" />
       <module name="spark-sql" />
       <extension name="coverage">
         <pattern>
@@ -163,13 +152,26 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="SparkStreaming_Kafka" type="Application" factoryName="Application" temporary="true">
+      <option name="MAIN_CLASS_NAME" value="com.pcy.bigdata.spark.streaming.SparkStreaming_Kafka" />
+      <module name="spark-streaming" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.pcy.bigdata.spark.streaming.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.SparkStreaming_Kafka" />
         <item itemvalue="Application.SparkStreaming01_WordCount" />
         <item itemvalue="Application.SparkSQL_Req_1_data" />
         <item itemvalue="Application.SparkSQL_JDBC" />
         <item itemvalue="Application.SparkSQL_CSV" />
-        <item itemvalue="Application.SparkSQL_Json" />
       </list>
     </recent_temporary>
   </component>
@@ -196,14 +198,7 @@
       <workItem from="1611469676642" duration="9662000" />
       <workItem from="1611648749257" duration="10790000" />
       <workItem from="1611987854785" duration="1801000" />
-      <workItem from="1611989739944" duration="6509000" />
-    </task>
-    <task id="LOCAL-00044" summary="行动算子——first.">
-      <created>1610287613103</created>
-      <option name="number" value="00044" />
-      <option name="presentableId" value="LOCAL-00044" />
-      <option name="project" value="LOCAL" />
-      <updated>1610287613103</updated>
+      <workItem from="1611989739944" duration="9423000" />
     </task>
     <task id="LOCAL-00045" summary="行动算子——reduce.">
       <created>1610287629235</created>
@@ -541,7 +536,14 @@
       <option name="project" value="LOCAL" />
       <updated>1612011673034</updated>
     </task>
-    <option name="localTasksCounter" value="93" />
+    <task id="LOCAL-00093" summary="SparkStreaming——自定义数据采集器.">
+      <created>1612012234867</created>
+      <option name="number" value="00093" />
+      <option name="presentableId" value="LOCAL-00093" />
+      <option name="project" value="LOCAL" />
+      <updated>1612012234867</updated>
+    </task>
+    <option name="localTasksCounter" value="94" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -561,7 +563,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="需求：Top10热门品类." />
     <MESSAGE value="Top10热门品类——改善：cogroup性能可能较低、actionRDD重复使用." />
     <MESSAGE value="Top10热门品类——改善：存在大量的shuffle操作（reduceByKey）." />
     <MESSAGE value="Top10热门品类——改善：用累加器减少shuffle." />
@@ -586,6 +587,7 @@
     <MESSAGE value="SparkStreaming——添加日志配置." />
     <MESSAGE value="SparkStreaming——WordCount." />
     <MESSAGE value="SparkStreaming——用Queue的方式来创建DStream." />
-    <option name="LAST_COMMIT_MESSAGE" value="SparkStreaming——用Queue的方式来创建DStream." />
+    <MESSAGE value="SparkStreaming——自定义数据采集器." />
+    <option name="LAST_COMMIT_MESSAGE" value="SparkStreaming——自定义数据采集器." />
   </component>
 </project>
