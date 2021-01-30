@@ -2,9 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="eb260606-b2c3-49c1-97ab-fb82fd92a2e9" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/spark-streaming/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spark-streaming/src/main/java/com/pcy/bigdata/spark/streaming/SparkStreaming01_WordCount.scala" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -57,7 +56,7 @@
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/spark-sql/src/main/java/com/pcy/bigdata/spark/sql" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/spark-streaming/src/main/resources" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
@@ -71,11 +70,11 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\MyOwnCodes\IJIDEAJAVA\SparkLearning\spark-streaming\src\main\java\com\pcy\bigdata\spark\streaming" />
       <recent name="D:\MyOwnCodes\IJIDEAJAVA\SparkLearning\spark-sql\src\main\java\com\pcy\bigdata\spark\sql" />
       <recent name="D:\MyOwnCodes\IJIDEAJAVA\SparkLearning\datas" />
       <recent name="D:\MyOwnCodes\IJIDEAJAVA\SparkLearning\spark-sql\src\main\resources" />
       <recent name="D:\MyOwnCodes\IJIDEAJAVA\SparkLearning\docs" />
-      <recent name="D:\MyOwnCodes\IJIDEAJAVA\SparkLearning\docs\pdfs" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
       <recent name="com.pcy.bigdata.spark.sql" />
@@ -99,7 +98,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.SparkSQL_Req_1_data">
+  <component name="RunManager" selected="Application.SparkStreaming01_WordCount">
     <configuration name="SparkSQL_CSV" type="Application" factoryName="Application" temporary="true">
       <option name="MAIN_CLASS_NAME" value="com.pcy.bigdata.spark.sql.SparkSQL_CSV" />
       <module name="spark-sql" />
@@ -152,12 +151,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="SparkSQL_UDAF_2" type="Application" factoryName="Application" temporary="true">
-      <option name="MAIN_CLASS_NAME" value="com.pcy.bigdata.spark.sql.SparkSQL_UDAF_2" />
-      <module name="spark-sql" />
+    <configuration name="SparkStreaming01_WordCount" type="Application" factoryName="Application" temporary="true">
+      <option name="MAIN_CLASS_NAME" value="com.pcy.bigdata.spark.streaming.SparkStreaming01_WordCount" />
+      <module name="spark-streaming" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.pcy.bigdata.spark.sql.*" />
+          <option name="PATTERN" value="com.pcy.bigdata.spark.streaming.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -167,11 +166,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.SparkStreaming01_WordCount" />
         <item itemvalue="Application.SparkSQL_Req_1_data" />
         <item itemvalue="Application.SparkSQL_JDBC" />
         <item itemvalue="Application.SparkSQL_CSV" />
         <item itemvalue="Application.SparkSQL_Json" />
-        <item itemvalue="Application.SparkSQL_UDAF_2" />
       </list>
     </recent_temporary>
   </component>
@@ -198,14 +197,7 @@
       <workItem from="1611469676642" duration="9662000" />
       <workItem from="1611648749257" duration="10790000" />
       <workItem from="1611987854785" duration="1801000" />
-      <workItem from="1611989739944" duration="3676000" />
-    </task>
-    <task id="LOCAL-00040" summary="转换算子cogroup—分组+连接.">
-      <created>1609860457306</created>
-      <option name="number" value="00040" />
-      <option name="presentableId" value="LOCAL-00040" />
-      <option name="project" value="LOCAL" />
-      <updated>1609860457306</updated>
+      <workItem from="1611989739944" duration="5302000" />
     </task>
     <task id="LOCAL-00041" summary="转换算子——小案例：统计出每一个省份每个广告被点击数量排行的 Top3.">
       <created>1610286169747</created>
@@ -543,7 +535,14 @@
       <option name="project" value="LOCAL" />
       <updated>1611994306341</updated>
     </task>
-    <option name="localTasksCounter" value="89" />
+    <task id="LOCAL-00089" summary="SparkStreaming——框架搭建.">
+      <created>1611995888236</created>
+      <option name="number" value="00089" />
+      <option name="presentableId" value="LOCAL-00089" />
+      <option name="project" value="LOCAL" />
+      <updated>1611995888236</updated>
+    </task>
+    <option name="localTasksCounter" value="90" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -563,7 +562,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="累加器及其使用." />
     <MESSAGE value="累加器少加和多加的问题及使用场景." />
     <MESSAGE value="自定义累加器实现wordcount." />
     <MESSAGE value="广播变量的原理及使用." />
@@ -588,6 +586,7 @@
     <MESSAGE value="SparkSQL——连接外置Hive." />
     <MESSAGE value="SparkSQL——需求：加载数据." />
     <MESSAGE value="SparkSQL——需求：计算各个区域前三大热门商品，并备注上每个商品在主要城市中的分布比例，超过两个城市用其他显示." />
-    <option name="LAST_COMMIT_MESSAGE" value="SparkSQL——需求：计算各个区域前三大热门商品，并备注上每个商品在主要城市中的分布比例，超过两个城市用其他显示." />
+    <MESSAGE value="SparkStreaming——框架搭建." />
+    <option name="LAST_COMMIT_MESSAGE" value="SparkStreaming——框架搭建." />
   </component>
 </project>
