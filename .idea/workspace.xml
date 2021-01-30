@@ -2,7 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="eb260606-b2c3-49c1-97ab-fb82fd92a2e9" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/spark-streaming/src/main/java/com/pcy/bigdata/spark/streaming/SparkStreaming01_WordCount.scala" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spark-streaming/src/main/java/com/pcy/bigdata/spark/streaming/SparkStreaming_Queue.scala" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -55,7 +56,7 @@
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/spark-streaming/src/main/resources" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/spark-streaming/src/main/java/com/pcy/bigdata/spark/streaming" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
@@ -69,8 +70,8 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
-      <recent name="D:\MyOwnCodes\IJIDEAJAVA\SparkLearning\spark-streaming\src\main\resources" />
       <recent name="D:\MyOwnCodes\IJIDEAJAVA\SparkLearning\spark-streaming\src\main\java\com\pcy\bigdata\spark\streaming" />
+      <recent name="D:\MyOwnCodes\IJIDEAJAVA\SparkLearning\spark-streaming\src\main\resources" />
       <recent name="D:\MyOwnCodes\IJIDEAJAVA\SparkLearning\spark-sql\src\main\java\com\pcy\bigdata\spark\sql" />
       <recent name="D:\MyOwnCodes\IJIDEAJAVA\SparkLearning\datas" />
       <recent name="D:\MyOwnCodes\IJIDEAJAVA\SparkLearning\spark-sql\src\main\resources" />
@@ -196,14 +197,7 @@
       <workItem from="1611469676642" duration="9662000" />
       <workItem from="1611648749257" duration="10790000" />
       <workItem from="1611987854785" duration="1801000" />
-      <workItem from="1611989739944" duration="5406000" />
-    </task>
-    <task id="LOCAL-00042" summary="行动算子——collect.">
-      <created>1610286942471</created>
-      <option name="number" value="00042" />
-      <option name="presentableId" value="LOCAL-00042" />
-      <option name="project" value="LOCAL" />
-      <updated>1610286942471</updated>
+      <workItem from="1611989739944" duration="6026000" />
     </task>
     <task id="LOCAL-00043" summary="行动算子——count.">
       <created>1610287586457</created>
@@ -541,7 +535,14 @@
       <option name="project" value="LOCAL" />
       <updated>1612010854335</updated>
     </task>
-    <option name="localTasksCounter" value="91" />
+    <task id="LOCAL-00091" summary="SparkStreaming——WordCount.">
+      <created>1612011009695</created>
+      <option name="number" value="00091" />
+      <option name="presentableId" value="LOCAL-00091" />
+      <option name="project" value="LOCAL" />
+      <updated>1612011009695</updated>
+    </task>
+    <option name="localTasksCounter" value="92" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -561,7 +562,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="自定义累加器实现wordcount." />
     <MESSAGE value="广播变量的原理及使用." />
     <MESSAGE value="需求：Top10热门品类." />
     <MESSAGE value="Top10热门品类——改善：cogroup性能可能较低、actionRDD重复使用." />
@@ -586,6 +586,7 @@
     <MESSAGE value="SparkSQL——需求：计算各个区域前三大热门商品，并备注上每个商品在主要城市中的分布比例，超过两个城市用其他显示." />
     <MESSAGE value="SparkStreaming——框架搭建." />
     <MESSAGE value="SparkStreaming——添加日志配置." />
-    <option name="LAST_COMMIT_MESSAGE" value="SparkStreaming——添加日志配置." />
+    <MESSAGE value="SparkStreaming——WordCount." />
+    <option name="LAST_COMMIT_MESSAGE" value="SparkStreaming——WordCount." />
   </component>
 </project>
