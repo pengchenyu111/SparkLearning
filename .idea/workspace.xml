@@ -2,11 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="eb260606-b2c3-49c1-97ab-fb82fd92a2e9" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/datas/city_info.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/datas/product_info.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spark-sql/src/main/java/com/pcy/bigdata/spark/sql/Spark06_SparkSQL_Test.scala" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spark-sql/src/main/java/com/pcy/bigdata/spark/sql/SparkSQL_Req_2.scala" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spark-sql/src/main/java/com/pcy/bigdata/spark/sql/SparkSQL_Req_3.scala" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/datas/user_visit_action.txt" beforeDir="false" afterPath="$PROJECT_DIR$/datas/user_visit_action.txt" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -59,7 +57,7 @@
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/datas" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/spark-sql/src/main/java/com/pcy/bigdata/spark/sql" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
@@ -72,8 +70,12 @@
     <property name="settings.editor.selected.configurable" value="MavenSettings" />
   </component>
   <component name="RecentsManager">
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="D:\MyOwnCodes\IJIDEAJAVA\SparkLearning" />
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\MyOwnCodes\IJIDEAJAVA\SparkLearning\spark-sql\src\main\java\com\pcy\bigdata\spark\sql" />
+      <recent name="D:\MyOwnCodes\IJIDEAJAVA\SparkLearning\datas" />
+      <recent name="D:\MyOwnCodes\IJIDEAJAVA\SparkLearning\spark-sql\src\main\resources" />
+      <recent name="D:\MyOwnCodes\IJIDEAJAVA\SparkLearning\docs" />
+      <recent name="D:\MyOwnCodes\IJIDEAJAVA\SparkLearning\docs\pdfs" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
       <recent name="com.pcy.bigdata.spark.sql" />
@@ -81,12 +83,8 @@
       <recent name="com.pcy.bigdata.spark.core.rdd.operator.action" />
       <recent name="com.pcy.bigdata.spark.core.rdd.builder" />
     </key>
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="D:\MyOwnCodes\IJIDEAJAVA\SparkLearning\datas" />
-      <recent name="D:\MyOwnCodes\IJIDEAJAVA\SparkLearning\spark-sql\src\main\java\com\pcy\bigdata\spark\sql" />
-      <recent name="D:\MyOwnCodes\IJIDEAJAVA\SparkLearning\spark-sql\src\main\resources" />
-      <recent name="D:\MyOwnCodes\IJIDEAJAVA\SparkLearning\docs" />
-      <recent name="D:\MyOwnCodes\IJIDEAJAVA\SparkLearning\docs\pdfs" />
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\MyOwnCodes\IJIDEAJAVA\SparkLearning" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -101,7 +99,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.SparkSQL_JDBC">
+  <component name="RunManager" selected="Application.SparkSQL_Req_1_data">
     <configuration name="SparkSQL_CSV" type="Application" factoryName="Application" temporary="true">
       <option name="MAIN_CLASS_NAME" value="com.pcy.bigdata.spark.sql.SparkSQL_CSV" />
       <module name="spark-sql" />
@@ -141,8 +139,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="SparkSQL_UDAF" type="Application" factoryName="Application" temporary="true">
-      <option name="MAIN_CLASS_NAME" value="com.pcy.bigdata.spark.sql.SparkSQL_UDAF_1" />
+    <configuration name="SparkSQL_Req_1_data" type="Application" factoryName="Application" temporary="true">
+      <option name="MAIN_CLASS_NAME" value="com.pcy.bigdata.spark.sql.SparkSQL_Req_1_data" />
       <module name="spark-sql" />
       <extension name="coverage">
         <pattern>
@@ -169,11 +167,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.SparkSQL_Req_1_data" />
         <item itemvalue="Application.SparkSQL_JDBC" />
         <item itemvalue="Application.SparkSQL_CSV" />
         <item itemvalue="Application.SparkSQL_Json" />
         <item itemvalue="Application.SparkSQL_UDAF_2" />
-        <item itemvalue="Application.SparkSQL_UDAF" />
       </list>
     </recent_temporary>
   </component>
@@ -199,14 +197,8 @@
       <workItem from="1610766209727" duration="12137000" />
       <workItem from="1611469676642" duration="9662000" />
       <workItem from="1611648749257" duration="10790000" />
-      <workItem from="1611987854785" duration="1608000" />
-    </task>
-    <task id="LOCAL-00038" summary="转换算子join——连接.">
-      <created>1609859891419</created>
-      <option name="number" value="00038" />
-      <option name="presentableId" value="LOCAL-00038" />
-      <option name="project" value="LOCAL" />
-      <updated>1609859891419</updated>
+      <workItem from="1611987854785" duration="1801000" />
+      <workItem from="1611989739944" duration="2470000" />
     </task>
     <task id="LOCAL-00039" summary="转换算子leftOuterJoin——左外连接.">
       <created>1609860134891</created>
@@ -544,7 +536,14 @@
       <option name="project" value="LOCAL" />
       <updated>1611989095384</updated>
     </task>
-    <option name="localTasksCounter" value="87" />
+    <task id="LOCAL-00087" summary="SparkSQL——需求：加载数据.">
+      <created>1611989683361</created>
+      <option name="number" value="00087" />
+      <option name="presentableId" value="LOCAL-00087" />
+      <option name="project" value="LOCAL" />
+      <updated>1611989683361</updated>
+    </task>
+    <option name="localTasksCounter" value="88" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -564,7 +563,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="RDD分区器HashPartitioner、RangePartitioner和自定义分区器." />
     <MESSAGE value="RDD的IO操作." />
     <MESSAGE value="累加器及其使用." />
     <MESSAGE value="累加器少加和多加的问题及使用场景." />
@@ -589,6 +587,7 @@
     <MESSAGE value="SparkSQL——读取CSV." />
     <MESSAGE value="SparkSQL——连接MySQL." />
     <MESSAGE value="SparkSQL——连接外置Hive." />
-    <option name="LAST_COMMIT_MESSAGE" value="SparkSQL——连接外置Hive." />
+    <MESSAGE value="SparkSQL——需求：加载数据." />
+    <option name="LAST_COMMIT_MESSAGE" value="SparkSQL——需求：加载数据." />
   </component>
 </project>
