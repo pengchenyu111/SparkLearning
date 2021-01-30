@@ -2,8 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="eb260606-b2c3-49c1-97ab-fb82fd92a2e9" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/spark-streaming/src/main/java/com/pcy/bigdata/spark/streaming/SparkStreaming_Queue.scala" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spark-streaming/src/main/java/com/pcy/bigdata/spark/streaming/SparkStreaming_DIY_Receiver.scala" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -197,14 +196,7 @@
       <workItem from="1611469676642" duration="9662000" />
       <workItem from="1611648749257" duration="10790000" />
       <workItem from="1611987854785" duration="1801000" />
-      <workItem from="1611989739944" duration="6026000" />
-    </task>
-    <task id="LOCAL-00043" summary="行动算子——count.">
-      <created>1610287586457</created>
-      <option name="number" value="00043" />
-      <option name="presentableId" value="LOCAL-00043" />
-      <option name="project" value="LOCAL" />
-      <updated>1610287586457</updated>
+      <workItem from="1611989739944" duration="6509000" />
     </task>
     <task id="LOCAL-00044" summary="行动算子——first.">
       <created>1610287613103</created>
@@ -542,7 +534,14 @@
       <option name="project" value="LOCAL" />
       <updated>1612011009695</updated>
     </task>
-    <option name="localTasksCounter" value="92" />
+    <task id="LOCAL-00092" summary="SparkStreaming——用Queue的方式来创建DStream.">
+      <created>1612011673034</created>
+      <option name="number" value="00092" />
+      <option name="presentableId" value="LOCAL-00092" />
+      <option name="project" value="LOCAL" />
+      <updated>1612011673034</updated>
+    </task>
+    <option name="localTasksCounter" value="93" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -562,7 +561,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="广播变量的原理及使用." />
     <MESSAGE value="需求：Top10热门品类." />
     <MESSAGE value="Top10热门品类——改善：cogroup性能可能较低、actionRDD重复使用." />
     <MESSAGE value="Top10热门品类——改善：存在大量的shuffle操作（reduceByKey）." />
@@ -587,6 +585,7 @@
     <MESSAGE value="SparkStreaming——框架搭建." />
     <MESSAGE value="SparkStreaming——添加日志配置." />
     <MESSAGE value="SparkStreaming——WordCount." />
-    <option name="LAST_COMMIT_MESSAGE" value="SparkStreaming——WordCount." />
+    <MESSAGE value="SparkStreaming——用Queue的方式来创建DStream." />
+    <option name="LAST_COMMIT_MESSAGE" value="SparkStreaming——用Queue的方式来创建DStream." />
   </component>
 </project>
