@@ -2,9 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="eb260606-b2c3-49c1-97ab-fb82fd92a2e9" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/spark-sql/src/main/java/com/pcy/bigdata/spark/sql/SparkSQL_Req_2.scala" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spark-sql/src/main/java/com/pcy/bigdata/spark/sql/SparkSQL_Req_3.scala" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spark-streaming/pom.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -198,14 +198,7 @@
       <workItem from="1611469676642" duration="9662000" />
       <workItem from="1611648749257" duration="10790000" />
       <workItem from="1611987854785" duration="1801000" />
-      <workItem from="1611989739944" duration="2470000" />
-    </task>
-    <task id="LOCAL-00039" summary="转换算子leftOuterJoin——左外连接.">
-      <created>1609860134891</created>
-      <option name="number" value="00039" />
-      <option name="presentableId" value="LOCAL-00039" />
-      <option name="project" value="LOCAL" />
-      <updated>1609860134891</updated>
+      <workItem from="1611989739944" duration="3676000" />
     </task>
     <task id="LOCAL-00040" summary="转换算子cogroup—分组+连接.">
       <created>1609860457306</created>
@@ -543,7 +536,14 @@
       <option name="project" value="LOCAL" />
       <updated>1611989683361</updated>
     </task>
-    <option name="localTasksCounter" value="88" />
+    <task id="LOCAL-00088" summary="SparkSQL——需求：计算各个区域前三大热门商品，并备注上每个商品在主要城市中的分布比例，超过两个城市用其他显示.">
+      <created>1611994306340</created>
+      <option name="number" value="00088" />
+      <option name="presentableId" value="LOCAL-00088" />
+      <option name="project" value="LOCAL" />
+      <updated>1611994306341</updated>
+    </task>
+    <option name="localTasksCounter" value="89" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -563,7 +563,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="RDD的IO操作." />
     <MESSAGE value="累加器及其使用." />
     <MESSAGE value="累加器少加和多加的问题及使用场景." />
     <MESSAGE value="自定义累加器实现wordcount." />
@@ -588,6 +587,7 @@
     <MESSAGE value="SparkSQL——连接MySQL." />
     <MESSAGE value="SparkSQL——连接外置Hive." />
     <MESSAGE value="SparkSQL——需求：加载数据." />
-    <option name="LAST_COMMIT_MESSAGE" value="SparkSQL——需求：加载数据." />
+    <MESSAGE value="SparkSQL——需求：计算各个区域前三大热门商品，并备注上每个商品在主要城市中的分布比例，超过两个城市用其他显示." />
+    <option name="LAST_COMMIT_MESSAGE" value="SparkSQL——需求：计算各个区域前三大热门商品，并备注上每个商品在主要城市中的分布比例，超过两个城市用其他显示." />
   </component>
 </project>
