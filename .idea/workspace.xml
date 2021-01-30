@@ -2,9 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="eb260606-b2c3-49c1-97ab-fb82fd92a2e9" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/spark-streaming/src/main/java/com/pcy/bigdata/spark/streaming/SparkStreaming_Kafka.scala" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spark-streaming/src/main/java/com/pcy/bigdata/spark/streaming/SparkStreaming_State.scala" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/spark-streaming/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/spark-streaming/pom.xml" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -198,14 +197,7 @@
       <workItem from="1611469676642" duration="9662000" />
       <workItem from="1611648749257" duration="10790000" />
       <workItem from="1611987854785" duration="1801000" />
-      <workItem from="1611989739944" duration="9423000" />
-    </task>
-    <task id="LOCAL-00045" summary="行动算子——reduce.">
-      <created>1610287629235</created>
-      <option name="number" value="00045" />
-      <option name="presentableId" value="LOCAL-00045" />
-      <option name="project" value="LOCAL" />
-      <updated>1610287629235</updated>
+      <workItem from="1611989739944" duration="10461000" />
     </task>
     <task id="LOCAL-00046" summary="行动算子——take.">
       <created>1610287645987</created>
@@ -543,7 +535,14 @@
       <option name="project" value="LOCAL" />
       <updated>1612012234867</updated>
     </task>
-    <option name="localTasksCounter" value="94" />
+    <task id="LOCAL-00094" summary="SparkStreaming——从Kafka中采集数据.">
+      <created>1612015885462</created>
+      <option name="number" value="00094" />
+      <option name="presentableId" value="LOCAL-00094" />
+      <option name="project" value="LOCAL" />
+      <updated>1612015885463</updated>
+    </task>
+    <option name="localTasksCounter" value="95" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -563,7 +562,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Top10热门品类——改善：cogroup性能可能较低、actionRDD重复使用." />
     <MESSAGE value="Top10热门品类——改善：存在大量的shuffle操作（reduceByKey）." />
     <MESSAGE value="Top10热门品类——改善：用累加器减少shuffle." />
     <MESSAGE value="需求：在需求一的基础上，增加每个品类用户 session 的点击统计 ." />
@@ -588,6 +586,7 @@
     <MESSAGE value="SparkStreaming——WordCount." />
     <MESSAGE value="SparkStreaming——用Queue的方式来创建DStream." />
     <MESSAGE value="SparkStreaming——自定义数据采集器." />
-    <option name="LAST_COMMIT_MESSAGE" value="SparkStreaming——自定义数据采集器." />
+    <MESSAGE value="SparkStreaming——从Kafka中采集数据." />
+    <option name="LAST_COMMIT_MESSAGE" value="SparkStreaming——从Kafka中采集数据." />
   </component>
 </project>
