@@ -2,8 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="eb260606-b2c3-49c1-97ab-fb82fd92a2e9" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/spark-streaming/src/main/java/com/pcy/bigdata/spark/streaming/SparkStreaming_Output.scala" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spark-streaming/src/main/java/com/pcy/bigdata/spark/streaming/SparkStreaming_Output_1.scala" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spark-streaming/src/main/java/com/pcy/bigdata/spark/streaming/SparkStreaming_Close.scala" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -198,14 +197,7 @@
       <workItem from="1611648749257" duration="10790000" />
       <workItem from="1611987854785" duration="1801000" />
       <workItem from="1611989739944" duration="12647000" />
-      <workItem from="1612074649225" duration="2398000" />
-    </task>
-    <task id="LOCAL-00050" summary="行动算子——countByValue.">
-      <created>1610288445425</created>
-      <option name="number" value="00050" />
-      <option name="presentableId" value="LOCAL-00050" />
-      <option name="project" value="LOCAL" />
-      <updated>1610288445425</updated>
+      <workItem from="1612074649225" duration="3416000" />
     </task>
     <task id="LOCAL-00051" summary="行动算子——countByKey.">
       <created>1610288563111</created>
@@ -543,7 +535,14 @@
       <option name="project" value="LOCAL" />
       <updated>1612079632504</updated>
     </task>
-    <option name="localTasksCounter" value="99" />
+    <task id="LOCAL-00099" summary="SparkStreaming——输出.">
+      <created>1612080009994</created>
+      <option name="number" value="00099" />
+      <option name="presentableId" value="LOCAL-00099" />
+      <option name="project" value="LOCAL" />
+      <updated>1612080009994</updated>
+    </task>
+    <option name="localTasksCounter" value="100" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -563,7 +562,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="工程化代码——三层架构." />
     <MESSAGE value="上传学习pdf和原理图." />
     <MESSAGE value="构建SparkSQL模块结构." />
     <MESSAGE value="添加log4j配置." />
@@ -588,6 +586,7 @@
     <MESSAGE value="SparkStreaming——【无状态】DStream 上执行任意的 RDD-to-RDD 函数." />
     <MESSAGE value="SparkStreaming——【无状态】join 两个流." />
     <MESSAGE value="SparkStreaming——滑窗." />
-    <option name="LAST_COMMIT_MESSAGE" value="SparkStreaming——滑窗." />
+    <MESSAGE value="SparkStreaming——输出." />
+    <option name="LAST_COMMIT_MESSAGE" value="SparkStreaming——输出." />
   </component>
 </project>
