@@ -2,7 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="eb260606-b2c3-49c1-97ab-fb82fd92a2e9" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/spark-streaming/src/main/java/com/pcy/bigdata/spark/streaming/SparkStreaming_State_Transform.scala" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spark-streaming/src/main/java/com/pcy/bigdata/spark/streaming/SparkStreaming06_State_Join.scala" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -197,14 +198,8 @@
       <workItem from="1611469676642" duration="9662000" />
       <workItem from="1611648749257" duration="10790000" />
       <workItem from="1611987854785" duration="1801000" />
-      <workItem from="1611989739944" duration="11484000" />
-    </task>
-    <task id="LOCAL-00047" summary="行动算子——takeOrdered.">
-      <created>1610287660544</created>
-      <option name="number" value="00047" />
-      <option name="presentableId" value="LOCAL-00047" />
-      <option name="project" value="LOCAL" />
-      <updated>1610287660544</updated>
+      <workItem from="1611989739944" duration="12647000" />
+      <workItem from="1612074649225" duration="268000" />
     </task>
     <task id="LOCAL-00048" summary="行动算子aggregate——初始值会参与分区内计算,并且和参与分区间计算.">
       <created>1610287882494</created>
@@ -542,7 +537,14 @@
       <option name="project" value="LOCAL" />
       <updated>1612017011743</updated>
     </task>
-    <option name="localTasksCounter" value="96" />
+    <task id="LOCAL-00096" summary="SparkStreaming——【无状态】DStream 上执行任意的 RDD-to-RDD 函数.">
+      <created>1612018025127</created>
+      <option name="number" value="00096" />
+      <option name="presentableId" value="LOCAL-00096" />
+      <option name="project" value="LOCAL" />
+      <updated>1612018025127</updated>
+    </task>
+    <option name="localTasksCounter" value="97" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -562,7 +564,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Top10热门品类——改善：用累加器减少shuffle." />
     <MESSAGE value="需求：在需求一的基础上，增加每个品类用户 session 的点击统计 ." />
     <MESSAGE value="需求：页面单跳转换率统计 ." />
     <MESSAGE value="工程化代码——三层架构." />
@@ -587,6 +588,7 @@
     <MESSAGE value="SparkStreaming——自定义数据采集器." />
     <MESSAGE value="SparkStreaming——从Kafka中采集数据." />
     <MESSAGE value="SparkStreaming——保存【有状态】的值." />
-    <option name="LAST_COMMIT_MESSAGE" value="SparkStreaming——保存【有状态】的值." />
+    <MESSAGE value="SparkStreaming——【无状态】DStream 上执行任意的 RDD-to-RDD 函数." />
+    <option name="LAST_COMMIT_MESSAGE" value="SparkStreaming——【无状态】DStream 上执行任意的 RDD-to-RDD 函数." />
   </component>
 </project>
