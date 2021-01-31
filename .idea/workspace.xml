@@ -2,9 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="eb260606-b2c3-49c1-97ab-fb82fd92a2e9" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/spark-streaming/src/main/java/com/pcy/bigdata/spark/streaming/SparkStreaming_State_Window.scala" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spark-streaming/src/main/java/com/pcy/bigdata/spark/streaming/SparkStreaming_State_Window_1.scala" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spark-streaming/src/main/java/com/pcy/bigdata/spark/streaming/SparkStreaming_Output.scala" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spark-streaming/src/main/java/com/pcy/bigdata/spark/streaming/SparkStreaming_Output_1.scala" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -199,14 +198,7 @@
       <workItem from="1611648749257" duration="10790000" />
       <workItem from="1611987854785" duration="1801000" />
       <workItem from="1611989739944" duration="12647000" />
-      <workItem from="1612074649225" duration="2069000" />
-    </task>
-    <task id="LOCAL-00049" summary="行动算子fold——当分区内和分区间的计算规则相同时来简化aggregate.">
-      <created>1610288090180</created>
-      <option name="number" value="00049" />
-      <option name="presentableId" value="LOCAL-00049" />
-      <option name="project" value="LOCAL" />
-      <updated>1610288090180</updated>
+      <workItem from="1612074649225" duration="2398000" />
     </task>
     <task id="LOCAL-00050" summary="行动算子——countByValue.">
       <created>1610288445425</created>
@@ -544,7 +536,14 @@
       <option name="project" value="LOCAL" />
       <updated>1612074983494</updated>
     </task>
-    <option name="localTasksCounter" value="98" />
+    <task id="LOCAL-00098" summary="SparkStreaming——滑窗.">
+      <created>1612079632504</created>
+      <option name="number" value="00098" />
+      <option name="presentableId" value="LOCAL-00098" />
+      <option name="project" value="LOCAL" />
+      <updated>1612079632504</updated>
+    </task>
+    <option name="localTasksCounter" value="99" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -564,7 +563,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="需求：页面单跳转换率统计 ." />
     <MESSAGE value="工程化代码——三层架构." />
     <MESSAGE value="上传学习pdf和原理图." />
     <MESSAGE value="构建SparkSQL模块结构." />
@@ -589,6 +587,7 @@
     <MESSAGE value="SparkStreaming——保存【有状态】的值." />
     <MESSAGE value="SparkStreaming——【无状态】DStream 上执行任意的 RDD-to-RDD 函数." />
     <MESSAGE value="SparkStreaming——【无状态】join 两个流." />
-    <option name="LAST_COMMIT_MESSAGE" value="SparkStreaming——【无状态】join 两个流." />
+    <MESSAGE value="SparkStreaming——滑窗." />
+    <option name="LAST_COMMIT_MESSAGE" value="SparkStreaming——滑窗." />
   </component>
 </project>
