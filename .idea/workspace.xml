@@ -2,8 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="eb260606-b2c3-49c1-97ab-fb82fd92a2e9" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/spark-streaming/src/main/java/com/pcy/bigdata/spark/streaming/SparkStreaming06_State_Join.scala" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spark-streaming/src/main/java/com/pcy/bigdata/spark/streaming/SparkStreaming_State_Window.scala" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spark-streaming/src/main/java/com/pcy/bigdata/spark/streaming/SparkStreaming_State_Window_1.scala" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -70,12 +70,8 @@
     <property name="settings.editor.selected.configurable" value="MavenSettings" />
   </component>
   <component name="RecentsManager">
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="D:\MyOwnCodes\IJIDEAJAVA\SparkLearning\spark-streaming\src\main\java\com\pcy\bigdata\spark\streaming" />
-      <recent name="D:\MyOwnCodes\IJIDEAJAVA\SparkLearning\spark-streaming\src\main\resources" />
-      <recent name="D:\MyOwnCodes\IJIDEAJAVA\SparkLearning\spark-sql\src\main\java\com\pcy\bigdata\spark\sql" />
-      <recent name="D:\MyOwnCodes\IJIDEAJAVA\SparkLearning\datas" />
-      <recent name="D:\MyOwnCodes\IJIDEAJAVA\SparkLearning\spark-sql\src\main\resources" />
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\MyOwnCodes\IJIDEAJAVA\SparkLearning" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
       <recent name="com.pcy.bigdata.spark.sql" />
@@ -83,8 +79,12 @@
       <recent name="com.pcy.bigdata.spark.core.rdd.operator.action" />
       <recent name="com.pcy.bigdata.spark.core.rdd.builder" />
     </key>
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="D:\MyOwnCodes\IJIDEAJAVA\SparkLearning" />
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\MyOwnCodes\IJIDEAJAVA\SparkLearning\spark-streaming\src\main\java\com\pcy\bigdata\spark\streaming" />
+      <recent name="D:\MyOwnCodes\IJIDEAJAVA\SparkLearning\spark-streaming\src\main\resources" />
+      <recent name="D:\MyOwnCodes\IJIDEAJAVA\SparkLearning\spark-sql\src\main\java\com\pcy\bigdata\spark\sql" />
+      <recent name="D:\MyOwnCodes\IJIDEAJAVA\SparkLearning\datas" />
+      <recent name="D:\MyOwnCodes\IJIDEAJAVA\SparkLearning\spark-sql\src\main\resources" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -199,14 +199,7 @@
       <workItem from="1611648749257" duration="10790000" />
       <workItem from="1611987854785" duration="1801000" />
       <workItem from="1611989739944" duration="12647000" />
-      <workItem from="1612074649225" duration="268000" />
-    </task>
-    <task id="LOCAL-00048" summary="行动算子aggregate——初始值会参与分区内计算,并且和参与分区间计算.">
-      <created>1610287882494</created>
-      <option name="number" value="00048" />
-      <option name="presentableId" value="LOCAL-00048" />
-      <option name="project" value="LOCAL" />
-      <updated>1610287882494</updated>
+      <workItem from="1612074649225" duration="2069000" />
     </task>
     <task id="LOCAL-00049" summary="行动算子fold——当分区内和分区间的计算规则相同时来简化aggregate.">
       <created>1610288090180</created>
@@ -544,7 +537,14 @@
       <option name="project" value="LOCAL" />
       <updated>1612018025127</updated>
     </task>
-    <option name="localTasksCounter" value="97" />
+    <task id="LOCAL-00097" summary="SparkStreaming——【无状态】join 两个流.">
+      <created>1612074983493</created>
+      <option name="number" value="00097" />
+      <option name="presentableId" value="LOCAL-00097" />
+      <option name="project" value="LOCAL" />
+      <updated>1612074983494</updated>
+    </task>
+    <option name="localTasksCounter" value="98" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -564,7 +564,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="需求：在需求一的基础上，增加每个品类用户 session 的点击统计 ." />
     <MESSAGE value="需求：页面单跳转换率统计 ." />
     <MESSAGE value="工程化代码——三层架构." />
     <MESSAGE value="上传学习pdf和原理图." />
@@ -589,6 +588,7 @@
     <MESSAGE value="SparkStreaming——从Kafka中采集数据." />
     <MESSAGE value="SparkStreaming——保存【有状态】的值." />
     <MESSAGE value="SparkStreaming——【无状态】DStream 上执行任意的 RDD-to-RDD 函数." />
-    <option name="LAST_COMMIT_MESSAGE" value="SparkStreaming——【无状态】DStream 上执行任意的 RDD-to-RDD 函数." />
+    <MESSAGE value="SparkStreaming——【无状态】join 两个流." />
+    <option name="LAST_COMMIT_MESSAGE" value="SparkStreaming——【无状态】join 两个流." />
   </component>
 </project>
