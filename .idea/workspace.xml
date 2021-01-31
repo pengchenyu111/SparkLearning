@@ -1,8 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="eb260606-b2c3-49c1-97ab-fb82fd92a2e9" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/spark-streaming/src/main/java/com/pcy/bigdata/spark/streaming/SparkStreaming_Resume.scala" afterDir="false" />
+    <list default="true" id="eb260606-b2c3-49c1-97ab-fb82fd92a2e9" name="Default Changelist" comment="SparkStreaming——案例需求.">
+      <change afterPath="$PROJECT_DIR$/spark-streaming/src/main/java/com/pcy/bigdata/spark/streaming/JDBCUtil.scala" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spark-streaming/src/main/java/com/pcy/bigdata/spark/streaming/SparkStreaming_Req_1_MockData.scala" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spark-streaming/src/main/java/com/pcy/bigdata/spark/streaming/SparkStreaming_Req_2.scala" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spark-streaming/src/main/java/com/pcy/bigdata/spark/streaming/SparkStreaming_Req_3_BlackList_1.scala" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spark-streaming/src/main/java/com/pcy/bigdata/spark/streaming/SparkStreaming_Req_3_BlackList_2.scala" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spark-streaming/src/main/java/com/pcy/bigdata/spark/streaming/SparkStreaming_Req_4.scala" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spark-streaming/src/main/java/com/pcy/bigdata/spark/streaming/SparkStreaming_Req_5.scala" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spark-streaming/src/main/java/com/pcy/bigdata/spark/streaming/SparkStreaming_Req_6.scala" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spark-streaming/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/spark-streaming/pom.xml" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -97,33 +106,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.SparkStreaming_State_Transform">
-    <configuration name="SparkSQL_JDBC" type="Application" factoryName="Application" temporary="true">
-      <option name="MAIN_CLASS_NAME" value="com.pcy.bigdata.spark.sql.SparkSQL_JDBC" />
-      <module name="spark-sql" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.pcy.bigdata.spark.sql.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="SparkSQL_Req_1_data" type="Application" factoryName="Application" temporary="true">
-      <option name="MAIN_CLASS_NAME" value="com.pcy.bigdata.spark.sql.SparkSQL_Req_1_data" />
-      <module name="spark-sql" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.pcy.bigdata.spark.sql.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="Application.SparkStreaming_Req_1_MockData">
     <configuration name="SparkStreaming01_WordCount" type="Application" factoryName="Application" temporary="true">
       <option name="MAIN_CLASS_NAME" value="com.pcy.bigdata.spark.streaming.SparkStreaming_WordCount" />
       <module name="spark-streaming" />
@@ -150,6 +133,32 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="SparkStreaming_Req_1_MockData" type="Application" factoryName="Application" temporary="true">
+      <option name="MAIN_CLASS_NAME" value="com.pcy.bigdata.spark.streaming.SparkStreaming_Req_1_MockData" />
+      <module name="spark-streaming" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.pcy.bigdata.spark.streaming.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="SparkStreaming_Req_2" type="Application" factoryName="Application" temporary="true">
+      <option name="MAIN_CLASS_NAME" value="com.pcy.bigdata.spark.streaming.SparkStreaming_Req_2" />
+      <module name="spark-streaming" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.pcy.bigdata.spark.streaming.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="SparkStreaming_State_Transform" type="Application" factoryName="Application" temporary="true">
       <option name="MAIN_CLASS_NAME" value="com.pcy.bigdata.spark.streaming.SparkStreaming_State_Transform" />
       <module name="spark-streaming" />
@@ -165,11 +174,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.SparkStreaming_Req_1_MockData" />
+        <item itemvalue="Application.SparkStreaming_Req_2" />
         <item itemvalue="Application.SparkStreaming_State_Transform" />
         <item itemvalue="Application.SparkStreaming_Kafka" />
         <item itemvalue="Application.SparkStreaming01_WordCount" />
-        <item itemvalue="Application.SparkSQL_Req_1_data" />
-        <item itemvalue="Application.SparkSQL_JDBC" />
       </list>
     </recent_temporary>
   </component>
@@ -197,14 +206,7 @@
       <workItem from="1611648749257" duration="10790000" />
       <workItem from="1611987854785" duration="1801000" />
       <workItem from="1611989739944" duration="12647000" />
-      <workItem from="1612074649225" duration="3710000" />
-    </task>
-    <task id="LOCAL-00052" summary="所有能实现WordCount的方法整合.">
-      <created>1610289845137</created>
-      <option name="number" value="00052" />
-      <option name="presentableId" value="LOCAL-00052" />
-      <option name="project" value="LOCAL" />
-      <updated>1610289845137</updated>
+      <workItem from="1612074649225" duration="7191000" />
     </task>
     <task id="LOCAL-00053" summary="行动算子——save.">
       <created>1610290433240</created>
@@ -542,7 +544,14 @@
       <option name="project" value="LOCAL" />
       <updated>1612081060087</updated>
     </task>
-    <option name="localTasksCounter" value="101" />
+    <task id="LOCAL-00101" summary="SparkStreaming——恢复数据.">
+      <created>1612081260441</created>
+      <option name="number" value="00101" />
+      <option name="presentableId" value="LOCAL-00101" />
+      <option name="project" value="LOCAL" />
+      <updated>1612081260441</updated>
+    </task>
+    <option name="localTasksCounter" value="102" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -562,8 +571,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="构建SparkSQL模块结构." />
-    <MESSAGE value="添加log4j配置." />
     <MESSAGE value="SparkSQL——查询功能." />
     <MESSAGE value="SparkSQL——RDD、DataFrame和DataSet间的相互转换." />
     <MESSAGE value="SparkSQL——用户自定义函数." />
@@ -587,6 +594,8 @@
     <MESSAGE value="SparkStreaming——滑窗." />
     <MESSAGE value="SparkStreaming——输出." />
     <MESSAGE value="SparkStreaming——优雅地关闭." />
-    <option name="LAST_COMMIT_MESSAGE" value="SparkStreaming——优雅地关闭." />
+    <MESSAGE value="SparkStreaming——恢复数据." />
+    <MESSAGE value="SparkStreaming——案例需求." />
+    <option name="LAST_COMMIT_MESSAGE" value="SparkStreaming——案例需求." />
   </component>
 </project>
