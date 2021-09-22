@@ -5,18 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="eb260606-b2c3-49c1-97ab-fb82fd92a2e9" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/datas/ml-1m/README" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/datas/ml-1m/movies.dat" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/datas/ml-1m/occupations.dat" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/datas/ml-1m/ratings.dat" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/datas/ml-1m/users.dat" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spark-demos/movie-system/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spark-demos/movie-system/src/main/scala/com/pcy/spark/demos/MovieUserAnalyzer.scala" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spark-demos/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/spark-core/spark-core.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/spark-demos/movie-system/src/main/scala/com/pcy/spark/demos/MovieUserAnalyzer.scala" beforeDir="false" afterPath="$PROJECT_DIR$/spark-demos/movie-system/src/main/scala/com/pcy/spark/demos/MovieUserAnalyzer.scala" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -58,6 +48,15 @@
       <filtered-out-file-type name="COMMIT_BY_MESSAGE" />
     </file-type-list>
   </component>
+  <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="localRepository" value="D:\maven\apache-maven-3.8.2\mvnrepository" />
+        <option name="mavenHome" value="D:\maven\apache-maven-3.8.2" />
+        <option name="userSettingsFile" value="D:\maven\apache-maven-3.8.2\conf\settings.xml" />
+      </MavenGeneralSettings>
+    </option>
+  </component>
   <component name="ProjectCodeStyleSettingsMigration">
     <option name="version" value="1" />
   </component>
@@ -70,10 +69,12 @@
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/datas" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
@@ -171,13 +172,15 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration default="true" type="ArquillianJUnit" factoryName="" nameIsGenerated="true">
+    <configuration default="true" type="ArquillianTestNG" factoryName="" nameIsGenerated="true">
       <option name="arquillianRunConfiguration">
         <value>
           <option name="containerStateName" value="" />
         </value>
       </option>
-      <option name="TEST_OBJECT" value="class" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <properties />
+      <listeners />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -228,6 +231,7 @@
       <workItem from="1614847034470" duration="805000" />
       <workItem from="1615102883947" duration="1443000" />
       <workItem from="1632291216619" duration="6292000" />
+      <workItem from="1632298128557" duration="543000" />
     </task>
     <task id="LOCAL-00054" summary="行动算子——foreach及叫算子的原因.">
       <created>1610291234716</created>

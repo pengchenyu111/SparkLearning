@@ -10,7 +10,7 @@ import org.apache.spark.{SparkConf, SparkContext}
  * @since 2021-09-22 14:33:34
  */
 object MovieUserAnalyzer {
-  val dataPath = "D:\\MyOwnCodes\\IJIDEAJAVA\\SparkLearning\\datas\\ml-1m\\"
+  val dataPath = "datas/ml-1m/"
 
   def main(args: Array[String]): Unit = {
     val sparkConf: SparkConf = new SparkConf().setMaster("local[*]").setAppName("MovieUserAnalyzer")
