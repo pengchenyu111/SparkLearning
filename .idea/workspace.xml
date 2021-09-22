@@ -1,19 +1,23 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="ALL" />
+  </component>
   <component name="ChangeListManager">
-    <list default="true" id="eb260606-b2c3-49c1-97ab-fb82fd92a2e9" name="Default Changelist" comment="SparkStreaming——案例需求.">
-      <change afterPath="$PROJECT_DIR$/spark-streaming/src/main/java/com/pcy/bigdata/spark/streaming/JDBCUtil.scala" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spark-streaming/src/main/java/com/pcy/bigdata/spark/streaming/SparkStreaming_Req_1_MockData.scala" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spark-streaming/src/main/java/com/pcy/bigdata/spark/streaming/SparkStreaming_Req_2.scala" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spark-streaming/src/main/java/com/pcy/bigdata/spark/streaming/SparkStreaming_Req_3_BlackList_1.scala" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spark-streaming/src/main/java/com/pcy/bigdata/spark/streaming/SparkStreaming_Req_3_BlackList_2.scala" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spark-streaming/src/main/java/com/pcy/bigdata/spark/streaming/SparkStreaming_Req_4.scala" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spark-streaming/src/main/java/com/pcy/bigdata/spark/streaming/SparkStreaming_Req_5.scala" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spark-streaming/src/main/java/com/pcy/bigdata/spark/streaming/SparkStreaming_Req_6.scala" afterDir="false" />
+    <list default="true" id="eb260606-b2c3-49c1-97ab-fb82fd92a2e9" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/datas/ml-1m/README" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/datas/ml-1m/movies.dat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/datas/ml-1m/occupations.dat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/datas/ml-1m/ratings.dat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/datas/ml-1m/users.dat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spark-demos/movie-system/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spark-demos/movie-system/src/main/scala/com/pcy/spark/demos/MovieUserAnalyzer.scala" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spark-demos/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/spark-streaming/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/spark-streaming/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spark-core/spark-core.iml" beforeDir="false" />
     </list>
-    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -46,12 +50,13 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="MavenImportPreferences">
-    <option name="importingSettings">
-      <MavenImportingSettings>
-        <option name="importAutomatically" value="true" />
-      </MavenImportingSettings>
-    </option>
+  <component name="GitSEFilterConfiguration">
+    <file-type-list>
+      <filtered-out-file-type name="LOCAL_BRANCH" />
+      <filtered-out-file-type name="REMOTE_BRANCH" />
+      <filtered-out-file-type name="TAG" />
+      <filtered-out-file-type name="COMMIT_BY_MESSAGE" />
+    </file-type-list>
   </component>
   <component name="ProjectCodeStyleSettingsMigration">
     <option name="version" value="1" />
@@ -60,24 +65,37 @@
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <ConfirmationsSetting value="2" id="Add" />
   </component>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
   <component name="PropertiesComponent">
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/spark-streaming/src/main/java/com/pcy/bigdata/spark/streaming" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/datas" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
     <property name="node.js.path.for.package.tslint" value="project" />
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
     <property name="node.js.selected.package.tslint" value="(autodetect)" />
-    <property name="project.structure.last.edited" value="Modules" />
+    <property name="nodejs_package_manager_path" value="npm" />
+    <property name="project.structure.last.edited" value="Global Libraries" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
     <property name="settings.editor.selected.configurable" value="MavenSettings" />
   </component>
   <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\MyOwnCodes\IJIDEAJAVA\SparkLearning\datas" />
+      <recent name="D:\MyOwnCodes\IJIDEAJAVA\SparkLearning\spark-streaming\src\main\java\com\pcy\bigdata\spark\streaming" />
+      <recent name="D:\MyOwnCodes\IJIDEAJAVA\SparkLearning\spark-streaming\src\main\resources" />
+      <recent name="D:\MyOwnCodes\IJIDEAJAVA\SparkLearning\spark-sql\src\main\java\com\pcy\bigdata\spark\sql" />
+      <recent name="D:\MyOwnCodes\IJIDEAJAVA\SparkLearning\spark-sql\src\main\resources" />
+    </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\MyOwnCodes\IJIDEAJAVA\SparkLearning\spark-demos" />
       <recent name="D:\MyOwnCodes\IJIDEAJAVA\SparkLearning" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
@@ -86,33 +104,14 @@
       <recent name="com.pcy.bigdata.spark.core.rdd.operator.action" />
       <recent name="com.pcy.bigdata.spark.core.rdd.builder" />
     </key>
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="D:\MyOwnCodes\IJIDEAJAVA\SparkLearning\spark-streaming\src\main\java\com\pcy\bigdata\spark\streaming" />
-      <recent name="D:\MyOwnCodes\IJIDEAJAVA\SparkLearning\spark-streaming\src\main\resources" />
-      <recent name="D:\MyOwnCodes\IJIDEAJAVA\SparkLearning\spark-sql\src\main\java\com\pcy\bigdata\spark\sql" />
-      <recent name="D:\MyOwnCodes\IJIDEAJAVA\SparkLearning\datas" />
-      <recent name="D:\MyOwnCodes\IJIDEAJAVA\SparkLearning\spark-sql\src\main\resources" />
-    </key>
   </component>
-  <component name="RunDashboard">
-    <option name="ruleStates">
-      <list>
-        <RuleState>
-          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
-        </RuleState>
-        <RuleState>
-          <option name="name" value="StatusDashboardGroupingRule" />
-        </RuleState>
-      </list>
-    </option>
-  </component>
-  <component name="RunManager" selected="Application.SparkStreaming_Req_1_MockData">
-    <configuration name="SparkStreaming01_WordCount" type="Application" factoryName="Application" temporary="true">
-      <option name="MAIN_CLASS_NAME" value="com.pcy.bigdata.spark.streaming.SparkStreaming_WordCount" />
-      <module name="spark-streaming" />
+  <component name="RunManager" selected="Application.MovieUserAnalyzer">
+    <configuration name="MovieUserAnalyzer" type="Application" factoryName="Application" temporary="true">
+      <option name="MAIN_CLASS_NAME" value="com.pcy.spark.demos.MovieUserAnalyzer" />
+      <module name="movie-system" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.pcy.bigdata.spark.streaming.*" />
+          <option name="PATTERN" value="com.pcy.spark.demos.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -120,12 +119,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="SparkStreaming_Kafka" type="Application" factoryName="Application" temporary="true">
-      <option name="MAIN_CLASS_NAME" value="com.pcy.bigdata.spark.streaming.SparkStreaming_Kafka" />
-      <module name="spark-streaming" />
+    <configuration name="RDD_Transform_filter" type="Application" factoryName="Application" temporary="true">
+      <option name="MAIN_CLASS_NAME" value="com.pcy.bigdata.spark.core.rdd.operator.transform.RDD_Transform_filter" />
+      <module name="spark-core" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.pcy.bigdata.spark.streaming.*" />
+          <option name="PATTERN" value="com.pcy.bigdata.spark.core.rdd.operator.transform.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -172,16 +171,28 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration default="true" type="ArquillianJUnit" factoryName="" nameIsGenerated="true">
+      <option name="arquillianRunConfiguration">
+        <value>
+          <option name="containerStateName" value="" />
+        </value>
+      </option>
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.MovieUserAnalyzer" />
+        <item itemvalue="Application.RDD_Transform_filter" />
         <item itemvalue="Application.SparkStreaming_Req_1_MockData" />
         <item itemvalue="Application.SparkStreaming_Req_2" />
         <item itemvalue="Application.SparkStreaming_State_Transform" />
-        <item itemvalue="Application.SparkStreaming_Kafka" />
-        <item itemvalue="Application.SparkStreaming01_WordCount" />
       </list>
     </recent_temporary>
   </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="SvnConfiguration">
     <configuration />
   </component>
@@ -206,14 +217,17 @@
       <workItem from="1611648749257" duration="10790000" />
       <workItem from="1611987854785" duration="1801000" />
       <workItem from="1611989739944" duration="12647000" />
-      <workItem from="1612074649225" duration="7191000" />
-    </task>
-    <task id="LOCAL-00053" summary="行动算子——save.">
-      <created>1610290433240</created>
-      <option name="number" value="00053" />
-      <option name="presentableId" value="LOCAL-00053" />
-      <option name="project" value="LOCAL" />
-      <updated>1610290433240</updated>
+      <workItem from="1612074649225" duration="7945000" />
+      <workItem from="1612156226475" duration="7007000" />
+      <workItem from="1612336257940" duration="1687000" />
+      <workItem from="1612703722210" duration="638000" />
+      <workItem from="1613908910877" duration="637000" />
+      <workItem from="1613985631179" duration="671000" />
+      <workItem from="1614325379108" duration="1886000" />
+      <workItem from="1614519871850" duration="4555000" />
+      <workItem from="1614847034470" duration="805000" />
+      <workItem from="1615102883947" duration="1443000" />
+      <workItem from="1632291216619" duration="6292000" />
     </task>
     <task id="LOCAL-00054" summary="行动算子——foreach及叫算子的原因.">
       <created>1610291234716</created>
@@ -551,24 +565,30 @@
       <option name="project" value="LOCAL" />
       <updated>1612081260441</updated>
     </task>
-    <option name="localTasksCounter" value="102" />
+    <task id="LOCAL-00102" summary="SparkStreaming——案例需求.">
+      <created>1612084906647</created>
+      <option name="number" value="00102" />
+      <option name="presentableId" value="LOCAL-00102" />
+      <option name="project" value="LOCAL" />
+      <updated>1612084906647</updated>
+    </task>
+    <option name="localTasksCounter" value="103" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
-    <option name="version" value="1" />
+    <option name="version" value="3" />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
     <option name="TAB_STATES">
       <map>
         <entry key="MAIN">
           <value>
-            <State>
-              <option name="COLUMN_ORDER" />
-            </State>
+            <State />
           </value>
         </entry>
       </map>
     </option>
+    <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="SparkSQL——查询功能." />
